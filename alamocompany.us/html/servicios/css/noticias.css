@@ -1,0 +1,287 @@
+.scrollBody {
+	font-size: 8pt;
+	font-family: Arial;
+	background: transparent;
+	padding: 0px 0px 0px;
+	margin: 0px;
+}
+
+.scrollBody TABLE {
+	font-size: 8pt;
+	font-family: Arial;
+}
+
+.scrollFecha, .detalleFecha {
+	color: #f60;
+	font-weight: bold;
+	font-size: 16px;
+	padding-top: 1em;
+}
+
+.scrollFecha {
+	line-height: 25px;
+	padding-top: 0px;
+	padding-left: 60px;
+	background: url(../images/imagen.png) no-repeat;
+	margin-bottom: 10px;
+}
+
+.scrollTitulo, .detalleTitulo {
+	font-weight: bold;
+	color: #003366;
+	font-size: 18px;
+	padding: 0px;
+}
+
+.scrollTitulo{
+margin-bottom:10px;
+}
+
+.scrollDetalle, .detalleDetalle {
+	color: #333;
+	font-size: 12px !important;
+	font-family: Arial;
+	text-align: justify;
+	line-height: 17px;
+}
+
+.detalleDetalle, detalleFecha {
+	font-size: 12px;
+}
+
+.scrollVerDetalle {
+	text-align: right;
+margin-top:10px;
+	padding-bottom: 2em;
+	border-bottom: solid 1px #caeafd;
+	margin-bottom: 2em;
+}
+.scrollVerDetalle a {
+font-size: 12px;
+font-weight: bold;
+}
+
+
+a {
+	color: #164a49;
+	text-decoration: none;
+	font-size: 8pt;
+	font-weight: bold;
+}
+
+a:hover {
+	color: #fff;
+}
+
+.calendar {
+	background-color: #ffffff;
+	border: solid 1px #808080;
+	padding: 3px;
+}
+
+.calendarDay {
+	padding: 2px;
+}
+
+.calendar A {
+	text-decoration: none;
+	color: #000000;
+}
+
+.calendar A:hover {
+	color: #808080;
+}
+
+.calendarDayHeader TD {
+	color: #808080;
+	border-bottom: solid 1px #808080;
+}
+
+.calendarTitle A {
+	padding: 2px;
+	background-color: #c0c0c0;
+	border: outset 1px #808080;
+}
+.calendarTitle A:hover {
+	padding: 2px;
+	color: #ffffff;
+}
+
+.popupBack, .modalBackground {
+	position: fixed;
+	top: 0px;
+	left: 0px;
+	width: 100%;
+	height: 100%;
+	z-index: 1000;
+	background-color: #FFFFFF;
+	opacity: 0.5;
+	filter: alpha(opacity=50);
+}
+
+.popupContent, .popupContentBig {
+	z-index: 1001;
+	position: fixed;
+	top: 20%;
+	left: 20%;
+	width: 60%;
+	background-color: #FFFFFF;
+	text-align: center;
+}
+
+.popupContentBig {
+	top: 7%;
+	overflow: auto;
+	width: 80%;
+	left: 10%;
+	border: solid 1px silver;
+}
+
+.modalContent {
+	z-index: 1001;
+	position: fixed;
+	top: 20%;
+	left: 20%;
+	width: 60%;
+	background-color: #FFFFFF;
+	font-size: 12pt;
+	padding: 4px;
+	text-align: center;
+}
+
+.bodyAdmin {
+	font-size: 8pt;
+	font-family: Arial;
+	background-color: #92c7f5;
+	padding: 0px;
+	margin: 10px;
+	color: #000000;
+}
+
+.titlebarTitle {
+	color: orange;
+}
+
+INPUT, TEXTAREA {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 8pt;
+	padding: 2px;
+	font-weight: normal;
+	text-decoration: none;
+	border: 1px solid #10344A;
+	background-color: #ffffff;
+	color: #10344A;
+}
+
+.panelHeader {
+	background-color: #0c4ea7;
+	color: #fff;
+	padding: 3px;
+	font-size: 10pt;
+	font-weight: bold;
+}
+
+.panel {
+	border: solid 1px #1a5867;
+	text-align: left;
+	background-color: #fff;
+color: #000;
+}
+
+.titlebarButton {
+	color: #ffffff;
+	text-decoration: none;
+	font-weight: bold;
+	padding: 3px;
+}
+
+.titlebarButton:hover {
+	background-color: #1a5867;
+}
+.item {
+	background-color: #eee;
+}
+.aitem {
+	background-color: #92c7f5;
+}
+.header {
+color:orange;
+}
+
+.linkButton {
+	text-decoration: none;
+	padding: 2px;
+	color: #000000;
+}
+
+.linkButton:hover {
+	background-color: #92c7f5;
+	color: #FFFFFF;
+}
+
+.bodyLogin {
+	text-align: center;
+	font-size: 8pt;
+	font-family: Arial;
+	background-color: #fff;
+	color: #000000;
+}
+
+.bodyLogin INPUT {
+	background-color: #ffffff;
+	border-color: #10344A;
+	color: #10344A;
+}
+
+.tabStrip {
+	border-bottom: solid 1px #000;
+	margin-bottom: -1px;
+	padding-bottom: 0 !important;
+}
+
+.tabStripSelectedTab, .tabStripSelectedTab:hover {
+	background-color: #fff;
+	background-image: none;
+	border: solid 1px #000;
+	border-bottom-color: #fff;
+	font-size: 8pt;
+	color: #000;
+	cursor: default;
+	font-weight: 700;
+	margin-bottom: -3px;
+	outline: none;
+	padding: 5px;
+	text-decoration: none;
+}
+
+.tabStripTab, .tabStripTab:hover {
+	background-color: #ccc;
+	background-image: none;
+	border: solid 1px #ccc;
+	border-bottom: none;
+	color: #333;
+	font-weight: 400;
+	outline: none;
+	padding: 5px;
+	text-decoration: none;
+}
+
+.tabStripTab:hover {
+	background-color: #eee;
+	color: #000;
+}
+
+.form {
+	list-style-type: none;
+	margin: 3px;
+	padding: 0px;
+}
+
+.form li div {
+	padding: 3px;
+}.dd {
+	font-weight: bold;
+}
+.df {
+	font-weight: bold;
+}

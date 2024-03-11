@@ -1,0 +1,71 @@
+
+<div class="inner-panel">
+  <div class="column">
+    <header id="menuLeft" ng-controller="menuPrincipalCrtl">
+      <div class="inner-logo"><img src="./resources/assets/image/logo.png" alt=""/></div>
+      <div class="inner-user"><img src="./resources/assets/image/usuario/{{photoUser}}" alt=""/></div>
+      <div class="detail-user">
+        <h2>{{nombreUser}}</h2>
+        <p>{{perfilUser}} </p>
+      </div>
+      <nav><a href="#/vista/principal">Inicio</a><a href="#/usuario">Usuarios</a><a href="#/noticia">Noticias</a><a href="#/bibliografia">Biografía</a><a href="#/galeria" class="active">Galería</a></nav>
+    </header>
+  </div>
+  <div class="column">
+    <div ng-controller="miusuarioCrtl" class="cabecera">
+      <div class="column">
+        <p><i class="icon-calendar"></i>{{fechaactual}}</p>
+      </div>
+      <div class="column"><a href="javascript:void(0)" ng-click="editarmiUser()">Editar usuario</a><a href="#" ng-click="salirAdmin()">Salir</a></div>
+    </div>
+    <div ng-controller="listarMultimediaCrtl" class="inner-contenido">
+      <div class="inner-nave">
+        <ul>
+          <li><a href="javascript:void(0)">Galería</a><span class="dividir">>></span></li>
+          <li><a href="javascript:void(0)" class="active">Listado de Galería</a></li>
+        </ul>
+      </div>
+      <div class="inner-botones">
+        <div class="column">
+          <!--input(type="text", ng-model="form.buscarArt", placeholder="Buscar galeria...")-->
+          <!--a(href="javascript:void(0)", ng-click="buscar(form)")
+          i.icon-search
+          | Buscar
+          -->
+        </div>
+        <div class="column"><a href="javascript:void(0)" ng-click="agregar()" class="btnaddArt"><i class="icon-plus"></i>Añadir Galería</a></div>
+      </div>
+      <div class="inner-listado">
+        <table>
+          <thead>
+            <tr>
+              <th class="center">Nº</th>
+              <th class="center">Imagen</th>
+              <th class="center">URL</th>
+              <th class="center">F. Creación</th>
+              <th class="center">Acción</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr ng-repeat="arrinfo in datos">
+              <td class="center">
+                <p>{{arrinfo.items}}</p>
+              </td>
+              <td class="ancho200"><img src="./resources/assets/image/multimedia/{{arrinfo.imagen}}" alt=""/></td>
+              <td class="ancho200"><a href="{{arrinfo.url}}" target="_blanck">{{arrinfo.url}}</a></td>
+              <td class="center ancho160">
+                <p>{{arrinfo.f_creacion}}</p>
+              </td>
+              <td class="center accion"><a href="javascript:void(0)" ng-click="editar(arrinfo.id)"><i class="icon-pencil"></i>Editar</a><a href="javascript:void(0)" ng-click="eliminar(arrinfo.id)"><i class="icon-bin"></i>Eliminar</a></td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+      <div class="inner-paginado">
+        <ul>
+          <li ng-repeat="n in range"><a href="javascript:void(0)" ng-click="paginar(n + 1)">{{n + 1}}</a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</div>

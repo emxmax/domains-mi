@@ -1,0 +1,70 @@
+.buscar
+	.inner-titulo
+		background #FFF1EA
+		display flex
+		flex-flow row wrap
+		height 560px
+		align-items center
+		justify-content center
+		h2
+			color dorado
+			font 31px bodonixtregular
+			text-align center
+			&:after,&:before
+				content " - "
+		h1
+			color dorado
+			font 57px hk_grotesklight
+			text-align center
+		.separador
+			border-bottom 2px solid dorado
+			margin auto
+			width 336px
+	.resultados
+		.container
+			width 1150px
+			h1
+				font 40px bodonixtregular
+				color verde_oscuro
+				text-align center
+				margin 30px 0 0 0
+			.inner-buscador
+				display flex
+				flex-flow row wrap
+				justify-content space-around
+				position relative
+				.row
+					margin-top 30px
+					p
+						color verde_oscuro
+						font 26px hk_groteskregular
+						text-align center
+					.hoverBuscar
+						display flex
+						flex-flow row wrap
+						justify-content center
+						align-items center
+						background rgba(137,137,137,0.8)
+						width 349px
+						height 248px
+						position absolute
+						top 30px
+						display none
+						.row
+							a
+								font 19px bodonixtregular
+								color blanco
+								text-align center
+	.instagram
+		h4
+			text-align center
+			color verde_oscuro
+			font 12px hk_groteskregular
+			&::before
+				content " - "
+			&::after
+				content " - "
+		figure
+			img
+				margin-top 24px
+				width 100%

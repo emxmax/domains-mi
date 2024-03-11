@@ -1,0 +1,454 @@
+.detalle
+	.inner-titulo
+		background #FFF1EA
+		display flex
+		flex-flow row wrap
+		height 405px
+		align-items center
+		justify-content center
+		h2
+			color dorado
+			text-align center
+			font 20px bodonixtregular
+			@media screen and (min-width:992px)
+				font 31px bodonixtregular
+			&:after,&:before
+				content " - "
+		h1
+			font 30px hk_grotesklight
+			color dorado
+			text-align center
+			@media screen and (min-width:992px)
+				font 57px hk_grotesklight
+		.separador
+			width 77%
+			border-bottom 2px solid dorado
+			margin auto
+			@media screen and (min-width:992px)
+				width 336px
+	.noticia-version
+		padding 16px 25px
+		@media screen and (min-width:992px)
+			margin-top 40px
+			padding 0
+		.container
+			@media screen and (min-width:992px)
+				// width 1060px
+				width 970px
+			.breadcrumb
+				a
+					display inline-block
+					color verde_oscuro
+					font 12px hk_groteskregular
+					&:hover
+						color dorado
+				p
+					display inline-block
+					color verde_oscuro
+					font 12px hk_groteskregular
+					&:before
+						content " > "
+			h1
+				font 28px titulos
+				color verde_oscuro
+				margin-top 16px
+			.inner-noticias
+				display flex
+				flex-flow row wrap
+				justify-content space-between
+				padding-bottom 20px
+				margin-top 20px
+				@media screen and (min-width:992px)
+					display flex
+					flex-flow row nowrap
+					justify-content space-between
+					padding-bottom 20px
+					margin-top 20px
+				&:first-child
+					margin-top 0
+				.caja-noticia	
+					width 100%
+					overflow hidden
+					@media screen and (min-width:992px)
+						width 678px
+					h1
+						font 20px "bodonixtregular"
+						color verde_oscuro
+						margin-top 16px
+						@media screen and (min-width:992px)
+							font 28px "bodonixtregular"
+					.inner-redes-autor
+						display flex
+						margin-top 13px
+						flex-flow row wrap
+						justify-content space-between
+						.row
+							p
+								display inline-block
+								font 13px hk_groteskmedium
+								color verde_oscuro
+								vertical-align sub
+							ul.rrssb-buttons
+								display flex
+					.inner-detalle
+						border-bottom 1px solid verde_oscuro
+						padding-bottom 40px
+						figure
+							.alto-detalle
+								width 100%
+								margin-top 13px
+								height auto
+								@media screen and (min-width:992px)
+									height 420px
+						.row
+							.descripcion
+								font 15px hk_groteskregular
+								color verde_oscuro
+								margin-top 15px
+								text-align justify
+								@media screen and (min-width:992px)
+									font 17px hk_groteskregular
+									margin-top 30px
+					.inner-slider
+						.owl-carousel
+							.inner-owl
+								.overflow-item
+									a
+										color verde_oscuro
+										font 20.5px hk_groteskregular
+										&.owl-descripcion
+											display block
+											padding 30px
+											text-align center
+										&:hover
+											color dorado
+							.owl-controls
+								.owl-buttons
+									.owl-prev
+										background url("../image/arrow-left.png")
+										height 20px
+										position absolute
+										top 45%
+										left -1px
+										width 11px
+									.owl-next
+										background url("../image/arrow-right.png")
+										height 20px
+										width 11px
+										position absolute
+										top 45%
+										right 1px
+						#carosel6
+							margin-top 30px
+							.inner-owl
+								.overflow-item
+									a
+										color verde_oscuro
+										font 20.5px hk_groteskregular
+										&.owl-descripcion
+											display block
+											padding 0 20px
+											text-align center
+										&:hover
+											color dorado
+									p
+										text-align center
+										font 15px hk_groteskregular
+										color verde_oscuro
+					.compartir-megusta
+						margin-top 30px
+						@media screen and (min-width:992px)
+							margin-top 50px
+					.inner-recomendacion
+						h1
+							font 23px titulos
+							color verde_oscuro
+							text-align center
+							&:after
+								content " - "
+							&:before
+								content " - "
+							@media screen and (min-width:992px)
+								font 28px titulos						
+				.asidebar
+					width 100%
+					margin-left 0
+					width 100%
+					@media screen and (min-width:992px)
+						// width 309px
+						width 330px
+						margin-left 53px
+					.inner-antonia
+						display flex
+						flex-flow column wrap
+						text-align center
+						border 1px solid dorado
+						padding 0 14px
+						margin-top 20px
+						&:nth-child(2)
+							padding-bottom 25px
+							margin-top 20px
+						&:nth-child(3)
+							margin-top 20px
+						.row
+							&:nth-child(3)
+								// padding-top 17px
+								padding-top 0
+								padding-bottom 22px
+							&:nth-child(4)
+								padding-bottom 20px
+								margin-top 15px
+							h1
+								color dorado
+								// font 24px bodonixtregular
+								font 16px bodonixtregular
+								// padding-bottom 18px
+								padding-bottom 13px
+								padding-top 15px
+								@media screen and (min-width:992px)
+									font 24px bodonixtregular
+									padding-bottom 18px
+									padding-top 15px
+							p
+								color dorado
+								font 13px hk_groteskregular
+								display inline-block
+							ul
+								display inline-flex
+								li
+									margin-left 15px
+									a
+										i
+											color dorado
+											font-size 15px
+							.boton
+								margin-top 22px
+								color blanco
+								font 16.5px hk_grotesksemibold
+								background dorado
+								padding 5px 27px
+							figure
+								img
+									margin-top 12px
+							form
+								button
+									margin-top 27px
+									margin-top 22px
+									color blanco
+									font 16.5px hk_grotesksemibold
+									background dorado
+									text-align center
+									border-radius 0
+									height 42px
+									@media screen and (min-width:992px)
+										margin-top 0
+										height 32px
+						.tituloSide
+							width 155px
+							margin auto
+					.inner-auspiciadores
+						// padding-bottom 20px
+						@media screen and (min-width:992px)
+							padding-bottom 0 
+						.inner-logos
+							display flex
+							flex-flow row wrap
+							justify-content space-around
+							margin-top 20px
+							@media screen and (min-width:992px)
+								display flex
+								flex-flow row wrap
+								justify-content space-around
+								margin auto
+								width 205px
+							.row
+								.separacion-logos
+									margin-left 10px
+					.publicidad
+						border none
+						padding 0
+					.inner-tag
+						border none
+						.row
+							padding 0
+							a
+								padding 6px 13px
+								border 1px solid dorado
+								font 9px tags
+								color dorado
+								margin-left 8px
+								margin-top 5px
+								transition 0.5s all ease
+								&:hover
+									color blanco
+									background dorado
+								
+						.tags
+							padding 0 !important
+							display flex
+							flex-flow row wrap
+							justify-content space-around
+							@media screen and (min-width:992px)
+								padding 0 !important
+								display flex
+								flex-flow row wrap
+								justify-content flex-start
+							.nombreTag
+								margin-top 15px
+				.row
+					ul
+						li
+							display inline-block
+							margin-left 15px
+							&:first-child
+								margin-left 0
+							a
+								font 22px titulo_post
+								color verde_oscuro
+								&:hover
+									color dorado
+								i
+									font-size 15px
+					p
+						font 13px hk_groteskmedium
+						color verde_oscuro
+					img
+						position relative
+					.categoria
+						padding 12px 5px
+						background rgba(24,58,36,0.8)
+						color blanco
+						position absolute
+						top 0
+						font 10px tags
+	.favoritos
+		margin-top 24px
+		.inner-destacado
+			h2
+				font 28px bodonixtregular
+				color verde_oscuro
+				text-align center
+				padding-bottom 30px
+				&::before
+					content " - "
+				&::after
+					content " - "
+		.inner-slider
+			padding-bottom 35px
+			.owl-carousel
+				.overflow-item
+					border 1px solid #FFF1EA
+					margin-left 25px
+				.owl-controls
+					.owl-buttons
+						.owl-prev
+							 background url("../image/arrow-left.png")
+							 height 20px
+							 position absolute
+							 top 45%
+							 left -30px
+							 width 11px
+						.owl-next
+							 background url("../image/arrow-right.png")
+							 height 20px
+							 width 11px
+							 position absolute
+							 top 45%
+							 right -30px
+				.inner-img
+					text-align center
+				.inner-carrusel
+					text-align center
+					background #FFF1EA
+					padding 15px 0
+					a
+						color verde_oscuro
+						font 14px hk_groteskmedium
+						padding 0 20px
+					p
+						color verde_oscuro
+						font 12px hk_grotesklight
+						padding 0 20px
+	.youtube
+		margin-top 30px
+		.inner-destacado
+			h4
+				text-align center
+				color verde_oscuro
+				font 12px hk_groteskregular
+				&::before
+					content " - "
+				&::after
+					content " - "
+		.inner-slider
+			padding-bottom 35px
+			margin-top 24px
+			.owl-carousel
+				.owl-controls
+					.owl-buttons
+						.owl-prev
+							 background url("../image/arrow-left.png")
+							 height 20px
+							 position absolute
+							 top 45%
+							 left -30px
+							 width 11px
+						.owl-next
+							 background url("../image/arrow-right.png")
+							 height 20px
+							 width 11px
+							 position absolute
+							 top 45%
+							 right -30px
+				.inner-img
+					text-align center
+				.inner-carrusel
+					text-align center
+					background #FFF1EA	
+	.instagram
+		h4
+			text-align center
+			color verde_oscuro
+			font 12px hk_groteskregular
+			&::before
+				content " - "
+			&::after
+				content " - "
+		.inner-instagram
+			display flex
+			flex-flow row nowrap
+			justify-content flex-start
+			.box-insta
+				width 20%
+				position relative
+				&:hover
+					.hoverInstagram
+						display none
+						@media screen and (min-width:992px)
+							display flex
+				a
+					figure
+						img
+							width 100%
+				.hoverInstagram
+					display none
+					@media screen and (min-width:992px)
+						display none
+						flex-flow row wrap
+						justify-content center
+						align-items center
+						background rgba(137,137,137,0.8)
+						position absolute
+						top 0
+						left 0
+						width 100%
+						height 99%
+					@media screen and (min-width:1200px)
+						width 100%
+						height 99%
+					.row
+						a
+							background #F1F0EF
+							color verde_oscuro
+							padding 8px 39px
+							font 15px hk_groteskmedium

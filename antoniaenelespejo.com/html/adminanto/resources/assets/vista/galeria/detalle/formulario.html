@@ -1,0 +1,57 @@
+
+<div class="inner-panel">
+  <div class="column">
+    <header id="menuLeft" ng-controller="menuPrincipalCrtl">
+      <div class="inner-logo"><img src="./resources/assets/image/logo.png" alt=""/></div>
+      <div class="inner-user"><img src="./resources/assets/image/usuario/{{photoUser}}" alt=""/></div>
+      <div class="detail-user">
+        <h2>{{nombreUser}}</h2>
+        <p>{{perfilUser}} </p>
+      </div>
+      <nav><a href="#/vista/principal">Inicio</a><a href="#/usuario">Usuarios</a><a href="#/noticia">Noticias</a><a href="#/bibliografia">Biografía</a><a href="#/galeria" class="active">Galería</a></nav>
+    </header>
+  </div>
+  <div class="column">
+    <div ng-controller="miusuarioCrtl" class="cabecera">
+      <div class="column">
+        <p><i class="icon-calendar"></i>{{fechaactual}}</p>
+      </div>
+      <div class="column"><a href="javascript:void(0)" ng-click="editarmiUser()">Editar usuario</a><a href="#" ng-click="salirAdmin()">Salir</a></div>
+    </div>
+    <div ng-controller="editarMultimediaCrtl" class="inner-contenido">
+      <div class="inner-nave">
+        <ul>
+          <li><a href="#/galeria/">Galería</a><span class="dividir">>></span></li>
+          <li><a href="javascript:void(0)" class="active">{{nom_accion}}</a></li>
+        </ul>
+      </div>
+      <div class="inner-botones">
+        <div class="column"></div>
+        <div class="column"><a href="javascript:void(0)" ng-click="procesarForm(form)" class="btnaddArt"><i class="icon-plus"></i>Guardar cambios</a></div>
+      </div>
+      <div class="inner-form form-interno">
+        <form name="form" id="form">
+          <fieldset class="row inner-alert">
+            <div class="alert exito">
+              <p></p>
+            </div>
+          </fieldset>
+          <fieldset class="row">
+            <label>Suba la imagén</label>
+            <figure><img src="{{rutaImg}}{{form.act_img_portada}}"/></figure>
+            <input type="file" name="file_portada" id="file_portada" ng-model="form.file_portada"/>
+          </fieldset>
+          <fieldset class="row inner-alert">
+            <div class="alert exito">
+              <p></p>
+            </div>
+          </fieldset>
+        </form>
+      </div>
+      <div class="inner-botones">
+        <div class="column"></div>
+        <div class="column"><a href="javascript:void(0)" ng-click="procesarForm(form)" class="btnaddArt"><i class="icon-plus"></i>Guardar cambios</a></div>
+      </div>
+    </div>
+  </div>
+</div>

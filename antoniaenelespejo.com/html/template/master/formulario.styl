@@ -1,0 +1,240 @@
+/***
+	Estilos Generalas para botones, link formularios en general
+***/
+select
+	font-family fuente_texto
+	font-size 14px
+	padding 4px
+	width 100%
+a
+	color azul
+	font-size 12px
+	font-family fuente_link
+	text-decoration none
+	&:hover
+		text-decoration none
+
+	&:hover
+		text-decoration none
+input[type="file"]
+	font-family fuente_texto
+	font-size 11px
+::-webkit-input-placeholder
+	color dorado
+input[type="text"],input[type="password"],input[type="email"]
+	background transparent
+	border-bottom 1px
+	border-top 0px
+	border-right 0px
+	border-left 0px
+	border-color rgba(176,147,54,1)
+	border-style solid
+	color dorado
+	font-family "hk_groteskregular"
+	font-size 16.5px
+	padding-bottom 4px
+	padding-top 4px
+	width 100%
+	&:focus
+		background transparent
+		outline 0px
+		box-shadow none
+	&:-webkit-autofill
+		-webkit-text-fill-color negro
+		-webkit-box-shadow 0 0 0px 1000px transparent insets
+input[type="email"]
+	margin-top 5px
+textarea
+	border 1px solid rgba(100,100,100.0.45)
+	padding-top 5px
+	padding-left 5px
+	font-size 12px
+	height 80px
+	width 100%
+button
+	background dorado
+	border none
+	border-radius 3px
+	color blanco
+	font-family "hk_groteskregular"
+	font-size 16.5px
+	height 32px
+	transition 0.5s all ease
+	width 110px
+	@media screen and (min-width:992px)
+		width 132px
+.inner-select
+	height 35px
+	width 377px
+	.cajaselect
+		background none repeat scroll 0 0 blanco
+		border 1px solid #9b9b9b
+		border-radius 0
+		cursor pointer
+		margin-top 3px
+		padding 5px 10px
+		position relative
+		z-index 1
+	ul.listaselect 
+		background none repeat scroll 0 0 #fff
+		border 1px solid #dedede
+		display none
+		left -1px
+		margin-left 0
+		margin-top 31px
+		padding-left 0
+		position absolute
+		text-indent 15px
+		top 0
+		width 100%
+		li 
+			border-bottom 1px solid #efefef
+			cursor pointer
+			display block
+			line-height 15px
+			list-style outside none none
+			margin 0
+			padding 1.1em 0.3em
+			text-align left
+			a
+				color #333
+				font-family fuente_link
+				font-size 12px
+				text-decoration none
+				text-align left
+			&:hover
+				color #999797
+				text-decoration none
+	ul.SelectProductos 
+		li
+			&:last-child
+				border-bottom medium none
+	.seleccionado
+		color #4a4a4a
+		display block
+		font-size 14px
+		font-family fuente_texto
+		line-height 1.5em
+		text-indent 10px
+		text-align left
+	.trianguloinf
+		border-left 9px solid rgba(0, 0, 0, 0)
+		border-right 9px solid rgba(0, 0, 0, 0)
+		border-top 13px solid rgba(0, 0, 0, 0.25)
+		height 0
+		position absolute
+		right 10px
+		top 10px
+		width 0
+	.triangulosup
+		border-bottom 13px solid rgba(0, 0, 0, 0.25)
+		border-left 9px solid rgba(0, 0, 0, 0)
+		border-right 9px solid rgba(0, 0, 0, 0)
+		height 0
+		position absolute
+		right 10px
+		top 10px
+		width 0
+table
+	&.listado
+		margin 1em 0
+		width 100%
+		overflow hidden
+		background #FFF
+		color #024457
+		border-radius 10px
+		border 0px solid #167F92
+		tr
+			border 1px solid #D9E4E6
+			&:nth-child(2n+1)
+				background-color #EAF3F3
+			th
+				border 1px solid #FFF
+				background-color #167F92
+				color #FFF
+				padding 1em
+				margin .5em 1em
+				&:first-child
+					display table-cell
+					text-align center 
+				p
+					color #fff
+			td, th
+				padding 1em
+				text-align center
+/***Check Vestidos****/
+
+.list-chek
+	div
+		input[type=checkbox]:not(old)
+		input[type=radio]:not(old)	
+			cursor pointer
+			height 23px
+			width 20px
+			margin 0
+			padding 0
+			font-size 14px
+			opacity 0
+		input[type=checkbox]:not(old) 
+		input[type=radio]:not(old)
+			& + label
+				color #6c6b6b
+				font-size 12px
+				font-family fuente_texto
+				display inline-block
+				margin-left -27px
+				line-height 22px
+		input[type=checkbox]:not(old)
+		input[type=radio]:not(old)
+			& + label					
+				& > span						
+					display inline-block
+					width 22px
+					height 22px
+					margin 1px 8px 1px 1px
+					border 2px solid rgb(192,192,192)
+					border-radius 6px
+					background rgb(224,224,224)						
+					background-image linear-gradient(rgb(255,255,255),rgb(255,255,255))
+					vertical-align top
+		input[type=radio]:not(old):checked
+			& + label					
+				& > span
+					& > span
+						display block
+						width 20px
+						height 20px
+						margin 0
+						border 1px solid rgb(115,153,77)
+						border-radius 4px
+						background rgb(153,204,102)							
+						background-image linear-gradient(rgb(179,217,140),rgb(153,204,102))							
+		input[type=checkbox]:not(old):checked
+			& + label
+				& > span
+					&:before
+						content '✓'
+						display block
+						width 19px
+						color rgb(153,204,102)
+						font-size 18px
+						line-height 19px
+						text-align center
+						text-shadow 0 0 0.5px rgb(115,153,77)
+						font-weight bold
+
+.alert
+	padding 15px
+	border 1px solid transparent
+	border-radius 4px
+	display none
+    &.alert-success
+		background-color #dff0d8
+		border-color #d6e9c6
+		h3
+			color #468847
+	&.alert-danger
+		background-color #f2dede
+		border-color #ebccd1
+		h3
+			color #b94a48

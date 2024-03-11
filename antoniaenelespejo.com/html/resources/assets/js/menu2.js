@@ -1,0 +1,1 @@
+$("#menu_2").addClass("menuActive");

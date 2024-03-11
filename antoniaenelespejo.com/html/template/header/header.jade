@@ -1,0 +1,96 @@
+.mainMenuMovil(ng-controller="MenuMovilCrtl")
+	.inner-option
+		.row
+			a(href="index.html")
+				figure
+					img(src="./resources/assets/image/logo.png", alt="")
+		.inner-right
+			.row
+				a(href="javascript:void(0)", ng-click="mostrarBuscador()")
+					i.icon-search
+			.row
+				a(href="javascript:void(0)", ng-click="verMenu($event)").menuoption
+					.line
+					.line
+					.line
+	nav#navMovil.nav
+		ul
+			li
+				a(href="tu-mejor-version.html")
+					| TU MEJOR VERSION 
+			li
+				a(href="mujeres-que-inspiran.html")
+					| MUJERES QUE INSPIRAN
+			li
+				a(href="nuestra-casa.html")
+					| NUESTRA CASA
+			li
+				a.menuActive(href="antonia.html")
+					| ANTONIA
+		.separadorMenu
+		ul.redesMovil
+			li
+				a(href="https://www.facebook.com/antoniaenelespejo", target="_blank")
+					i.icon-facebook
+					span
+						| Facebook/AntoniaenelEspejo
+			li
+				a(href="https://twitter.com/antoenelespejo", target="_blank")
+					i.icon-twitter
+					span
+						| Instagram/AntoniaenelEspejo
+			li
+				a(href="https://www.instagram.com/antoniaenelespejo/", target="_blank")
+					i.icon-instagram
+					span
+						| Pinterest/AntoniaenelEspejo
+			li
+				a(href="https://es.pinterest.com/antodelsolare/", target="_blank")
+					i.icon-pinterest
+					span
+						| Twitter/AntoniaenelEspejo
+	.inner-buscar
+		input(type="text" placeholder="buscar...")
+header(ng-controller="MenuCrtl")
+	.inner-menu
+		.row
+			a(href="index.html")
+				img(src="./resources/assets/image/logo.png", alt="Antonia")
+		.row.navHeader
+			//.ocultar
+			nav
+				ul
+					li
+						a(href="tu-mejor-version.html") TU MEJOR VERSIÓN
+					li
+						p *
+					li
+						a(href="mujeres-que-inspiran.html") MUJERES QUE INSPIRAN
+					li
+						p *
+					li
+						a(href="nuestra-casa.html") NUESTRA CASA
+					li
+						p *
+					li
+						a.menuActive(href="antonia.html") ANTONIA 
+		.row.navHeader
+			ul
+				li.rrss
+					a(href="https://www.facebook.com/antoniaenelespejo", target="_blank")
+						i.icon-facebook
+				li.rrss
+					a(href="https://twitter.com/antoenelespejo", target="_blank")
+						i.icon-twitter
+				li.rrss
+					a(href="https://www.instagram.com/antoniaenelespejo/", target="_blank")
+						i.icon-instagram
+				li.rrss
+					a(href="https://es.pinterest.com/antodelsolare/", target="_blank")
+						i.icon-pinterest
+				li.rrss
+					a(href="javascript:void(0)", ng-click="mostrarBuscador()")
+						i.icon-search
+		.inner-buscar
+			input(type="text" placeholder="buscar...")
+		

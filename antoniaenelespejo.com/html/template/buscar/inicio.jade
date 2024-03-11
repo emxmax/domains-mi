@@ -1,0 +1,45 @@
+div.buscar(ng-controller="bannerCrtl")#banner
+    .inner-titulo
+        .row
+            h2 TU
+            .separador
+            h1 MEJOR VERSIÓN
+            .separador
+    section.resultados
+        .container
+            h1
+                | 12 resultados de búsqueda para Maquillaje
+            .inner-buscador
+                .row(ng-mouseover="hoverBuscar(1)",  ng-mouseleave="quitarHoverBuscar()")
+                    figure
+                        img(src="./resources/assets/image/buscar1.jpg", alt="")
+                    p
+                        | Maquillaje de Diario
+                    .hoverBuscar#b-1
+                        .row
+                            a(href="detalle.html")
+                                | VER PUBLICACIÓN
+                .row(ng-mouseover="hoverBuscar(2)",  ng-mouseleave="quitarHoverBuscar()")
+                    a(href="detalle.html")
+                        figure
+                            img(src="./resources/assets/image/buscar2.jpg", alt="")
+                        p
+                            | Kit Básico de Maquillaje
+                    .hoverBuscar#b-2
+                        .row
+                            a(href="detalle.html")
+                                | VER PUBLICACIÓN
+                .row(ng-mouseover="hoverBuscar(3)",  ng-mouseleave="quitarHoverBuscar()")
+                    figure
+                        img(src="./resources/assets/image/buscar3.jpg", alt="")
+                    p
+                        | Mis Brochas Favoritas
+                    .hoverBuscar#b-3
+                        .row
+                            a(href="detalle.html")
+                                | VER PUBLICACIÓN
+    section.instagram
+        h4
+            | @ANTONIAENELESPEJO I INSTAGRAM
+        figure
+            img(src="./resources/assets/image/instagram.jpg", alt="")

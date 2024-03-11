@@ -1,0 +1,6 @@
+[10-Mar-2023 06:04:12 UTC] PHP Notice:  Constant _URL2_ already defined in /home/xxqitbn01s9k/domains/antoniaenelespejo.com/html/page/footer.php on line 2
+[10-Mar-2023 06:04:12 UTC] PHP Notice:  session_start(): A session had already been started - ignoring in /home/xxqitbn01s9k/domains/antoniaenelespejo.com/html/index.php on line 464
+[10-Mar-2023 06:04:12 UTC] PHP Notice:  Constant _URL2_ already defined in /home/xxqitbn01s9k/domains/antoniaenelespejo.com/html/page/footer.php on line 2
+[10-Mar-2023 06:04:12 UTC] PHP Notice:  session_start(): A session had already been started - ignoring in /home/xxqitbn01s9k/domains/antoniaenelespejo.com/html/index.php on line 464
+[10-Mar-2023 06:04:12 UTC] PHP Notice:  Constant _URL2_ already defined in /home/xxqitbn01s9k/domains/antoniaenelespejo.com/html/page/footer.php on line 2
+[10-Mar-2023 06:04:12 UTC] PHP Notice:  session_start(): A session had already been started - ignoring in /home/xxqitbn01s9k/domains/antoniaenelespejo.com/html/index.php on line 464

@@ -1,0 +1,543 @@
+div.banner(ng-controller="bannerCrtl")#banner
+    div.flicker-example
+        ul
+            li.banner1
+                div.flick-title.center
+                    hgroup
+                        h1
+                            | El Espejo es un lugar
+                        h1
+                            |  donde todas nos podemos ver
+                        h1.separadorBanner
+                            | reflejadas.
+                        .lineaBanner
+                        h4
+                            | ¿Te animas a mirarte?
+                        img(src="./resources/assets/image/espejo.png", alt="")
+                        p Conócete
+            li.banner2
+                div.flick-title.center
+                    hgroup
+                        h1
+                            | El Espejo es un lugar
+                        h1
+                            |  donde todas nos podemos ver
+                        h1.separadorBanner
+                            | reflejadas.
+                        .lineaBanner
+                        h4
+                            | ¿Te animas a mirarte?
+                        img(src="./resources/assets/image/espejo.png", alt="")
+                        p Conócete
+    section.destacado
+        .container
+            .inner-texto
+                .row
+                    p El Espejo es un lugar donde todas nos podemos ver reflejadas. Es poder vernos a través de la experiencia de otras, encontrar que el mejor método o sistema es el que se acomoda a TI y compartir nuestras historias y trucos.
+                    h2 ¿Te animas a mirarte?
+            .inner-destacado
+                .row
+                    h2 DESTACADOS
+            .inner-slider
+                #carosel1.owl-carousel
+                    .inner-owl
+                        .inner-lazo
+                            //- img(src="./resources/assets/image/lazo.png", alt="")
+                        a.overflow-item(href="detalle.html")
+                            .inner-img
+                                img(src='./resources/assets/image/noticia1.jpg', alt='')
+                            .hoverDestacado
+                                .row
+                                    h4
+                                        | RECETA PARA EL FIN DE SEMANA
+                                .row
+                                    p
+                                        | VER PUBLICACION  
+                        //a(href="detalle.html", ng-mouseover="hoverLink($event)",  ng-mouseleave="quitarHover($event)").overflow-item
+                            figure
+                                img(src='./resources/assets/image/slider1.png', alt='')
+                            .hoverDestacado
+                                .row
+                                    h4
+                                        | RECETA PARA EL FIN DE SEMANA
+                                .row
+                                    a(href="detalle.html") VER PUBLICACION
+                    .inner-owl
+                        .inner-lazo
+                            //- img(src="./resources/assets/image/lazo.png", alt="")
+                        a.overflow-item(href="detalle.html")
+                            .inner-img
+                                img(src='./resources/assets/image/noticia2.jpg', alt='')
+                            .hoverDestacado
+                                .row
+                                    h4
+                                        | RECETA PARA EL FIN DE SEMANA
+                                .row
+                                    p
+                                        | VER PUBLICACION
+                    .inner-owl
+                        .inner-lazo
+                            //- img(src="./resources/assets/image/lazo.png", alt="")
+                        a.overflow-item(href="detalle.html")
+                            .inner-img
+                                img(src='./resources/assets/image/noticia3.jpg', alt='')
+                            .hoverDestacado
+                                .row
+                                    h4
+                                        | RECETA PARA EL FIN DE SEMANA
+                                .row
+                                    p
+                                        | VER PUBLICACION
+                    .inner-owl
+                        .inner-lazo
+                            //- img(src="./resources/assets/image/lazo.png", alt="")
+                        a.overflow-item(href="detalle.html")
+                            .inner-img
+                                img(src='./resources/assets/image/noticia4.jpg', alt='')
+                            .hoverDestacado
+                                .row
+                                    h4
+                                        | RECETA PARA EL FIN DE SEMANA
+                                .row
+                                    p
+                                        | VER PUBLICACION
+                    .inner-owl
+                        .inner-lazo
+                            //- img(src="./resources/assets/image/lazo.png", alt="")
+                        a.overflow-item(href="detalle.html")
+                            .inner-img
+                                img(src='./resources/assets/image/noticia1.jpg', alt='')
+                            .hoverDestacado
+                                .row
+                                    h4
+                                        | RECETA PARA EL FIN DE SEMANA
+                                .row
+                                    p
+                                        | VER PUBLICACION
+                    .inner-owl
+                        .inner-lazo
+                            //- img(src="./resources/assets/image/lazo.png", alt="")
+                        a.overflow-item(href="detalle.html")
+                            .inner-img
+                                img(src='./resources/assets/image/noticia2.jpg', alt='')
+                            .hoverDestacado
+                                .row
+                                    h4
+                                        | RECETA PARA EL FIN DE SEMANA
+                                .row
+                                    p
+                                        | VER PUBLICACION
+                    .inner-owl
+                        .inner-lazo
+                            //- img(src="./resources/assets/image/lazo.png", alt="")
+                        a.overflow-item(href="detalle.html")
+                            .inner-img
+                                img(src='./resources/assets/image/noticia3.jpg', alt='')
+                            .hoverDestacado
+                                .row
+                                    h4
+                                        | RECETA PARA EL FIN DE SEMANA
+                                .row
+                                    p
+                                        | VER PUBLICACION
+                    .inner-owl
+                        .inner-lazo
+                            //- img(src="./resources/assets/image/lazo.png", alt="")
+                        a.overflow-item(href="detalle.html")
+                            .inner-img
+                                img(src='./resources/assets/image/noticia4.jpg', alt='')
+                            .hoverDestacado
+                                .row
+                                    h4
+                                        | RECETA PARA EL FIN DE SEMANA
+                                .row
+                                    p
+                                        | VER PUBLICACION
+    section.noticia
+        .container
+            h1
+                | NOTICIAS
+            .inner-noticias
+                .row.caja-noticia
+                    .inner-noticia
+                        .row
+                            a(href="detalle.html")
+                                figure
+                                    img(src="./resources/assets/image/noticia1.jpg", alt="")
+                            p.categoria
+                                | TU MEJOR VERSIÓN
+                        .row.inner-descripcion
+                            .column
+                                a(href="detalle.html")
+                                    | Con este calor ¿sientes que se te derrite el maquillaje?
+                                p
+                                    | No es tu imaginación. Sí se está derritiendo y de esta manera lo puedes prevenir
+                            .column
+                                .inner-footer-descripcion
+                                    .row
+                                        p.fecha
+                                            | 17, Febrero de 2017
+                                    .row.compartir
+                                        .row
+                                            p.share
+                                                | Comparte:
+                                            ul.rrssb-buttons
+                                                li.rrssb-facebook
+                                                    a(href="https://www.facebook.com/sharer/sharer.php?u=http://antonia.html" class="popup")
+                                                        span.icon-facebook
+                                                            //- svg(xmlns="http://www.w3.org/2000/svg" viewBox="0 0 29 29")
+                                                            path(d="M26.4 0H2.6C1.714 0 0 1.715 0 2.6v23.8c0 .884 1.715 2.6 2.6 2.6h12.393V17.988h-3.996v-3.98h3.997v-3.062c0-3.746 2.835-5.97 6.177-5.97 1.6 0 2.444.173 2.845.226v3.792H21.18c-1.817 0-2.156.9-2.156 2.168v2.847h5.045l-.66 3.978h-4.386V29H26.4c.884 0 2.6-1.716 2.6-2.6V2.6c0-.885-1.716-2.6-2.6-2.6z")
+                                                li.rrssb-twitter
+                                                    a(href="https://twitter.com/intent/tweet?text=http://antonia.html&via=AntoenelEspejo ‏"
+                                                    class="popup")
+                                                        span.icon-twitter
+                                                            //- svg(xmlns="http://www.w3.org/2000/svg" viewBox="0 0 28 28")
+                                                            path(d="M24.253 8.756C24.69 17.08 18.297 24.182 9.97 24.62a15.093 15.093 0 0 1-8.86-2.32c2.702.18 5.375-.648 7.507-2.32a5.417 5.417 0 0 1-4.49-3.64c.802.13 1.62.077 2.4-.154a5.416 5.416 0 0 1-4.412-5.11 5.43 5.43 0 0 0 2.168.387A5.416 5.416 0 0 1 2.89 4.498a15.09 15.09 0 0 0 10.913 5.573 5.185 5.185 0 0 1 3.434-6.48 5.18 5.18 0 0 1 5.546 1.682 9.076 9.076 0 0 0 3.33-1.317 5.038 5.038 0 0 1-2.4 2.942 9.068 9.068 0 0 0 3.02-.85 5.05 5.05 0 0 1-2.48 2.71z")
+
+                                                //- li
+                                                //-     a(href="javascript:void(0)")
+                                                //-         i.icon-instagram
+                    .inner-noticia
+                        .row
+                            a(href="detalle.html")
+                                figure
+                                    img(src="./resources/assets/image/noticia2.jpg", alt="")
+                            p.categoria
+                                | MUJERES QUE INSPIRAN
+                        .row.inner-descripcion
+                            .column
+                                a(href="detalle.html")
+                                    | Con este calor ¿sientes que se te derrite el maquillaje?
+                                p
+                                    | No es tu imaginación. Sí se está derritiendo y de esta manera lo puedes prevenir
+                            .column
+                                .inner-footer-descripcion
+                                    .row
+                                        p.fecha
+                                            | 17, Febrero de 2017
+                                    .row.compartir
+                                        .row
+                                            p.share
+                                                | Comparte:
+                                            ul.rrssb-buttons
+                                                li.rrssb-facebook
+                                                    a(href="https://www.facebook.com/sharer/sharer.php?u=http://antonia.html" class="popup")
+                                                        span.icon-facebook
+                                                            //- svg(xmlns="http://www.w3.org/2000/svg" viewBox="0 0 29 29")
+                                                            path(d="M26.4 0H2.6C1.714 0 0 1.715 0 2.6v23.8c0 .884 1.715 2.6 2.6 2.6h12.393V17.988h-3.996v-3.98h3.997v-3.062c0-3.746 2.835-5.97 6.177-5.97 1.6 0 2.444.173 2.845.226v3.792H21.18c-1.817 0-2.156.9-2.156 2.168v2.847h5.045l-.66 3.978h-4.386V29H26.4c.884 0 2.6-1.716 2.6-2.6V2.6c0-.885-1.716-2.6-2.6-2.6z")
+                                                li.rrssb-twitter
+                                                    a(href="https://twitter.com/intent/tweet?text=http://antonia.html&via=AntoenelEspejo ‏"
+                                                    class="popup")
+                                                      span.icon-twitter
+                                                        //- svg(xmlns="http://www.w3.org/2000/svg" viewBox="0 0 28 28")
+                                                        path(d="M24.253 8.756C24.69 17.08 18.297 24.182 9.97 24.62a15.093 15.093 0 0 1-8.86-2.32c2.702.18 5.375-.648 7.507-2.32a5.417 5.417 0 0 1-4.49-3.64c.802.13 1.62.077 2.4-.154a5.416 5.416 0 0 1-4.412-5.11 5.43 5.43 0 0 0 2.168.387A5.416 5.416 0 0 1 2.89 4.498a15.09 15.09 0 0 0 10.913 5.573 5.185 5.185 0 0 1 3.434-6.48 5.18 5.18 0 0 1 5.546 1.682 9.076 9.076 0 0 0 3.33-1.317 5.038 5.038 0 0 1-2.4 2.942 9.068 9.068 0 0 0 3.02-.85 5.05 5.05 0 0 1-2.48 2.71z")
+
+                                                //- li
+                                                //-     a(href="javascript:void(0)")
+                                                //-         i.icon-instagram
+                    .inner-noticia
+                        .row
+                            a(href="detalle.html")
+                                figure
+                                    img(src="./resources/assets/image/noticia3.jpg", alt="")
+                            p.categoria
+                                | NUESTRA CASA
+                        .row.inner-descripcion
+                            .column
+                                a(href="detalle.html")
+                                    | Con este calor ¿sientes que se te derrite el maquillaje?
+                                p
+                                    | No es tu imaginación. Sí se está derritiendo y de esta manera lo puedes prevenir
+                            .column
+                                .inner-footer-descripcion
+                                    .row
+                                        p.fecha
+                                            | 17, Febrero de 2017
+                                    .row.compartir
+                                        .row
+                                            p.share
+                                                | Comparte:
+                                            ul.rrssb-buttons
+                                                li.rrssb-facebook
+                                                    a(href="https://www.facebook.com/sharer/sharer.php?u=http://antonia.html" class="popup")
+                                                        span.icon-facebook
+                                                            //- svg(xmlns="http://www.w3.org/2000/svg" viewBox="0 0 29 29")
+                                                            path(d="M26.4 0H2.6C1.714 0 0 1.715 0 2.6v23.8c0 .884 1.715 2.6 2.6 2.6h12.393V17.988h-3.996v-3.98h3.997v-3.062c0-3.746 2.835-5.97 6.177-5.97 1.6 0 2.444.173 2.845.226v3.792H21.18c-1.817 0-2.156.9-2.156 2.168v2.847h5.045l-.66 3.978h-4.386V29H26.4c.884 0 2.6-1.716 2.6-2.6V2.6c0-.885-1.716-2.6-2.6-2.6z")
+                                                li.rrssb-twitter
+                                                    a(href="https://twitter.com/intent/tweet?text=http://antonia.html&via=AntoenelEspejo ‏"
+                                                    class="popup")
+                                                      span.icon-twitter
+                                                        //- svg(xmlns="http://www.w3.org/2000/svg" viewBox="0 0 28 28")
+                                                        path(d="M24.253 8.756C24.69 17.08 18.297 24.182 9.97 24.62a15.093 15.093 0 0 1-8.86-2.32c2.702.18 5.375-.648 7.507-2.32a5.417 5.417 0 0 1-4.49-3.64c.802.13 1.62.077 2.4-.154a5.416 5.416 0 0 1-4.412-5.11 5.43 5.43 0 0 0 2.168.387A5.416 5.416 0 0 1 2.89 4.498a15.09 15.09 0 0 0 10.913 5.573 5.185 5.185 0 0 1 3.434-6.48 5.18 5.18 0 0 1 5.546 1.682 9.076 9.076 0 0 0 3.33-1.317 5.038 5.038 0 0 1-2.4 2.942 9.068 9.068 0 0 0 3.02-.85 5.05 5.05 0 0 1-2.48 2.71z")
+
+                                                //- li
+                                                //-     a(href="javascript:void(0)")
+                                                //-         i.icon-instagram
+                    .inner-noticia
+                        .row
+                            a(href="detalle.html")
+                                figure
+                                    img(src="./resources/assets/image/noticia4.jpg", alt="")
+                            p.categoria
+                                | MUJERES QUE INSPIRAN
+                        .row.inner-descripcion
+                            .column
+                                a(href="detalle.html")
+                                    | Con este calor ¿sientes que se te derrite el maquillaje?
+                                p
+                                    | No es tu imaginación. Sí se está derritiendo y de esta manera lo puedes prevenir
+                            .column
+                                .inner-footer-descripcion
+                                    .row
+                                        p.fecha
+                                            | 17, Febrero de 2017
+                                    .row.compartir
+                                        .row
+                                            p.share
+                                                | Comparte:
+                                            ul.rrssb-buttons
+                                                li.rrssb-facebook
+                                                    a(href="https://www.facebook.com/sharer/sharer.php?u=http://antonia.html" class="popup")
+                                                        span.icon-facebook
+                                                            //- svg(xmlns="http://www.w3.org/2000/svg" viewBox="0 0 29 29")
+                                                            path(d="M26.4 0H2.6C1.714 0 0 1.715 0 2.6v23.8c0 .884 1.715 2.6 2.6 2.6h12.393V17.988h-3.996v-3.98h3.997v-3.062c0-3.746 2.835-5.97 6.177-5.97 1.6 0 2.444.173 2.845.226v3.792H21.18c-1.817 0-2.156.9-2.156 2.168v2.847h5.045l-.66 3.978h-4.386V29H26.4c.884 0 2.6-1.716 2.6-2.6V2.6c0-.885-1.716-2.6-2.6-2.6z")
+                                                li.rrssb-twitter
+                                                    a(href="https://twitter.com/intent/tweet?text=http://antonia.html&via=AntoenelEspejo ‏"
+                                                    class="popup")
+                                                      span.icon-twitter
+                                                        //- svg(xmlns="http://www.w3.org/2000/svg" viewBox="0 0 28 28")
+                                                        path(d="M24.253 8.756C24.69 17.08 18.297 24.182 9.97 24.62a15.093 15.093 0 0 1-8.86-2.32c2.702.18 5.375-.648 7.507-2.32a5.417 5.417 0 0 1-4.49-3.64c.802.13 1.62.077 2.4-.154a5.416 5.416 0 0 1-4.412-5.11 5.43 5.43 0 0 0 2.168.387A5.416 5.416 0 0 1 2.89 4.498a15.09 15.09 0 0 0 10.913 5.573 5.185 5.185 0 0 1 3.434-6.48 5.18 5.18 0 0 1 5.546 1.682 9.076 9.076 0 0 0 3.33-1.317 5.038 5.038 0 0 1-2.4 2.942 9.068 9.068 0 0 0 3.02-.85 5.05 5.05 0 0 1-2.48 2.71z")
+
+                                                //- li
+                                                //-     a(href="javascript:void(0)")
+                                                //-         i.icon-instagram
+                    .paginado
+                        ul
+                            li
+                                a(href="javascript:void(0)")
+                                    | 1 -
+                            li
+                                a(href="javascript:void(0)")
+                                    | 2 -
+                            li
+                                a(href="javascript:void(0)")
+                                    | 3
+                            li
+                                a(href="javascript:void(0)")
+                                    | >
+                .row.asidebar
+                    .inner-antonia
+                        .row
+                            figure
+                                img(src="./resources/assets/image/antonia.png", alt="")
+                        .row
+                            h1
+                                | Hola, soy Antonia
+                            p
+                                | Me encanta la idea de compartir experiencias con una comunidad de mujeres donde todas nos podamos sentir reflejadas.
+                        .row
+                            p
+                                | Sígueme:
+                            ul
+                                li
+                                    a(href="https://www.facebook.com/antoniaenelespejo", target="_blank")
+                                        i.icon-facebook
+                                li
+                                    a(href="https://twitter.com/antoenelespejo", target="_blank")
+                                        i.icon-twitter
+                                li
+                                    a(href="https://www.instagram.com/antoniaenelespejo/", target="_blank")
+                                        i.icon-instagram
+                                li
+                                    a(href="https://es.pinterest.com/antodelsolare/", target="_blank")
+                                        i.icon-pinterest
+                        .row
+                            a.boton(href="antonia.html") Conóceme
+                    .inner-antonia
+                        .row.tituloSide
+                            h1
+                                | ¡No perdamos el contacto!
+                        .row
+                            form#formSusc2(ng-controller="subscribirseInternoCrtl")
+                                .rowform.msje
+                                    .alert.alert-danger
+                                        h3
+                                            | Su mensaje se ha enviado correctamente
+                                .rowform
+                                    input(type="text",name="nombre", id="nombre",ng-model="form.nombre",placeholder="Nombre")
+                                .rowform
+                                    input(type="email",name="correo", id="correo",ng-model="form.correo",placeholder="Correo")
+                                .row
+                                    button(ng-click="enviarDatos(form)") Enviar
+                    .inner-antonia.publicidad
+                        figure
+                            img(src="./resources/assets/image/publicidad.jpg", alt="")
+                    .inner-antonia.inner-tag
+                        .row
+                            h1
+                                | Tag
+                        .row.tags
+                            .nombreTag
+                                a(href="javascript:void(0)")
+                                    | TU MEJOR VERSIÓN
+                            .nombreTag
+                                a(href="javascript:void(0)")
+                                    | TU MEJOR VERSIÓN
+                            .nombreTag
+                                a(href="javascript:void(0)")
+                                    | MUJERES QUE INSPIRAN
+                            .nombreTag
+                                a(href="javascript:void(0)")
+                                    | NUESTRA CASA
+                            .nombreTag
+                                a(href="javascript:void(0)")
+                                    | VIDEOS
+                            .nombreTag
+                                a(href="javascript:void(0)")
+                                    | LIBROS
+    section.favoritos(ng-controller="banner2Crtl")
+        .container
+            .inner-destacado
+                .row
+                    h2 FAVORITOS
+            .inner-slider
+                #carosel2.owl-carousel
+                    .inner-owl
+                        .overflow-item
+                            .inner-img
+                                a(href="detalle.html")
+                                    figure
+                                        img(src='./resources/assets/image/favorito1.jpg', alt='')
+                            .inner-carrusel
+                                a(href="detalle.html")
+                                    | Bourjois Healthy
+                                p
+                                    | Una de mis fundaciones    de maquillaje favoritas.
+                    .inner-owl
+                        .overflow-item
+                            .inner-img
+                                a(href="detalle.html")
+                                    figure
+                                        img(src='./resources/assets/image/favorito1.jpg', alt='')
+                            .inner-carrusel
+                                a(href="detalle.html")
+                                    | Bourjois Healthy
+                                p
+                                    | Una de mis fundaciones    de maquillaje favoritas.
+                    .inner-owl
+                        .overflow-item
+                            .inner-img
+                                a(href="detalle.html")
+                                    figure
+                                        img(src='./resources/assets/image/favorito1.jpg', alt='')
+                            .inner-carrusel
+                                a(href="detalle.html")
+                                    | Bourjois Healthy
+                                p
+                                    | Una de mis fundaciones    de maquillaje favoritas.
+                    .inner-owl
+                        .overflow-item
+                            .inner-img
+                                a(href="detalle.html")
+                                    figure
+                                        img(src='./resources/assets/image/favorito1.jpg', alt='')
+                            .inner-carrusel
+                                a(href="detalle.html")
+                                    | Bourjois Healthy
+                                p
+                                    | Una de mis fundaciones    de maquillaje favoritas.
+                    .inner-owl
+                        .overflow-item
+                            .inner-img
+                                a(href="detalle.html")
+                                    figure
+                                        img(src='./resources/assets/image/favorito1.jpg', alt='')
+                            .inner-carrusel
+                                a(href="detalle.html")
+                                    | Bourjois Healthy
+                                p
+                                    | Una de mis fundaciones    de maquillaje favoritas.
+                    .inner-owl
+                        .overflow-item
+                            .inner-img
+                                a(href="detalle.html")
+                                    figure
+                                        img(src='./resources/assets/image/favorito1.jpg', alt='')
+                            .inner-carrusel
+                                a(href="detalle.html")
+                                    | Bourjois Healthy
+                                p
+                                    | Una de mis fundaciones    de maquillaje favoritas.
+    section.youtube(ng-controller="banner3Crtl")
+        .container
+            .inner-destacado
+                .row
+                    h4
+                        | @ANTONIAENELESPEJO I YOUTUBE
+            .inner-slider
+                #carosel3.owl-carousel
+                    .inner-owl
+                        .overflow-item
+                            .inner-img
+                                figure
+                                  img(src='./resources/assets/image/video1.jpg', alt='')
+                    .inner-owl
+                        .overflow-item
+                                figure
+                                    img(src='./resources/assets/image/video2.jpg', alt='')
+                    .inner-owl
+                        .overflow-item
+                            figure
+                                img(src='./resources/assets/image/video3.jpg', alt='')
+                    .inner-owl
+                        .overflow-item
+                                figure
+                                img(src='./resources/assets/image/video1.jpg', alt='')
+                    .inner-owl
+                        .overflow-item
+                            figure
+                              img(src='./resources/assets/image/video2.jpg', alt='')
+                    .inner-owl
+                        .overflow-item
+                                figure
+                                    img(src='./resources/assets/image/video3.jpg', alt='')
+    section.instagram
+        h4
+            | @ANTONIAENELESPEJO I INSTAGRAM
+        .inner-instagram
+            .row.box-insta
+                a(href="https://www.instagram.com/p/BSwHSgIAb6o/",target="_blank")
+                    figure
+                        img(src="./resources/assets/image/instagram/5.jpg", alt="")
+                .hoverInstagram
+                    .row
+                        a(href="https://www.instagram.com/p/BSwHSgIAb6o/",target="_blank") INSTAGRAM
+            .row.box-insta
+                a(href="https://www.instagram.com/p/BSjVPg4gCv4/?taken-by=antoniaenelespejo", target="_blank")
+                    figure
+                        img(src="./resources/assets/image/instagram/6.jpg", alt="")
+                .hoverInstagram
+                    .row
+                        a(href="https://www.instagram.com/p/BSjVPg4gCv4/?taken-by=antoniaenelespejo",target="_blank") INSTAGRAM
+            .row.box-insta
+                a(href="https://www.instagram.com/p/BSi47rbAU7P/?taken-by=antoniaenelespejo", target="_blank")
+                    figure
+                        img(src="./resources/assets/image/instagram/7.jpg", alt="")
+                .hoverInstagram
+                    .row
+                        a(href="https://www.instagram.com/p/BSi47rbAU7P/?taken-by=antoniaenelespejo",target="_blank") INSTAGRAM
+            .row.box-insta
+                a(href="https://www.instagram.com/p/BSeDxkTA6Ug/?taken-by=antoniaenelespejo", target="_blank")
+                    figure
+                        img(src="./resources/assets/image/instagram/8.jpg", alt="")
+                .hoverInstagram
+                    .row
+                        a(href="https://www.instagram.com/p/BSeDxkTA6Ug/?taken-by=antoniaenelespejo",target="_blank") INSTAGRAM
+            .row.box-insta
+                a(href="https://www.instagram.com/p/BSZ5YowgDo5/?taken-by=antoniaenelespejo", target="_blank")
+                    figure
+                        img(src="./resources/assets/image/instagram/9.jpg", alt="")
+                .hoverInstagram
+                    .row
+                        a(href="https://www.instagram.com/p/BSZ5YowgDo5/?taken-by=antoniaenelespejo", target="_blank") INSTAGRAM
+#fb-root

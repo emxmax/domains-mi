@@ -1,0 +1,524 @@
+@font-face
+	font-family 'Bauhaus93'
+	font-style normal
+	font-weight 700
+	src: url('../fonts/Bauhaus93.ttf') format('TrueType')
+@font-face
+	font-family 'MyriadPro-Regular'
+	font-style normal
+	font-weight 400
+	src: url('../fonts/MyriadPro-Regular.otf') format('opentype')
+@font-face
+	font-family 'MyriadPro-Semibold'
+	font-style normal
+	font-weight 600
+	src: url('../fonts/MyriadPro-Semibold.otf') format('opentype')
+header
+	position fixed
+	background #fff
+	z-index 999
+	width: 100%
+	height 85px
+	@media(max-width 767px)
+		position fixed
+		background #fff
+		z-index 999
+		width: 100%
+		height 60px
+	@media(min-width 476px) and (max-width 767px)
+		height 90px
+	a#logo
+		display inline-block
+		img
+			max-width: 100%
+			width 85%
+			@media(max-width 767px)
+				width 100%
+	i#menu-co
+		display inline-block !important
+		padding-top: 8px
+		&:hover
+			cursor pointer
+	nav
+		@media(max-width 767px)
+			display none
+		ul
+			padding-left 0px
+			padding-top: 35px
+			list-style: none
+			margin-bottom: 0px
+			@media(max-width 767px)
+				padding-top 0px
+			li
+				vertical-align: bottom
+				display inline-block
+				padding: 0px 7px
+				@media(max-width 767px)
+					display block
+					text-align center
+				a					
+					font-family 'Bauhaus93'
+					font-style normal
+					font-weight 700
+					font-size: 18px
+					color: #00a099
+					&:hover
+						color: #00a099
+					@media(max-width 767px)
+						display block
+						padding: 7px 0px
+						&:hover
+							color #fff
+							background #00a099
+			li.pago
+				a
+					background: #e95644
+					color: #fff
+					padding: 5px 20px
+					border-radius: 15px
+					@media(max-width 767px)
+						display inline-block
+			li.face
+				@media(max-width 767px)
+					margin 7px 0px
+	.cuerpo
+		@media(max-width 767px)
+			padding-top 15px
+#home
+	padding-top 85px
+	position relative
+	@media(max-width 767px)
+		padding-top: 60px
+	ul
+		list-style none
+		li
+			a
+				img
+					width: 100%
+	.inner-mouse
+		position: absolute
+		bottom: 3%
+		width: 100%
+		z-index: 99
+		.mouse_scroll
+			@media(max-width 767px)
+				zoom: 0.7
+			cursor: pointer
+			display: block
+			margin: 0 auto
+			width: 24px
+			height: 100px
+			.mouse
+				height: 40px
+				width: 24px
+				border-radius: 14px
+				transform: none
+				border: 2px solid #fff
+				top: 170px
+				.wheel
+					display: block
+					margin: 5px auto
+					background: #fff
+					position: relative
+					height: 4px
+					width: 4px
+					border: 2px solid #fff
+					border-radius: 8px
+					animation: mouse-wheel .6s linear infinite
+			.m_scroll_arrows
+				display: block
+				transform: rotate(45deg)
+				border-right: 2px solid #fff
+				border-bottom: 2px solid #fff
+				margin: 0 0 3px 4px
+				width: 16px
+				height: 16px
+			.unu,.doi,.trei
+				animation: mouse-scroll 1s infinite
+			.unu
+				margin-top: 1px
+				animation-delay: .1s
+			.doi				
+				animation-delay: .2s
+				margin-top: -6px
+			.trei
+				animation-delay: .3s
+				margin-top: -6px			
+#store
+	background-color #c5c5c5
+	padding: 40px 0px
+	a.comp
+		display inline-block
+		img
+			max-width: 100%
+			width: 80%
+			padding-top: 15px			
+	a.correo
+		font-family 'Bauhaus93'
+		font-style normal
+		font-weight 700
+		font-size: 54px
+		color #666666
+		margin 0px
+		text-decoration: none
+		&:hover
+			text-decoration: none
+		@media(max-width 767px)
+			font-size 42px
+		@media(min-width 768px) and (max-width 991px)
+			font-size 46px		
+	.cuerpo
+		@media(max-width 767px)
+			text-align center
+#cobranza
+	padding: 55px 0px
+	background: rgb(45,171,102); /* Old browsers */
+	background: -moz-linear-gradient(left, rgba(45,171,102,1) 1%, rgba(0,160,153,1) 100%); /* FF3.6-15 */
+	background: -webkit-linear-gradient(left, rgba(45,171,102,1) 1%,rgba(0,160,153,1) 100%); /* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(to right, rgba(45,171,102,1) 1%,rgba(0,160,153,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	h5
+		font-family 'Bauhaus93'
+		font-style normal
+		font-weight 700
+		color #ffffff		
+		margin 0px
+	h5.princ
+		font-size: 54px
+		text-align: center
+		padding-bottom: 30px
+	h5.sec
+		font-family 'MyriadPro-Semibold'
+		font-style normal
+		font-weight 600		
+		font-size: 38px
+		// padding-bottom: 60px
+		padding-bottom 75px
+	.image
+		text-align center
+	img.princip
+		max-width 100%
+		width 75%
+		@media(max-width 767px)
+			// width 50%
+			width 35%
+	img
+		display inline-block
+		padding-left: 20px
+		padding-bottom: 25px
+		width 65%
+		@media(max-width 767px)
+			padding-left 0px
+			padding-bottom 5px
+			width 35%
+		@media(min-width 768px) and (max-width 991px)
+			width 75%
+	p
+		font-family 'MyriadPro-Regular'
+		font-style normal
+		font-weight 400
+		// font-size: 26px
+		// font-size 28px
+		font-size 30px
+		padding-right: 15%
+		color #ffffff
+		margin 0px
+		@media(max-width 767px)
+			padding-right 0px
+			padding-bottom 30px
+	span
+		font-family 'MyriadPro-Regular'
+		font-style normal
+		font-weight 400
+		// font-size: 26px
+		font-size 28px
+		color #fff
+		display: block
+		padding-left: 23px
+		@media(max-width 767px)
+			padding-left 0px
+			margin-bottom 15px
+	.cuerpo
+		@media(max-width 767px)
+			text-align center
+	.imagesv
+		padding-top 15px
+#funciona
+	padding: 55px 0px
+	background: #e95644
+	h5
+		font-family 'Bauhaus93'
+		font-style normal
+		font-weight 700
+		// font-size: 34px
+		font-size 42px
+		color #ffffff
+		margin 0px
+		padding-bottom: 25px
+		@media(max-width 767px)
+			text-align center
+	img
+		max-width: 100%
+		padding-bottom: 25px
+		width 55%
+		@media(max-width 767px)
+			// width 50%
+			width 35%
+			padding-bottom 5px
+		@media(min-width 768px) and (max-width 991px)
+			width 75%
+	p
+		font-family 'MyriadPro-Regular'
+		font-style normal
+		font-weight 400
+		// font-size: 24px		
+		font-size 26px
+		display inline-block
+		padding-left: 50px
+		margin-bottom 0px
+		color #fff
+		@media(max-width 767px)
+			margin-bottom 25px
+			display block
+		@media(min-width: 1024px)
+			padding-right: 15px
+#porque
+	padding: 55px 0px 25px 0px
+	img
+		max-width: 100%
+		width: 40%
+		@media(max-width 767px)
+			width 35%
+	h5
+		font-family 'Bauhaus93'
+		font-style normal
+		font-weight 700
+		// font-size: 34px
+		font-size 42px
+		padding-bottom: 50px
+		color #00a099
+		margin 0px
+		@media(max-width 767px)
+			text-align center
+	p
+		font-family 'MyriadPro-Regular'
+		font-style normal
+		font-weight 400
+		// font-size: 22px
+		font-size 24px
+		color #666666
+		margin-bottom 0px
+		// padding: 0px 32px
+		padding 0px 34px
+		margin-bottom 30px
+		@media(min-width 768px) and (max-width 991px)
+			font-size 18px
+#escribenos
+	padding: 55px 0px
+	h5
+		font-family 'Bauhaus93'
+		font-style normal
+		font-weight 700
+		// font-size: 40px
+		font-size 42px
+		color: #00A099
+		margin-bottom: 20px
+	#frmcontacto
+		input, textarea
+			border: 2px
+			border-style: solid
+			border-color: rgb(45,171,102); /* Old browsers */
+			border-color: -moz-linear-gradient(left, rgba(45,171,102,1) 1%, rgba(0,160,153,1) 100%); /* FF3.6-15 */
+			border-color: -webkit-linear-gradient(left, rgba(45,171,102,1) 1%,rgba(0,160,153,1) 100%); /* Chrome10-25,Safari5.1-6 */
+			border-color: linear-gradient(to right, rgba(45,171,102,1) 1%,rgba(0,160,153,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+			&::placeholder
+				color #C6C6C5
+		.imput-i, .imput-ir
+				position: relative
+			img
+				position: absolute
+				width: 43px !important
+				top: 0px
+			input , textarea
+				margin-bottom: 10px
+				padding: 9px 10px 9px 13px
+				font-family 'MyriadPro-Semibold'
+				font-style normal
+				font-weight 600
+				font-size: 16px
+				border-radius: 10px
+				color: #00A099	
+		.imput-i
+			input
+				margin-left: 50px
+				width: 80%
+		.imput-ir
+			img
+				left 0px
+			input , textarea
+				margin-right: 50px
+				width: 90%
+				@media(max-width 767px)
+					width 82%
+					margin-left 13px
+		button
+			font-family 'Bauhaus93'
+			font-style normal
+			font-weight 700
+			font-size: 22px
+			color: #fff
+			padding: 7px 60px
+			border-radius: 10px
+			border: 0
+			margin-right: 50px
+			text-align: right
+			background #333
+#logos
+	background: rgb(45,171,102); /* Old browsers */
+	background: -moz-linear-gradient(left, rgba(45,171,102,1) 1%, rgba(0,160,153,1) 100%); /* FF3.6-15 */
+	background: -webkit-linear-gradient(left, rgba(45,171,102,1) 1%,rgba(0,160,153,1) 100%); /* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(to right, rgba(45,171,102,1) 1%,rgba(0,160,153,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	ul#carrusel-aliados
+		li
+			a
+				img
+					width 75%
+#footer-top
+	padding: 55px 0
+	color: #5d5d5d
+	font-family: GothamRnd
+	font-style: normal
+	font-weight: 200
+	h5
+		font-family 'Bauhaus93'
+		font-style normal
+		font-weight 700
+		// font-size: 27px
+		font-size 42px
+		color: #00a099
+		margin 0px
+		padding-bottom: 25px
+		@media(max-width 767px)
+			text-align center
+	p
+		// font-family 'MyriadPro-Regular'
+		// font-style normal
+		// font-weight 400
+		font-family 'MyriadPro-Semibold'
+		font-style normal
+		font-weight 600			
+		font-size 20px
+		margin 0px
+		padding-bottom: 15px
+	form
+		@media(max-width 767px)
+			margin-bottom 25px
+		button,input
+			display: block
+			width: 100%
+			border 0
+		input
+			border: 2px solid #5d5d5d
+			border-radius: 5px 5px 0 0
+			border-bottom: 0
+			padding: 10px
+			padding-left: 15px
+			&::placeholder
+				font-family 'MyriadPro-Semibold'
+				font-style normal
+				font-weight 600
+				font-size: 22px				
+				color #5d5d5d				
+		button
+			font-family 'Bauhaus93'
+			font-style normal
+			font-weight 700
+			background: #5d5d5d
+			color: #fff
+			padding: 5px 0
+			font-size: 30px
+			&:hover
+				background: rgb(45,171,102); /* Old browsers */
+				background: -moz-linear-gradient(left, rgba(45,171,102,1) 1%, rgba(0,160,153,1) 100%); /* FF3.6-15 */
+				background: -webkit-linear-gradient(left, rgba(45,171,102,1) 1%,rgba(0,160,153,1) 100%); /* Chrome10-25,Safari5.1-6 */
+				background: linear-gradient(to right, rgba(45,171,102,1) 1%,rgba(0,160,153,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */				
+	.redes-f
+		padding-left: 5%
+		@media(max-width 767px)
+			padding-top 25px
+		.redes-footer
+			max-width: 177px
+			div
+				width: 60px
+				height: 60px
+				display: inline-block
+				margin-bottom: 6px
+				margin-left: 5px
+				a
+					display: inline-block
+					width: 100%
+					height: 100%
+					background: #5d5d5d
+					color: #fff
+					font-size: 34px
+					border-radius: 6px
+					text-align: center
+					padding-top: 6px
+					&:hover
+						background: rgb(45,171,102); /* Old browsers */
+						background: -moz-linear-gradient(left, rgba(45,171,102,1) 1%, rgba(0,160,153,1) 100%); /* FF3.6-15 */
+						background: -webkit-linear-gradient(left, rgba(45,171,102,1) 1%,rgba(0,160,153,1) 100%); /* Chrome10-25,Safari5.1-6 */
+						background: linear-gradient(to right, rgba(45,171,102,1) 1%,rgba(0,160,153,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+			@media(max-width 767px)					
+				max-width unset
+				text-align center
+footer
+	padding: 35px 0px 15px 0px
+	background: #c6c6c5
+	img.log
+		max-width: 100%
+	a,p
+		font-family 'MyriadPro-Regular'
+		font-style normal
+		font-weight 400
+		// font-size: 14px
+		font-size 20px
+		margin 0px
+	a
+		display inline-block
+		color #4d4d4d
+		text-decoration: none
+		margin-bottom 5px
+		&:hover
+			color #4d4d4d
+			text-decoration: none
+	p
+		color #4d4d4d
+	p.linka
+		padding: 15px 0px
+	.links
+		padding-top: 17px
+.box-chat-redgalar
+	position: fixed
+	bottom: -5px
+	right: 0px
+	z-index: 99
+	.header-chat
+		background: rgb(45,171,102); /* Old browsers */
+		background: -moz-linear-gradient(left, rgba(45,171,102,1) 1%, rgba(0,160,153,1) 100%); /* FF3.6-15 */
+		background: -webkit-linear-gradient(left, rgba(45,171,102,1) 1%,rgba(0,160,153,1) 100%); /* Chrome10-25,Safari5.1-6 */
+		background: linear-gradient(to right, rgba(45,171,102,1) 1%,rgba(0,160,153,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+		color: #fff
+		font-family: sufrimeda
+		cursor: pointer
+		border-radius: 15px 0px 0px 0px
+		padding 17px
+		border 3px solid #fff
+		@media(max-width 767px)
+			padding: 10px
+		img
+			width 25px
+		span
+			font-family 'Bauhaus93'
+			font-style normal
+			font-weight 700
+			font-size 16px
