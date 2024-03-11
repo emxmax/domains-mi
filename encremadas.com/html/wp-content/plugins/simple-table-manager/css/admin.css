@@ -1,0 +1,49 @@
+/* Simple Table Manager */
+
+.stm_help {
+  color: DarkGreen;
+  font-style: oblique;
+}
+.stm_controls {
+  padding: 0 0 8px 0;
+}
+
+/* list records */
+
+.widefat {
+  width: auto;
+}
+.toplevel_page_simple_table_manager_list  .widefat td {
+  border: thin solid white;
+}
+.toplevel_page_simple_table_manager_list  .widefat tr:nth-child(odd) td {
+  background-color: #FFF6EE;
+}
+
+/* edit record, add record & settings */
+
+.admin_page_simple_table_manager_add input[type="text"],
+.admin_page_simple_table_manager_add input[type="number"],
+.admin_page_simple_table_manager_edit input[type="text"],
+.admin_page_simple_table_manager_edit input[type="number"],
+.admin_page_simple_table_manager_settings input[type="text"],
+.admin_page_simple_table_manager_settings input[type="number"],
+.admin_page_simple_table_manager_settings select {
+  width: 400px;
+  min-height: 28px;
+}
+.admin_page_simple_table_manager_add textarea,
+.admin_page_simple_table_manager_edit textarea {
+  width: 400px;
+  height: 10em;
+}
+
+/* list navigation */
+
+.toplevel_page_simple_table_manager_list .tablenav .tablenav-pages {
+  float: none;
+  text-align: center;
+}
+.toplevel_page_simple_table_manager_list .paging-input {
+  padding: 0 8px;
+}

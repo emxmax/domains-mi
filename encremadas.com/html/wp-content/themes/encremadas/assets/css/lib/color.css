@@ -1,0 +1,164 @@
+/*Main Color*/
+a:hover,
+a:focus,
+a:active,
+.color ,
+.desc.color,
+.product-title a:hover ,
+.popup-icon,
+.view-type a.active,
+.list-number-show li a.active,
+.wishlist-popup .popup-icon,
+.main-nav > ul > li:hover > a ,
+.list-attr-filter li a.active,
+.main-nav .sub-menu li.current-menu-item > a,
+.cart-subtotal .amount,
+.order-total .amount,
+.product-thumb > .quickview-link,
+.tab-style1 .title-tab li a:hover,
+.product-extra-link a:not(.addcart-link):hover,
+.item-product .product-thumb > .quickview-text:hover,
+.item-client-review .client-thumb::before,
+.detail-info .yith-wcwl-add-to-wishlist .add_to_wishlist:hover,
+.detail-info .compare:hover,
+.single-list-social ul li a:hover,
+.item-comment .comment-info h3 a:hover,
+.current-cat > a,
+.wrap-button-lightbox > a:hover,
+.detail-tab-accordion .item-toggle-tab.active .toggle-tab-title,
+.info-404 h2,
+.intro-video3 li.active h2 a,
+.block-tab-product3 .title-tab li.active a,
+.main-nav > ul > li.current-menu-ancestor > a,
+.main-nav > ul > li.current-menu-item > a,
+.banner-hot-deal .layer-after .shop-button:hover,
+.content-item-category .shop-button:hover,
+.item-post-category .cat-parent:hover,
+.item-post-inner .post-info .shop-button:hover
+{
+    color: #dca5af;
+}
+/*Background Color*/
+.bg-color,
+.dropdown-list li a:hover,
+body .scroll-top:hover,
+.preload #loading,
+.shop-button:hover,
+.dropdown-list li a.active,
+.woocommerce-MyAccount-navigation ul li.is-active a,
+.woocommerce-MyAccount-navigation ul li:hover a,
+.wishlist-button a:hover,
+.main-nav .toggle-mobile-menu span,
+.main-nav .toggle-mobile-menu::before,
+.main-nav .toggle-mobile-menu::after,
+.form-newsletter input[type="submit"]:hover,
+.product-thumb > .quickview-link:hover,
+.wrap-item.owl-carousel .owl-nav  button:hover,
+.woocommerce #respond input#submit:hover,
+a.added_to_cart:hover,
+.woocommerce a.added_to_cart:hover,
+.woocommerce a.button.addcart-link:hover,
+.woocommerce.widget .woocommerce-widget-layered-nav-dropdown__submit:hover,
+.woocommerce #respond input#submit.alt:hover,
+.woocommerce a.button.alt:hover,
+.woocommerce button.button.alt:hover,
+.woocommerce input.button.alt:hover,
+.button:hover,
+.woocommerce #respond input#submit.alt:hover,
+.woocommerce a.button.alt:hover,
+.woocommerce button.button.alt:hover,
+.woocommerce input.button.alt:hover
+.woocommerce #respond input#submit:hover,
+.woocommerce a.button:hover,
+.woocommerce button.button:hover,
+.woocommerce input.button:hover,
+.wrap-service1::before,
+.post-meta-data > li::after,
+.btn-circle:hover,
+.owl-theme .owl-dots .owl-dot.active span,
+.owl-theme .owl-dots .owl-dot:hover span,
+.custom-scroll ::-webkit-scrollbar-thumb,
+.owl-theme.pagi-nav-number .owl-dots .owl-dot.active,
+.dropdown-list li.active a,
+.intro-ads4 h2::after,
+.banner-ads-caption .title-vertical::before,
+.wg-info-author .author-info h3::after,
+blockquote::before,
+.woocommerce div.product form.cart .button.single_add_to_cart_button,
+.detail-gallery .gallery-control > a:hover,
+.list-tag-detail li.active a::after,
+.woocommerce .widget_price_filter .ui-slider .ui-slider-range,
+.post-password-form input[type=submit]:hover,
+.mini-cart-box.aside-box .mini-cart-button a:first-child:hover,
+.mini-cart7 .mini-cart-number,
+.item-product-circle .product-extra-link-circle a:hover,
+.pagi-nav .current
+ {
+    background-color: #c88d98;
+}
+/*Border Color*/
+.list-tags li a:hover,
+.shop-button:hover,
+.form-newsletter input[type="submit"]:hover,
+.woocommerce #respond input#submit:hover,
+a.added_to_cart:hover,
+.woocommerce-MyAccount-navigation ul li.is-active a,
+.woocommerce-MyAccount-navigation ul li:hover a,
+.woocommerce a.added_to_cart:hover,
+.woocommerce a.button.addcart-link:hover,
+.woocommerce.widget .woocommerce-widget-layered-nav-dropdown__submit:hover,
+.woocommerce #respond input#submit.alt:hover,
+.woocommerce a.button.alt:hover,
+.woocommerce button.button.alt:hover,
+.woocommerce input.button.alt:hover,
+.button:hover,
+.woocommerce #respond input#submit.alt:hover,
+.woocommerce a.button.alt:hover,
+.woocommerce button.button.alt:hover,
+.woocommerce input.button.alt:hover
+.woocommerce #respond input#submit:hover,
+.woocommerce a.button:hover,
+.woocommerce button.button:hover,
+.woocommerce input.button:hover,
+.detail-gallery .carousel li a.active img,
+.item-cat-info .cat-thumb .adv-thumb-link,
+.post-password-form input[type=submit]:hover,
+.wp-block-pullquote,
+.logo-lancom .text-logo a::before
+{
+	border-color:#c88d98;
+}
+/*Border Top Color*/
+.logo-lancom .text-logo span::before,
+.main-nav > ul > li.current-menu-item > a::before,
+.main-nav > ul > li.current-menu-ancestor > a::before,
+.tab-style1 .title-tab li.active a::before
+{
+	border-top-color:#c88d98;
+}
+/*Border Bottom Color*/
+.logo-lancom .text-logo span::before,
+.main-nav > ul > li.current-menu-item > a::before,
+.main-nav > ul > li.current-menu-ancestor > a::before,
+.tab-style1 .title-tab li.active a::before
+{
+	border-bottom-color:#c88d98;
+}
+
+/*Background Rgba*/
+.about-lancom1::before{
+	background-color:rgba(235,116,123,0.1);
+}
+
+.item-cat-statistic:hover .cat-info,
+.item-advs3 .adv-thumb-link::after,
+.item-product-quickview:hover .product-thumb-link::after {
+	background-color:rgba(235,116,123,0.5);
+}
+.item-post-inner .overlay-image .adv-thumb-link::after{
+	background-color:rgba(235,116,123,0.7);
+}
+.content-item-category.two,
+.banner-hot-deal .layer-after{
+	background-color:rgba(235,116,123,0.9);
+}

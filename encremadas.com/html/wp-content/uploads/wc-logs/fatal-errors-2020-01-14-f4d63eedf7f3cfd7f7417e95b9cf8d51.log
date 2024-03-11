@@ -1,0 +1,6 @@
+2020-01-14T13:19:42+00:00 CRITICAL Allowed memory size of 268435456 bytes exhausted (tried to allocate 17301535 bytes) en /nfs/c05/h03/mnt/77722/domains/encremadas.com/html/wp-includes/functions.php en la línea 3820
+
+2020-01-14T13:46:11+00:00 CRITICAL Allowed memory size of 268435456 bytes exhausted (tried to allocate 18022866 bytes) en /nfs/c05/h03/mnt/77722/domains/encremadas.com/html/wp-includes/functions.php en la línea 3820
+
+2020-01-14T14:07:06+00:00 CRITICAL Allowed memory size of 268435456 bytes exhausted (tried to allocate 18022866 bytes) en /nfs/c05/h03/mnt/77722/domains/encremadas.com/html/wp-includes/functions.php en la línea 3820
+

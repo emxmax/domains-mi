@@ -1,0 +1,35 @@
+2020-01-11T14:39:09+00:00 CRITICAL Uncaught Error: Class 'WC_REST_Customers_Controller' not found in /mnt/c/Websites/wp-encremadas-new/wp-content/plugins/woocommerce/packages/woocommerce-rest-api/src/Server.php:40
+Stack trace:
+#0 /mnt/c/Websites/wp-encremadas-new/wp-includes/class-wp-hook.php(288): Automattic\WooCommerce\RestApi\Server->register_rest_routes(Object(WP_REST_Server))
+#1 /mnt/c/Websites/wp-encremadas-new/wp-includes/class-wp-hook.php(312): WP_Hook->apply_filters(NULL, Array)
+#2 /mnt/c/Websites/wp-encremadas-new/wp-includes/plugin.php(478): WP_Hook->do_action(Array)
+#3 /mnt/c/Websites/wp-encremadas-new/wp-includes/rest-api.php(471): do_action('rest_api_init', Object(WP_REST_Server))
+#4 /mnt/c/Websites/wp-encremadas-new/wp-includes/rest-api.php(298): rest_get_server()
+#5 /mnt/c/Websites/wp-encremadas-new/wp-includes/class-wp-hook.php(288): rest_api_loaded(Object(WP))
+#6 /mnt/c/Websites/wp-encremadas-new/wp-includes/class-wp-hook.php(312): WP_Hook->apply_filters(NULL, Array)
+#7 /mnt/c/Websites/wp-encremadas-new/wp-includes/plugin.php en /mnt/c/Websites/wp-encremadas-new/wp-content/plugins/woocommerce/packages/woocommerce-rest-api/src/Server.php en la línea 40
+
+2020-01-11T17:24:29+00:00 CRITICAL syntax error, unexpected ')' en /mnt/c/Websites/wp-encremadas-new/wp-content/themes/hello-elementor-child/functions.php en la línea 41
+
+2020-01-11T17:50:46+00:00 CRITICAL syntax error, unexpected '}', expecting ',' or ';' en /mnt/c/Websites/wp-encremadas-new/wp-content/themes/hello-elementor-child/includes/shortcodes.php en la línea 35
+
+2020-01-11T17:51:01+00:00 CRITICAL syntax error, unexpected '}', expecting ',' or ';' en /mnt/c/Websites/wp-encremadas-new/wp-content/themes/hello-elementor-child/includes/shortcodes.php en la línea 35
+
+2020-01-11T17:51:16+00:00 CRITICAL syntax error, unexpected '}', expecting ',' or ';' en /mnt/c/Websites/wp-encremadas-new/wp-content/themes/hello-elementor-child/includes/shortcodes.php en la línea 35
+
+2020-01-11T17:51:23+00:00 CRITICAL syntax error, unexpected '}', expecting ',' or ';' en /mnt/c/Websites/wp-encremadas-new/wp-content/themes/hello-elementor-child/includes/shortcodes.php en la línea 35
+
+2020-01-11T17:51:31+00:00 CRITICAL syntax error, unexpected '}', expecting ',' or ';' en /mnt/c/Websites/wp-encremadas-new/wp-content/themes/hello-elementor-child/includes/shortcodes.php en la línea 35
+
+2020-01-11T17:51:46+00:00 CRITICAL syntax error, unexpected '}', expecting ',' or ';' en /mnt/c/Websites/wp-encremadas-new/wp-content/themes/hello-elementor-child/includes/shortcodes.php en la línea 35
+
+2020-01-11T17:52:01+00:00 CRITICAL syntax error, unexpected '}', expecting ',' or ';' en /mnt/c/Websites/wp-encremadas-new/wp-content/themes/hello-elementor-child/includes/shortcodes.php en la línea 35
+
+2020-01-11T17:52:01+00:00 CRITICAL syntax error, unexpected '}', expecting ',' or ';' en /mnt/c/Websites/wp-encremadas-new/wp-content/themes/hello-elementor-child/includes/shortcodes.php en la línea 35
+
+2020-01-11T17:52:04+00:00 CRITICAL syntax error, unexpected '}', expecting ',' or ';' en /mnt/c/Websites/wp-encremadas-new/wp-content/themes/hello-elementor-child/includes/shortcodes.php en la línea 35
+
+2020-01-11T17:52:16+00:00 CRITICAL syntax error, unexpected '}', expecting ',' or ';' en /mnt/c/Websites/wp-encremadas-new/wp-content/themes/hello-elementor-child/includes/shortcodes.php en la línea 35
+
+2020-01-11T17:52:17+00:00 CRITICAL syntax error, unexpected '}', expecting ',' or ';' en /mnt/c/Websites/wp-encremadas-new/wp-content/themes/hello-elementor-child/includes/shortcodes.php en la línea 35
+

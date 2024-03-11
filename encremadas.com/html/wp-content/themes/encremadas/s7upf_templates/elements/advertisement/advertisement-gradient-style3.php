@@ -1,0 +1,17 @@
+<div class="banner-advs gradient-style3 <?php echo esc_attr($el_class);?> <?php echo esc_attr($animation);?>">
+	<div class="wrap-image">
+		<?php if(!empty($link)) echo '<a href="'.esc_url($link).'" class="adv-thumb-link">';?>
+	    <?php 
+		    echo wp_get_attachment_image($image,$size);
+		    echo wp_get_attachment_image($image2,$size);
+	    ?>
+		<?php if(!empty($link)) echo '</a>';?>
+	</div>
+		
+	<?php if(!empty($content)):?>
+	    <div class="banner-info <?php echo esc_attr($el_class2);?>">
+	    	<?php echo wpb_js_remove_wpautop($content, true);?>
+	    </div>
+	<?php endif;?>
+	<div class="gradient-bg"></div>
+</div>

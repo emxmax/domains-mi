@@ -1,0 +1,62 @@
+2020-01-02T03:39:18+00:00 CRITICAL Allowed memory size of 134217728 bytes exhausted (tried to allocate 16047376 bytes) en /mnt/c/Websites/wp-encremadas-new/wp-content/plugins/elementor/core/common/modules/ajax/module.php en la línea 265
+
+2020-01-02T03:39:18+00:00 CRITICAL Uncaught Error: Call to undefined function get_field() in /mnt/c/Websites/wp-encremadas-new/wp-content/themes/hello-elementor-child/includes/theme-options.php:6
+Stack trace:
+#0 /mnt/c/Websites/wp-encremadas-new/wp-includes/class-wp-hook.php(288): add_script_to_frontend_all_pages_head('')
+#1 /mnt/c/Websites/wp-encremadas-new/wp-includes/class-wp-hook.php(312): WP_Hook->apply_filters(NULL, Array)
+#2 /mnt/c/Websites/wp-encremadas-new/wp-includes/plugin.php(478): WP_Hook->do_action(Array)
+#3 /mnt/c/Websites/wp-encremadas-new/wp-includes/general-template.php(2879): do_action('wp_head')
+#4 /mnt/c/Websites/wp-encremadas-new/wp-content/themes/hello-elementor/header.php(21): wp_head()
+#5 /mnt/c/Websites/wp-encremadas-new/wp-includes/template.php(722): require_once('/mnt/c/Websites...')
+#6 /mnt/c/Websites/wp-encremadas-new/wp-includes/template.php(671): load_template('/mnt/c/Websites...', true)
+#7 /mnt/c/Websites/wp-encremadas-new/wp-includes/general-template.php(41): locate_template(Array, true)
+#8 /mnt/c/Websites/wp- en /mnt/c/Websites/wp-encremadas-new/wp-content/themes/hello-elementor-child/includes/theme-options.php en la línea 6
+
+2020-01-02T03:39:20+00:00 CRITICAL Uncaught Error: Call to undefined function get_field() in /mnt/c/Websites/wp-encremadas-new/wp-content/themes/hello-elementor-child/includes/theme-options.php:6
+Stack trace:
+#0 /mnt/c/Websites/wp-encremadas-new/wp-includes/class-wp-hook.php(288): add_script_to_frontend_all_pages_head('')
+#1 /mnt/c/Websites/wp-encremadas-new/wp-includes/class-wp-hook.php(312): WP_Hook->apply_filters(NULL, Array)
+#2 /mnt/c/Websites/wp-encremadas-new/wp-includes/plugin.php(478): WP_Hook->do_action(Array)
+#3 /mnt/c/Websites/wp-encremadas-new/wp-includes/general-template.php(2879): do_action('wp_head')
+#4 /mnt/c/Websites/wp-encremadas-new/wp-content/themes/hello-elementor/header.php(21): wp_head()
+#5 /mnt/c/Websites/wp-encremadas-new/wp-includes/template.php(722): require_once('/mnt/c/Websites...')
+#6 /mnt/c/Websites/wp-encremadas-new/wp-includes/template.php(671): load_template('/mnt/c/Websites...', true)
+#7 /mnt/c/Websites/wp-encremadas-new/wp-includes/general-template.php(41): locate_template(Array, true)
+#8 /mnt/c/Websites/wp- en /mnt/c/Websites/wp-encremadas-new/wp-content/themes/hello-elementor-child/includes/theme-options.php en la línea 6
+
+2020-01-02T03:39:51+00:00 CRITICAL Uncaught Error: Call to undefined function get_field() in /mnt/c/Websites/wp-encremadas-new/wp-content/themes/hello-elementor-child/includes/theme-options.php:6
+Stack trace:
+#0 /mnt/c/Websites/wp-encremadas-new/wp-includes/class-wp-hook.php(288): add_script_to_frontend_all_pages_head('')
+#1 /mnt/c/Websites/wp-encremadas-new/wp-includes/class-wp-hook.php(312): WP_Hook->apply_filters(NULL, Array)
+#2 /mnt/c/Websites/wp-encremadas-new/wp-includes/plugin.php(478): WP_Hook->do_action(Array)
+#3 /mnt/c/Websites/wp-encremadas-new/wp-includes/general-template.php(2879): do_action('wp_head')
+#4 /mnt/c/Websites/wp-encremadas-new/wp-content/themes/hello-elementor/header.php(21): wp_head()
+#5 /mnt/c/Websites/wp-encremadas-new/wp-includes/template.php(722): require_once('/mnt/c/Websites...')
+#6 /mnt/c/Websites/wp-encremadas-new/wp-includes/template.php(671): load_template('/mnt/c/Websites...', true)
+#7 /mnt/c/Websites/wp-encremadas-new/wp-includes/general-template.php(41): locate_template(Array, true)
+#8 /mnt/c/Websites/wp- en /mnt/c/Websites/wp-encremadas-new/wp-content/themes/hello-elementor-child/includes/theme-options.php en la línea 6
+
+2020-01-02T03:39:53+00:00 CRITICAL Uncaught Error: Call to undefined function get_field() in /mnt/c/Websites/wp-encremadas-new/wp-content/themes/hello-elementor-child/includes/theme-options.php:6
+Stack trace:
+#0 /mnt/c/Websites/wp-encremadas-new/wp-includes/class-wp-hook.php(288): add_script_to_frontend_all_pages_head('')
+#1 /mnt/c/Websites/wp-encremadas-new/wp-includes/class-wp-hook.php(312): WP_Hook->apply_filters(NULL, Array)
+#2 /mnt/c/Websites/wp-encremadas-new/wp-includes/plugin.php(478): WP_Hook->do_action(Array)
+#3 /mnt/c/Websites/wp-encremadas-new/wp-includes/general-template.php(2879): do_action('wp_head')
+#4 /mnt/c/Websites/wp-encremadas-new/wp-content/themes/hello-elementor/header.php(21): wp_head()
+#5 /mnt/c/Websites/wp-encremadas-new/wp-includes/template.php(722): require_once('/mnt/c/Websites...')
+#6 /mnt/c/Websites/wp-encremadas-new/wp-includes/template.php(671): load_template('/mnt/c/Websites...', true)
+#7 /mnt/c/Websites/wp-encremadas-new/wp-includes/general-template.php(41): locate_template(Array, true)
+#8 /mnt/c/Websites/wp- en /mnt/c/Websites/wp-encremadas-new/wp-content/themes/hello-elementor-child/includes/theme-options.php en la línea 6
+
+2020-01-02T03:39:58+00:00 CRITICAL Uncaught Error: Call to undefined function get_field() in /mnt/c/Websites/wp-encremadas-new/wp-content/themes/hello-elementor-child/includes/theme-options.php:6
+Stack trace:
+#0 /mnt/c/Websites/wp-encremadas-new/wp-includes/class-wp-hook.php(288): add_script_to_frontend_all_pages_head('')
+#1 /mnt/c/Websites/wp-encremadas-new/wp-includes/class-wp-hook.php(312): WP_Hook->apply_filters(NULL, Array)
+#2 /mnt/c/Websites/wp-encremadas-new/wp-includes/plugin.php(478): WP_Hook->do_action(Array)
+#3 /mnt/c/Websites/wp-encremadas-new/wp-includes/general-template.php(2879): do_action('wp_head')
+#4 /mnt/c/Websites/wp-encremadas-new/wp-content/themes/hello-elementor/header.php(21): wp_head()
+#5 /mnt/c/Websites/wp-encremadas-new/wp-includes/template.php(722): require_once('/mnt/c/Websites...')
+#6 /mnt/c/Websites/wp-encremadas-new/wp-includes/template.php(671): load_template('/mnt/c/Websites...', true)
+#7 /mnt/c/Websites/wp-encremadas-new/wp-includes/general-template.php(41): locate_template(Array, true)
+#8 /mnt/c/Websites/wp- en /mnt/c/Websites/wp-encremadas-new/wp-content/themes/hello-elementor-child/includes/theme-options.php en la línea 6
+

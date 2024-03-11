@@ -1,0 +1,6 @@
+2020-01-12T00:28:55+00:00 CRITICAL Class 'Composer\Autoload\ComposerStaticInitf7309e5dcd4e2843e8a5c77b6db497d4' not found en /nfs/c05/h03/mnt/77722/domains/encremadas.com/html/wp-content/plugins/wordpress-seo/vendor/composer/autoload_real.php en la línea 30
+
+2020-01-12T00:44:57+00:00 CRITICAL Allowed memory size of 268435456 bytes exhausted (tried to allocate 18022866 bytes) en /nfs/c05/h03/mnt/77722/domains/encremadas.com/html/wp-includes/functions.php en la línea 3820
+
+2020-01-12T08:01:41+00:00 CRITICAL Allowed memory size of 268435456 bytes exhausted (tried to allocate 18022866 bytes) en /nfs/c05/h03/mnt/77722/domains/encremadas.com/html/wp-includes/functions.php en la línea 3820
+

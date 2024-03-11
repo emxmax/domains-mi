@@ -1,0 +1,13 @@
+1.2 - 23/5/2019
+Updated:
+	- Home 11 + 12
+	- WPBakery Page Builder 6.0.2
+
+1.2 - 9/5/2019
+Updated:
+	- Home 9 + 10
+	- 7upcore 1.4
+
+1.1 - 25/3/2019
+	- Update new home page 2~8
+

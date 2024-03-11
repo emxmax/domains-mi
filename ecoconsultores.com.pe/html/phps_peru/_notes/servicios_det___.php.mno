@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<info>
+	<infoitem key="UD_menus1" value="name:id;datatype:int,name:titulo;datatype:string,name:img;datatype:string,name:text;datatype:blob" />
+	<infoitem key="UD_menus2" value="name:id;datatype:int,name:titulo;datatype:string,name:img;datatype:string,name:text;datatype:blob" />
+	<infoitem key="UD_info_ser1" value="name:id;datatype:int,name:titulo;datatype:string,name:img;datatype:string,name:text;datatype:blob" />
+</info>

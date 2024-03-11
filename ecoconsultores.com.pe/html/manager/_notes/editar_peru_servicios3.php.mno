@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<info>
+	<infoitem key="UD_foto" value="name:id;datatype:int,name:foto;datatype:string" />
+	<infoitem key="UD_foto2" value="name:id;datatype:int,name:foto;datatype:string" />
+	<infoitem key="UD_info" value="name:id;datatype:int,name:titulo;datatype:string,name:img;datatype:string,name:text;datatype:blob" />
+</info>

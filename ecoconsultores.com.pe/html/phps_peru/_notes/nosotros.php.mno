@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<info>
+	<infoitem key="UD_info1" value="name:id;datatype:int,name:img;datatype:string,name:text;datatype:blob,name:titulo;datatype:string" />
+	<infoitem key="UD_info2" value="name:id;datatype:int,name:img;datatype:string,name:text;datatype:blob,name:titulo;datatype:string" />
+	<infoitem key="UD_info3" value="name:id;datatype:int,name:titulo;datatype:string,name:que_es;datatype:blob,name:para_que;datatype:blob,name:enfoques;datatype:blob,name:entregables;datatype:blob,name:experiencias;datatype:blob,name:img;datatype:string" />
+</info>

@@ -1,0 +1,410 @@
+2019-11-29T09:58:07+00:00 CRITICAL Uncaught Error: Call to a member function get_meta() on null in /var/www/encremadas/wp-content/plugins/culqi-woocommerce-master/culqi-woocommerce.php:33
+Stack trace:
+#0 /var/www/encremadas/wp-includes/class-wp-hook.php(286): woo_change_order_received_text('Gracias. Tu ped...', NULL)
+#1 /var/www/encremadas/wp-includes/plugin.php(208): WP_Hook->apply_filters('Gracias. Tu ped...', Array)
+#2 /var/www/encremadas/wp-content/plugins/woocommerce/templates/checkout/thankyou.php(82): apply_filters('woocommerce_tha...', 'Gracias. Tu ped...', NULL)
+#3 /var/www/encremadas/wp-content/plugins/woocommerce/includes/wc-core-functions.php(249): include('/var/www/encrem...')
+#4 /var/www/encremadas/wp-content/plugins/woocommerce/includes/shortcodes/class-wc-shortcode-checkout.php(248): wc_get_template('checkout/thanky...', Array)
+#5 /var/www/encremadas/wp-content/plugins/woocommerce/includes/shortcodes/class-wc-shortcode-checkout.php(63): WC_Shortcode_Checkout::order_received(0)
+#6 /var/www/encremadas/wp-content/plugins/woocommer en /var/www/encremadas/wp-content/plugins/culqi-woocommerce-master/culqi-woocommerce.php en la línea 33
+
+2019-11-29T09:58:11+00:00 CRITICAL Uncaught Error: Call to a member function get_meta() on null in /var/www/encremadas/wp-content/plugins/culqi-woocommerce-master/culqi-woocommerce.php:33
+Stack trace:
+#0 /var/www/encremadas/wp-includes/class-wp-hook.php(286): woo_change_order_received_text('Gracias. Tu ped...', NULL)
+#1 /var/www/encremadas/wp-includes/plugin.php(208): WP_Hook->apply_filters('Gracias. Tu ped...', Array)
+#2 /var/www/encremadas/wp-content/plugins/woocommerce/templates/checkout/thankyou.php(82): apply_filters('woocommerce_tha...', 'Gracias. Tu ped...', NULL)
+#3 /var/www/encremadas/wp-content/plugins/woocommerce/includes/wc-core-functions.php(249): include('/var/www/encrem...')
+#4 /var/www/encremadas/wp-content/plugins/woocommerce/includes/shortcodes/class-wc-shortcode-checkout.php(248): wc_get_template('checkout/thanky...', Array)
+#5 /var/www/encremadas/wp-content/plugins/woocommerce/includes/shortcodes/class-wc-shortcode-checkout.php(63): WC_Shortcode_Checkout::order_received(0)
+#6 /var/www/encremadas/wp-content/plugins/woocommer en /var/www/encremadas/wp-content/plugins/culqi-woocommerce-master/culqi-woocommerce.php en la línea 33
+
+2019-11-29T09:58:11+00:00 CRITICAL Uncaught Error: Call to a member function get_meta() on null in /var/www/encremadas/wp-content/plugins/culqi-woocommerce-master/culqi-woocommerce.php:33
+Stack trace:
+#0 /var/www/encremadas/wp-includes/class-wp-hook.php(286): woo_change_order_received_text('Gracias. Tu ped...', NULL)
+#1 /var/www/encremadas/wp-includes/plugin.php(208): WP_Hook->apply_filters('Gracias. Tu ped...', Array)
+#2 /var/www/encremadas/wp-content/plugins/woocommerce/templates/checkout/thankyou.php(82): apply_filters('woocommerce_tha...', 'Gracias. Tu ped...', NULL)
+#3 /var/www/encremadas/wp-content/plugins/woocommerce/includes/wc-core-functions.php(249): include('/var/www/encrem...')
+#4 /var/www/encremadas/wp-content/plugins/woocommerce/includes/shortcodes/class-wc-shortcode-checkout.php(248): wc_get_template('checkout/thanky...', Array)
+#5 /var/www/encremadas/wp-content/plugins/woocommerce/includes/shortcodes/class-wc-shortcode-checkout.php(63): WC_Shortcode_Checkout::order_received(0)
+#6 /var/www/encremadas/wp-content/plugins/woocommer en /var/www/encremadas/wp-content/plugins/culqi-woocommerce-master/culqi-woocommerce.php en la línea 33
+
+2019-11-29T09:58:21+00:00 CRITICAL Uncaught Error: Call to a member function get_meta() on null in /var/www/encremadas/wp-content/plugins/culqi-woocommerce-master/culqi-woocommerce.php:33
+Stack trace:
+#0 /var/www/encremadas/wp-includes/class-wp-hook.php(286): woo_change_order_received_text('Gracias. Tu ped...', NULL)
+#1 /var/www/encremadas/wp-includes/plugin.php(208): WP_Hook->apply_filters('Gracias. Tu ped...', Array)
+#2 /var/www/encremadas/wp-content/plugins/woocommerce/templates/checkout/thankyou.php(82): apply_filters('woocommerce_tha...', 'Gracias. Tu ped...', NULL)
+#3 /var/www/encremadas/wp-content/plugins/woocommerce/includes/wc-core-functions.php(249): include('/var/www/encrem...')
+#4 /var/www/encremadas/wp-content/plugins/woocommerce/includes/shortcodes/class-wc-shortcode-checkout.php(248): wc_get_template('checkout/thanky...', Array)
+#5 /var/www/encremadas/wp-content/plugins/woocommerce/includes/shortcodes/class-wc-shortcode-checkout.php(63): WC_Shortcode_Checkout::order_received(0)
+#6 /var/www/encremadas/wp-content/plugins/woocommer en /var/www/encremadas/wp-content/plugins/culqi-woocommerce-master/culqi-woocommerce.php en la línea 33
+
+2019-11-29T09:58:21+00:00 CRITICAL Uncaught Error: Call to a member function get_meta() on null in /var/www/encremadas/wp-content/plugins/culqi-woocommerce-master/culqi-woocommerce.php:33
+Stack trace:
+#0 /var/www/encremadas/wp-includes/class-wp-hook.php(286): woo_change_order_received_text('Gracias. Tu ped...', NULL)
+#1 /var/www/encremadas/wp-includes/plugin.php(208): WP_Hook->apply_filters('Gracias. Tu ped...', Array)
+#2 /var/www/encremadas/wp-content/plugins/woocommerce/templates/checkout/thankyou.php(82): apply_filters('woocommerce_tha...', 'Gracias. Tu ped...', NULL)
+#3 /var/www/encremadas/wp-content/plugins/woocommerce/includes/wc-core-functions.php(249): include('/var/www/encrem...')
+#4 /var/www/encremadas/wp-content/plugins/woocommerce/includes/shortcodes/class-wc-shortcode-checkout.php(248): wc_get_template('checkout/thanky...', Array)
+#5 /var/www/encremadas/wp-content/plugins/woocommerce/includes/shortcodes/class-wc-shortcode-checkout.php(63): WC_Shortcode_Checkout::order_received(0)
+#6 /var/www/encremadas/wp-content/plugins/woocommer en /var/www/encremadas/wp-content/plugins/culqi-woocommerce-master/culqi-woocommerce.php en la línea 33
+
+2019-11-29T10:00:24+00:00 CRITICAL Uncaught Error: Call to a member function get_meta() on null in /var/www/encremadas/wp-content/plugins/culqi-woocommerce-master/culqi-woocommerce.php:33
+Stack trace:
+#0 /var/www/encremadas/wp-includes/class-wp-hook.php(286): woo_change_order_received_text('Gracias. Tu ped...', NULL)
+#1 /var/www/encremadas/wp-includes/plugin.php(208): WP_Hook->apply_filters('Gracias. Tu ped...', Array)
+#2 /var/www/encremadas/wp-content/plugins/woocommerce/templates/checkout/thankyou.php(82): apply_filters('woocommerce_tha...', 'Gracias. Tu ped...', NULL)
+#3 /var/www/encremadas/wp-content/plugins/woocommerce/includes/wc-core-functions.php(249): include('/var/www/encrem...')
+#4 /var/www/encremadas/wp-content/plugins/woocommerce/includes/shortcodes/class-wc-shortcode-checkout.php(248): wc_get_template('checkout/thanky...', Array)
+#5 /var/www/encremadas/wp-content/plugins/woocommerce/includes/shortcodes/class-wc-shortcode-checkout.php(63): WC_Shortcode_Checkout::order_received(0)
+#6 /var/www/encremadas/wp-content/plugins/woocommer en /var/www/encremadas/wp-content/plugins/culqi-woocommerce-master/culqi-woocommerce.php en la línea 33
+
+2019-11-29T10:00:26+00:00 CRITICAL Uncaught Error: Call to a member function get_meta() on null in /var/www/encremadas/wp-content/plugins/culqi-woocommerce-master/culqi-woocommerce.php:33
+Stack trace:
+#0 /var/www/encremadas/wp-includes/class-wp-hook.php(286): woo_change_order_received_text('Gracias. Tu ped...', NULL)
+#1 /var/www/encremadas/wp-includes/plugin.php(208): WP_Hook->apply_filters('Gracias. Tu ped...', Array)
+#2 /var/www/encremadas/wp-content/plugins/woocommerce/templates/checkout/thankyou.php(82): apply_filters('woocommerce_tha...', 'Gracias. Tu ped...', NULL)
+#3 /var/www/encremadas/wp-content/plugins/woocommerce/includes/wc-core-functions.php(249): include('/var/www/encrem...')
+#4 /var/www/encremadas/wp-content/plugins/woocommerce/includes/shortcodes/class-wc-shortcode-checkout.php(248): wc_get_template('checkout/thanky...', Array)
+#5 /var/www/encremadas/wp-content/plugins/woocommerce/includes/shortcodes/class-wc-shortcode-checkout.php(63): WC_Shortcode_Checkout::order_received(0)
+#6 /var/www/encremadas/wp-content/plugins/woocommer en /var/www/encremadas/wp-content/plugins/culqi-woocommerce-master/culqi-woocommerce.php en la línea 33
+
+2019-11-29T10:00:34+00:00 CRITICAL Uncaught Error: Call to a member function get_meta() on null in /var/www/encremadas/wp-content/plugins/culqi-woocommerce-master/culqi-woocommerce.php:33
+Stack trace:
+#0 /var/www/encremadas/wp-includes/class-wp-hook.php(286): woo_change_order_received_text('Gracias. Tu ped...', NULL)
+#1 /var/www/encremadas/wp-includes/plugin.php(208): WP_Hook->apply_filters('Gracias. Tu ped...', Array)
+#2 /var/www/encremadas/wp-content/plugins/woocommerce/templates/checkout/thankyou.php(82): apply_filters('woocommerce_tha...', 'Gracias. Tu ped...', NULL)
+#3 /var/www/encremadas/wp-content/plugins/woocommerce/includes/wc-core-functions.php(249): include('/var/www/encrem...')
+#4 /var/www/encremadas/wp-content/plugins/woocommerce/includes/shortcodes/class-wc-shortcode-checkout.php(248): wc_get_template('checkout/thanky...', Array)
+#5 /var/www/encremadas/wp-content/plugins/woocommerce/includes/shortcodes/class-wc-shortcode-checkout.php(63): WC_Shortcode_Checkout::order_received(0)
+#6 /var/www/encremadas/wp-content/plugins/woocommer en /var/www/encremadas/wp-content/plugins/culqi-woocommerce-master/culqi-woocommerce.php en la línea 33
+
+2019-11-29T10:00:35+00:00 CRITICAL Uncaught Error: Call to a member function get_meta() on null in /var/www/encremadas/wp-content/plugins/culqi-woocommerce-master/culqi-woocommerce.php:33
+Stack trace:
+#0 /var/www/encremadas/wp-includes/class-wp-hook.php(286): woo_change_order_received_text('Gracias. Tu ped...', NULL)
+#1 /var/www/encremadas/wp-includes/plugin.php(208): WP_Hook->apply_filters('Gracias. Tu ped...', Array)
+#2 /var/www/encremadas/wp-content/plugins/woocommerce/templates/checkout/thankyou.php(82): apply_filters('woocommerce_tha...', 'Gracias. Tu ped...', NULL)
+#3 /var/www/encremadas/wp-content/plugins/woocommerce/includes/wc-core-functions.php(249): include('/var/www/encrem...')
+#4 /var/www/encremadas/wp-content/plugins/woocommerce/includes/shortcodes/class-wc-shortcode-checkout.php(248): wc_get_template('checkout/thanky...', Array)
+#5 /var/www/encremadas/wp-content/plugins/woocommerce/includes/shortcodes/class-wc-shortcode-checkout.php(63): WC_Shortcode_Checkout::order_received(0)
+#6 /var/www/encremadas/wp-content/plugins/woocommer en /var/www/encremadas/wp-content/plugins/culqi-woocommerce-master/culqi-woocommerce.php en la línea 33
+
+2019-11-29T10:00:38+00:00 CRITICAL Uncaught Error: Call to a member function get_meta() on null in /var/www/encremadas/wp-content/plugins/culqi-woocommerce-master/culqi-woocommerce.php:33
+Stack trace:
+#0 /var/www/encremadas/wp-includes/class-wp-hook.php(286): woo_change_order_received_text('Gracias. Tu ped...', NULL)
+#1 /var/www/encremadas/wp-includes/plugin.php(208): WP_Hook->apply_filters('Gracias. Tu ped...', Array)
+#2 /var/www/encremadas/wp-content/plugins/woocommerce/templates/checkout/thankyou.php(82): apply_filters('woocommerce_tha...', 'Gracias. Tu ped...', NULL)
+#3 /var/www/encremadas/wp-content/plugins/woocommerce/includes/wc-core-functions.php(249): include('/var/www/encrem...')
+#4 /var/www/encremadas/wp-content/plugins/woocommerce/includes/shortcodes/class-wc-shortcode-checkout.php(248): wc_get_template('checkout/thanky...', Array)
+#5 /var/www/encremadas/wp-content/plugins/woocommerce/includes/shortcodes/class-wc-shortcode-checkout.php(63): WC_Shortcode_Checkout::order_received(0)
+#6 /var/www/encremadas/wp-content/plugins/woocommer en /var/www/encremadas/wp-content/plugins/culqi-woocommerce-master/culqi-woocommerce.php en la línea 33
+
+2019-11-29T10:00:48+00:00 CRITICAL Uncaught Error: Call to a member function get_meta() on null in /var/www/encremadas/wp-content/plugins/culqi-woocommerce-master/culqi-woocommerce.php:33
+Stack trace:
+#0 /var/www/encremadas/wp-includes/class-wp-hook.php(286): woo_change_order_received_text('Gracias. Tu ped...', NULL)
+#1 /var/www/encremadas/wp-includes/plugin.php(208): WP_Hook->apply_filters('Gracias. Tu ped...', Array)
+#2 /var/www/encremadas/wp-content/plugins/woocommerce/templates/checkout/thankyou.php(82): apply_filters('woocommerce_tha...', 'Gracias. Tu ped...', NULL)
+#3 /var/www/encremadas/wp-content/plugins/woocommerce/includes/wc-core-functions.php(249): include('/var/www/encrem...')
+#4 /var/www/encremadas/wp-content/plugins/woocommerce/includes/shortcodes/class-wc-shortcode-checkout.php(248): wc_get_template('checkout/thanky...', Array)
+#5 /var/www/encremadas/wp-content/plugins/woocommerce/includes/shortcodes/class-wc-shortcode-checkout.php(63): WC_Shortcode_Checkout::order_received(0)
+#6 /var/www/encremadas/wp-content/plugins/woocommer en /var/www/encremadas/wp-content/plugins/culqi-woocommerce-master/culqi-woocommerce.php en la línea 33
+
+2019-11-29T10:00:50+00:00 CRITICAL Uncaught Error: Call to a member function get_meta() on null in /var/www/encremadas/wp-content/plugins/culqi-woocommerce-master/culqi-woocommerce.php:33
+Stack trace:
+#0 /var/www/encremadas/wp-includes/class-wp-hook.php(286): woo_change_order_received_text('Gracias. Tu ped...', NULL)
+#1 /var/www/encremadas/wp-includes/plugin.php(208): WP_Hook->apply_filters('Gracias. Tu ped...', Array)
+#2 /var/www/encremadas/wp-content/plugins/woocommerce/templates/checkout/thankyou.php(82): apply_filters('woocommerce_tha...', 'Gracias. Tu ped...', NULL)
+#3 /var/www/encremadas/wp-content/plugins/woocommerce/includes/wc-core-functions.php(249): include('/var/www/encrem...')
+#4 /var/www/encremadas/wp-content/plugins/woocommerce/includes/shortcodes/class-wc-shortcode-checkout.php(248): wc_get_template('checkout/thanky...', Array)
+#5 /var/www/encremadas/wp-content/plugins/woocommerce/includes/shortcodes/class-wc-shortcode-checkout.php(63): WC_Shortcode_Checkout::order_received(0)
+#6 /var/www/encremadas/wp-content/plugins/woocommer en /var/www/encremadas/wp-content/plugins/culqi-woocommerce-master/culqi-woocommerce.php en la línea 33
+
+2019-11-29T10:01:00+00:00 CRITICAL Uncaught Error: Call to a member function get_meta() on null in /var/www/encremadas/wp-content/plugins/culqi-woocommerce-master/culqi-woocommerce.php:33
+Stack trace:
+#0 /var/www/encremadas/wp-includes/class-wp-hook.php(286): woo_change_order_received_text('Gracias. Tu ped...', NULL)
+#1 /var/www/encremadas/wp-includes/plugin.php(208): WP_Hook->apply_filters('Gracias. Tu ped...', Array)
+#2 /var/www/encremadas/wp-content/plugins/woocommerce/templates/checkout/thankyou.php(82): apply_filters('woocommerce_tha...', 'Gracias. Tu ped...', NULL)
+#3 /var/www/encremadas/wp-content/plugins/woocommerce/includes/wc-core-functions.php(249): include('/var/www/encrem...')
+#4 /var/www/encremadas/wp-content/plugins/woocommerce/includes/shortcodes/class-wc-shortcode-checkout.php(248): wc_get_template('checkout/thanky...', Array)
+#5 /var/www/encremadas/wp-content/plugins/woocommerce/includes/shortcodes/class-wc-shortcode-checkout.php(63): WC_Shortcode_Checkout::order_received(0)
+#6 /var/www/encremadas/wp-content/plugins/woocommer en /var/www/encremadas/wp-content/plugins/culqi-woocommerce-master/culqi-woocommerce.php en la línea 33
+
+2019-11-29T10:01:17+00:00 CRITICAL Uncaught Error: Call to a member function get_meta() on null in /var/www/encremadas/wp-content/plugins/culqi-woocommerce-master/culqi-woocommerce.php:33
+Stack trace:
+#0 /var/www/encremadas/wp-includes/class-wp-hook.php(286): woo_change_order_received_text('Gracias. Tu ped...', NULL)
+#1 /var/www/encremadas/wp-includes/plugin.php(208): WP_Hook->apply_filters('Gracias. Tu ped...', Array)
+#2 /var/www/encremadas/wp-content/plugins/woocommerce/templates/checkout/thankyou.php(82): apply_filters('woocommerce_tha...', 'Gracias. Tu ped...', NULL)
+#3 /var/www/encremadas/wp-content/plugins/woocommerce/includes/wc-core-functions.php(249): include('/var/www/encrem...')
+#4 /var/www/encremadas/wp-content/plugins/woocommerce/includes/shortcodes/class-wc-shortcode-checkout.php(248): wc_get_template('checkout/thanky...', Array)
+#5 /var/www/encremadas/wp-content/plugins/woocommerce/includes/shortcodes/class-wc-shortcode-checkout.php(63): WC_Shortcode_Checkout::order_received(0)
+#6 /var/www/encremadas/wp-content/plugins/woocommer en /var/www/encremadas/wp-content/plugins/culqi-woocommerce-master/culqi-woocommerce.php en la línea 33
+
+2019-11-29T10:04:17+00:00 CRITICAL Uncaught Error: Call to a member function get_meta() on null in /var/www/encremadas/wp-content/plugins/culqi-woocommerce-master/culqi-woocommerce.php:33
+Stack trace:
+#0 /var/www/encremadas/wp-includes/class-wp-hook.php(286): woo_change_order_received_text('Gracias. Tu ped...', NULL)
+#1 /var/www/encremadas/wp-includes/plugin.php(208): WP_Hook->apply_filters('Gracias. Tu ped...', Array)
+#2 /var/www/encremadas/wp-content/plugins/woocommerce/templates/checkout/thankyou.php(82): apply_filters('woocommerce_tha...', 'Gracias. Tu ped...', NULL)
+#3 /var/www/encremadas/wp-content/plugins/woocommerce/includes/wc-core-functions.php(249): include('/var/www/encrem...')
+#4 /var/www/encremadas/wp-content/plugins/woocommerce/includes/shortcodes/class-wc-shortcode-checkout.php(248): wc_get_template('checkout/thanky...', Array)
+#5 /var/www/encremadas/wp-content/plugins/woocommerce/includes/shortcodes/class-wc-shortcode-checkout.php(63): WC_Shortcode_Checkout::order_received(0)
+#6 /var/www/encremadas/wp-content/plugins/woocommer en /var/www/encremadas/wp-content/plugins/culqi-woocommerce-master/culqi-woocommerce.php en la línea 33
+
+2019-11-29T10:04:22+00:00 CRITICAL Uncaught Error: Call to a member function get_meta() on null in /var/www/encremadas/wp-content/plugins/culqi-woocommerce-master/culqi-woocommerce.php:33
+Stack trace:
+#0 /var/www/encremadas/wp-includes/class-wp-hook.php(286): woo_change_order_received_text('Gracias. Tu ped...', NULL)
+#1 /var/www/encremadas/wp-includes/plugin.php(208): WP_Hook->apply_filters('Gracias. Tu ped...', Array)
+#2 /var/www/encremadas/wp-content/plugins/woocommerce/templates/checkout/thankyou.php(82): apply_filters('woocommerce_tha...', 'Gracias. Tu ped...', NULL)
+#3 /var/www/encremadas/wp-content/plugins/woocommerce/includes/wc-core-functions.php(249): include('/var/www/encrem...')
+#4 /var/www/encremadas/wp-content/plugins/woocommerce/includes/shortcodes/class-wc-shortcode-checkout.php(248): wc_get_template('checkout/thanky...', Array)
+#5 /var/www/encremadas/wp-content/plugins/woocommerce/includes/shortcodes/class-wc-shortcode-checkout.php(63): WC_Shortcode_Checkout::order_received(0)
+#6 /var/www/encremadas/wp-content/plugins/woocommer en /var/www/encremadas/wp-content/plugins/culqi-woocommerce-master/culqi-woocommerce.php en la línea 33
+
+2019-11-29T10:04:24+00:00 CRITICAL Uncaught Error: Call to a member function get_meta() on null in /var/www/encremadas/wp-content/plugins/culqi-woocommerce-master/culqi-woocommerce.php:33
+Stack trace:
+#0 /var/www/encremadas/wp-includes/class-wp-hook.php(286): woo_change_order_received_text('Gracias. Tu ped...', NULL)
+#1 /var/www/encremadas/wp-includes/plugin.php(208): WP_Hook->apply_filters('Gracias. Tu ped...', Array)
+#2 /var/www/encremadas/wp-content/plugins/woocommerce/templates/checkout/thankyou.php(82): apply_filters('woocommerce_tha...', 'Gracias. Tu ped...', NULL)
+#3 /var/www/encremadas/wp-content/plugins/woocommerce/includes/wc-core-functions.php(249): include('/var/www/encrem...')
+#4 /var/www/encremadas/wp-content/plugins/woocommerce/includes/shortcodes/class-wc-shortcode-checkout.php(248): wc_get_template('checkout/thanky...', Array)
+#5 /var/www/encremadas/wp-content/plugins/woocommerce/includes/shortcodes/class-wc-shortcode-checkout.php(63): WC_Shortcode_Checkout::order_received(0)
+#6 /var/www/encremadas/wp-content/plugins/woocommer en /var/www/encremadas/wp-content/plugins/culqi-woocommerce-master/culqi-woocommerce.php en la línea 33
+
+2019-11-29T10:04:26+00:00 CRITICAL Uncaught Error: Call to a member function get_meta() on null in /var/www/encremadas/wp-content/plugins/culqi-woocommerce-master/culqi-woocommerce.php:33
+Stack trace:
+#0 /var/www/encremadas/wp-includes/class-wp-hook.php(286): woo_change_order_received_text('Gracias. Tu ped...', NULL)
+#1 /var/www/encremadas/wp-includes/plugin.php(208): WP_Hook->apply_filters('Gracias. Tu ped...', Array)
+#2 /var/www/encremadas/wp-content/plugins/woocommerce/templates/checkout/thankyou.php(82): apply_filters('woocommerce_tha...', 'Gracias. Tu ped...', NULL)
+#3 /var/www/encremadas/wp-content/plugins/woocommerce/includes/wc-core-functions.php(249): include('/var/www/encrem...')
+#4 /var/www/encremadas/wp-content/plugins/woocommerce/includes/shortcodes/class-wc-shortcode-checkout.php(248): wc_get_template('checkout/thanky...', Array)
+#5 /var/www/encremadas/wp-content/plugins/woocommerce/includes/shortcodes/class-wc-shortcode-checkout.php(63): WC_Shortcode_Checkout::order_received(0)
+#6 /var/www/encremadas/wp-content/plugins/woocommer en /var/www/encremadas/wp-content/plugins/culqi-woocommerce-master/culqi-woocommerce.php en la línea 33
+
+2019-11-29T10:04:34+00:00 CRITICAL Uncaught Error: Call to a member function get_meta() on null in /var/www/encremadas/wp-content/plugins/culqi-woocommerce-master/culqi-woocommerce.php:33
+Stack trace:
+#0 /var/www/encremadas/wp-includes/class-wp-hook.php(286): woo_change_order_received_text('Gracias. Tu ped...', NULL)
+#1 /var/www/encremadas/wp-includes/plugin.php(208): WP_Hook->apply_filters('Gracias. Tu ped...', Array)
+#2 /var/www/encremadas/wp-content/plugins/woocommerce/templates/checkout/thankyou.php(82): apply_filters('woocommerce_tha...', 'Gracias. Tu ped...', NULL)
+#3 /var/www/encremadas/wp-content/plugins/woocommerce/includes/wc-core-functions.php(249): include('/var/www/encrem...')
+#4 /var/www/encremadas/wp-content/plugins/woocommerce/includes/shortcodes/class-wc-shortcode-checkout.php(248): wc_get_template('checkout/thanky...', Array)
+#5 /var/www/encremadas/wp-content/plugins/woocommerce/includes/shortcodes/class-wc-shortcode-checkout.php(63): WC_Shortcode_Checkout::order_received(0)
+#6 /var/www/encremadas/wp-content/plugins/woocommer en /var/www/encremadas/wp-content/plugins/culqi-woocommerce-master/culqi-woocommerce.php en la línea 33
+
+2019-11-29T10:04:39+00:00 CRITICAL Uncaught Error: Call to a member function get_meta() on null in /var/www/encremadas/wp-content/plugins/culqi-woocommerce-master/culqi-woocommerce.php:33
+Stack trace:
+#0 /var/www/encremadas/wp-includes/class-wp-hook.php(286): woo_change_order_received_text('Gracias. Tu ped...', NULL)
+#1 /var/www/encremadas/wp-includes/plugin.php(208): WP_Hook->apply_filters('Gracias. Tu ped...', Array)
+#2 /var/www/encremadas/wp-content/plugins/woocommerce/templates/checkout/thankyou.php(82): apply_filters('woocommerce_tha...', 'Gracias. Tu ped...', NULL)
+#3 /var/www/encremadas/wp-content/plugins/woocommerce/includes/wc-core-functions.php(249): include('/var/www/encrem...')
+#4 /var/www/encremadas/wp-content/plugins/woocommerce/includes/shortcodes/class-wc-shortcode-checkout.php(248): wc_get_template('checkout/thanky...', Array)
+#5 /var/www/encremadas/wp-content/plugins/woocommerce/includes/shortcodes/class-wc-shortcode-checkout.php(63): WC_Shortcode_Checkout::order_received(0)
+#6 /var/www/encremadas/wp-content/plugins/woocommer en /var/www/encremadas/wp-content/plugins/culqi-woocommerce-master/culqi-woocommerce.php en la línea 33
+
+2019-11-29T10:04:41+00:00 CRITICAL Uncaught Error: Call to a member function get_meta() on null in /var/www/encremadas/wp-content/plugins/culqi-woocommerce-master/culqi-woocommerce.php:33
+Stack trace:
+#0 /var/www/encremadas/wp-includes/class-wp-hook.php(286): woo_change_order_received_text('Gracias. Tu ped...', NULL)
+#1 /var/www/encremadas/wp-includes/plugin.php(208): WP_Hook->apply_filters('Gracias. Tu ped...', Array)
+#2 /var/www/encremadas/wp-content/plugins/woocommerce/templates/checkout/thankyou.php(82): apply_filters('woocommerce_tha...', 'Gracias. Tu ped...', NULL)
+#3 /var/www/encremadas/wp-content/plugins/woocommerce/includes/wc-core-functions.php(249): include('/var/www/encrem...')
+#4 /var/www/encremadas/wp-content/plugins/woocommerce/includes/shortcodes/class-wc-shortcode-checkout.php(248): wc_get_template('checkout/thanky...', Array)
+#5 /var/www/encremadas/wp-content/plugins/woocommerce/includes/shortcodes/class-wc-shortcode-checkout.php(63): WC_Shortcode_Checkout::order_received(0)
+#6 /var/www/encremadas/wp-content/plugins/woocommer en /var/www/encremadas/wp-content/plugins/culqi-woocommerce-master/culqi-woocommerce.php en la línea 33
+
+2019-11-29T10:04:44+00:00 CRITICAL Uncaught Error: Call to a member function get_meta() on null in /var/www/encremadas/wp-content/plugins/culqi-woocommerce-master/culqi-woocommerce.php:33
+Stack trace:
+#0 /var/www/encremadas/wp-includes/class-wp-hook.php(286): woo_change_order_received_text('Gracias. Tu ped...', NULL)
+#1 /var/www/encremadas/wp-includes/plugin.php(208): WP_Hook->apply_filters('Gracias. Tu ped...', Array)
+#2 /var/www/encremadas/wp-content/plugins/woocommerce/templates/checkout/thankyou.php(82): apply_filters('woocommerce_tha...', 'Gracias. Tu ped...', NULL)
+#3 /var/www/encremadas/wp-content/plugins/woocommerce/includes/wc-core-functions.php(249): include('/var/www/encrem...')
+#4 /var/www/encremadas/wp-content/plugins/woocommerce/includes/shortcodes/class-wc-shortcode-checkout.php(248): wc_get_template('checkout/thanky...', Array)
+#5 /var/www/encremadas/wp-content/plugins/woocommerce/includes/shortcodes/class-wc-shortcode-checkout.php(63): WC_Shortcode_Checkout::order_received(0)
+#6 /var/www/encremadas/wp-content/plugins/woocommer en /var/www/encremadas/wp-content/plugins/culqi-woocommerce-master/culqi-woocommerce.php en la línea 33
+
+2019-11-29T10:04:57+00:00 CRITICAL Uncaught Error: Call to a member function get_meta() on null in /var/www/encremadas/wp-content/plugins/culqi-woocommerce-master/culqi-woocommerce.php:33
+Stack trace:
+#0 /var/www/encremadas/wp-includes/class-wp-hook.php(286): woo_change_order_received_text('Gracias. Tu ped...', NULL)
+#1 /var/www/encremadas/wp-includes/plugin.php(208): WP_Hook->apply_filters('Gracias. Tu ped...', Array)
+#2 /var/www/encremadas/wp-content/plugins/woocommerce/templates/checkout/thankyou.php(82): apply_filters('woocommerce_tha...', 'Gracias. Tu ped...', NULL)
+#3 /var/www/encremadas/wp-content/plugins/woocommerce/includes/wc-core-functions.php(249): include('/var/www/encrem...')
+#4 /var/www/encremadas/wp-content/plugins/woocommerce/includes/shortcodes/class-wc-shortcode-checkout.php(248): wc_get_template('checkout/thanky...', Array)
+#5 /var/www/encremadas/wp-content/plugins/woocommerce/includes/shortcodes/class-wc-shortcode-checkout.php(63): WC_Shortcode_Checkout::order_received(0)
+#6 /var/www/encremadas/wp-content/plugins/woocommer en /var/www/encremadas/wp-content/plugins/culqi-woocommerce-master/culqi-woocommerce.php en la línea 33
+
+2019-11-29T10:07:15+00:00 CRITICAL Uncaught Error: Call to a member function get_meta() on null in /var/www/encremadas/wp-content/plugins/culqi-woocommerce-master/culqi-woocommerce.php:33
+Stack trace:
+#0 /var/www/encremadas/wp-includes/class-wp-hook.php(286): woo_change_order_received_text('Gracias. Tu ped...', NULL)
+#1 /var/www/encremadas/wp-includes/plugin.php(208): WP_Hook->apply_filters('Gracias. Tu ped...', Array)
+#2 /var/www/encremadas/wp-content/plugins/woocommerce/templates/checkout/thankyou.php(82): apply_filters('woocommerce_tha...', 'Gracias. Tu ped...', NULL)
+#3 /var/www/encremadas/wp-content/plugins/woocommerce/includes/wc-core-functions.php(249): include('/var/www/encrem...')
+#4 /var/www/encremadas/wp-content/plugins/woocommerce/includes/shortcodes/class-wc-shortcode-checkout.php(248): wc_get_template('checkout/thanky...', Array)
+#5 /var/www/encremadas/wp-content/plugins/woocommerce/includes/shortcodes/class-wc-shortcode-checkout.php(63): WC_Shortcode_Checkout::order_received(0)
+#6 /var/www/encremadas/wp-content/plugins/woocommer en /var/www/encremadas/wp-content/plugins/culqi-woocommerce-master/culqi-woocommerce.php en la línea 33
+
+2019-11-29T10:07:25+00:00 CRITICAL Uncaught Error: Call to a member function get_meta() on null in /var/www/encremadas/wp-content/plugins/culqi-woocommerce-master/culqi-woocommerce.php:33
+Stack trace:
+#0 /var/www/encremadas/wp-includes/class-wp-hook.php(286): woo_change_order_received_text('Gracias. Tu ped...', NULL)
+#1 /var/www/encremadas/wp-includes/plugin.php(208): WP_Hook->apply_filters('Gracias. Tu ped...', Array)
+#2 /var/www/encremadas/wp-content/plugins/woocommerce/templates/checkout/thankyou.php(82): apply_filters('woocommerce_tha...', 'Gracias. Tu ped...', NULL)
+#3 /var/www/encremadas/wp-content/plugins/woocommerce/includes/wc-core-functions.php(249): include('/var/www/encrem...')
+#4 /var/www/encremadas/wp-content/plugins/woocommerce/includes/shortcodes/class-wc-shortcode-checkout.php(248): wc_get_template('checkout/thanky...', Array)
+#5 /var/www/encremadas/wp-content/plugins/woocommerce/includes/shortcodes/class-wc-shortcode-checkout.php(63): WC_Shortcode_Checkout::order_received(0)
+#6 /var/www/encremadas/wp-content/plugins/woocommer en /var/www/encremadas/wp-content/plugins/culqi-woocommerce-master/culqi-woocommerce.php en la línea 33
+
+2019-11-29T10:07:26+00:00 CRITICAL Uncaught Error: Call to a member function get_meta() on null in /var/www/encremadas/wp-content/plugins/culqi-woocommerce-master/culqi-woocommerce.php:33
+Stack trace:
+#0 /var/www/encremadas/wp-includes/class-wp-hook.php(286): woo_change_order_received_text('Gracias. Tu ped...', NULL)
+#1 /var/www/encremadas/wp-includes/plugin.php(208): WP_Hook->apply_filters('Gracias. Tu ped...', Array)
+#2 /var/www/encremadas/wp-content/plugins/woocommerce/templates/checkout/thankyou.php(82): apply_filters('woocommerce_tha...', 'Gracias. Tu ped...', NULL)
+#3 /var/www/encremadas/wp-content/plugins/woocommerce/includes/wc-core-functions.php(249): include('/var/www/encrem...')
+#4 /var/www/encremadas/wp-content/plugins/woocommerce/includes/shortcodes/class-wc-shortcode-checkout.php(248): wc_get_template('checkout/thanky...', Array)
+#5 /var/www/encremadas/wp-content/plugins/woocommerce/includes/shortcodes/class-wc-shortcode-checkout.php(63): WC_Shortcode_Checkout::order_received(0)
+#6 /var/www/encremadas/wp-content/plugins/woocommer en /var/www/encremadas/wp-content/plugins/culqi-woocommerce-master/culqi-woocommerce.php en la línea 33
+
+2019-11-29T10:07:28+00:00 CRITICAL Uncaught Error: Call to a member function get_meta() on null in /var/www/encremadas/wp-content/plugins/culqi-woocommerce-master/culqi-woocommerce.php:33
+Stack trace:
+#0 /var/www/encremadas/wp-includes/class-wp-hook.php(286): woo_change_order_received_text('Gracias. Tu ped...', NULL)
+#1 /var/www/encremadas/wp-includes/plugin.php(208): WP_Hook->apply_filters('Gracias. Tu ped...', Array)
+#2 /var/www/encremadas/wp-content/plugins/woocommerce/templates/checkout/thankyou.php(82): apply_filters('woocommerce_tha...', 'Gracias. Tu ped...', NULL)
+#3 /var/www/encremadas/wp-content/plugins/woocommerce/includes/wc-core-functions.php(249): include('/var/www/encrem...')
+#4 /var/www/encremadas/wp-content/plugins/woocommerce/includes/shortcodes/class-wc-shortcode-checkout.php(248): wc_get_template('checkout/thanky...', Array)
+#5 /var/www/encremadas/wp-content/plugins/woocommerce/includes/shortcodes/class-wc-shortcode-checkout.php(63): WC_Shortcode_Checkout::order_received(0)
+#6 /var/www/encremadas/wp-content/plugins/woocommer en /var/www/encremadas/wp-content/plugins/culqi-woocommerce-master/culqi-woocommerce.php en la línea 33
+
+2019-11-29T10:07:34+00:00 CRITICAL Uncaught Error: Call to a member function get_meta() on null in /var/www/encremadas/wp-content/plugins/culqi-woocommerce-master/culqi-woocommerce.php:33
+Stack trace:
+#0 /var/www/encremadas/wp-includes/class-wp-hook.php(286): woo_change_order_received_text('Gracias. Tu ped...', NULL)
+#1 /var/www/encremadas/wp-includes/plugin.php(208): WP_Hook->apply_filters('Gracias. Tu ped...', Array)
+#2 /var/www/encremadas/wp-content/plugins/woocommerce/templates/checkout/thankyou.php(82): apply_filters('woocommerce_tha...', 'Gracias. Tu ped...', NULL)
+#3 /var/www/encremadas/wp-content/plugins/woocommerce/includes/wc-core-functions.php(249): include('/var/www/encrem...')
+#4 /var/www/encremadas/wp-content/plugins/woocommerce/includes/shortcodes/class-wc-shortcode-checkout.php(248): wc_get_template('checkout/thanky...', Array)
+#5 /var/www/encremadas/wp-content/plugins/woocommerce/includes/shortcodes/class-wc-shortcode-checkout.php(63): WC_Shortcode_Checkout::order_received(0)
+#6 /var/www/encremadas/wp-content/plugins/woocommer en /var/www/encremadas/wp-content/plugins/culqi-woocommerce-master/culqi-woocommerce.php en la línea 33
+
+2019-11-29T10:07:38+00:00 CRITICAL Uncaught Error: Call to a member function get_meta() on null in /var/www/encremadas/wp-content/plugins/culqi-woocommerce-master/culqi-woocommerce.php:33
+Stack trace:
+#0 /var/www/encremadas/wp-includes/class-wp-hook.php(286): woo_change_order_received_text('Gracias. Tu ped...', NULL)
+#1 /var/www/encremadas/wp-includes/plugin.php(208): WP_Hook->apply_filters('Gracias. Tu ped...', Array)
+#2 /var/www/encremadas/wp-content/plugins/woocommerce/templates/checkout/thankyou.php(82): apply_filters('woocommerce_tha...', 'Gracias. Tu ped...', NULL)
+#3 /var/www/encremadas/wp-content/plugins/woocommerce/includes/wc-core-functions.php(249): include('/var/www/encrem...')
+#4 /var/www/encremadas/wp-content/plugins/woocommerce/includes/shortcodes/class-wc-shortcode-checkout.php(248): wc_get_template('checkout/thanky...', Array)
+#5 /var/www/encremadas/wp-content/plugins/woocommerce/includes/shortcodes/class-wc-shortcode-checkout.php(63): WC_Shortcode_Checkout::order_received(0)
+#6 /var/www/encremadas/wp-content/plugins/woocommer en /var/www/encremadas/wp-content/plugins/culqi-woocommerce-master/culqi-woocommerce.php en la línea 33
+
+2019-11-29T10:07:38+00:00 CRITICAL Uncaught Error: Call to a member function get_meta() on null in /var/www/encremadas/wp-content/plugins/culqi-woocommerce-master/culqi-woocommerce.php:33
+Stack trace:
+#0 /var/www/encremadas/wp-includes/class-wp-hook.php(286): woo_change_order_received_text('Gracias. Tu ped...', NULL)
+#1 /var/www/encremadas/wp-includes/plugin.php(208): WP_Hook->apply_filters('Gracias. Tu ped...', Array)
+#2 /var/www/encremadas/wp-content/plugins/woocommerce/templates/checkout/thankyou.php(82): apply_filters('woocommerce_tha...', 'Gracias. Tu ped...', NULL)
+#3 /var/www/encremadas/wp-content/plugins/woocommerce/includes/wc-core-functions.php(249): include('/var/www/encrem...')
+#4 /var/www/encremadas/wp-content/plugins/woocommerce/includes/shortcodes/class-wc-shortcode-checkout.php(248): wc_get_template('checkout/thanky...', Array)
+#5 /var/www/encremadas/wp-content/plugins/woocommerce/includes/shortcodes/class-wc-shortcode-checkout.php(63): WC_Shortcode_Checkout::order_received(0)
+#6 /var/www/encremadas/wp-content/plugins/woocommer en /var/www/encremadas/wp-content/plugins/culqi-woocommerce-master/culqi-woocommerce.php en la línea 33
+
+2019-11-29T10:07:45+00:00 CRITICAL Uncaught Error: Call to a member function get_meta() on null in /var/www/encremadas/wp-content/plugins/culqi-woocommerce-master/culqi-woocommerce.php:33
+Stack trace:
+#0 /var/www/encremadas/wp-includes/class-wp-hook.php(286): woo_change_order_received_text('Gracias. Tu ped...', NULL)
+#1 /var/www/encremadas/wp-includes/plugin.php(208): WP_Hook->apply_filters('Gracias. Tu ped...', Array)
+#2 /var/www/encremadas/wp-content/plugins/woocommerce/templates/checkout/thankyou.php(82): apply_filters('woocommerce_tha...', 'Gracias. Tu ped...', NULL)
+#3 /var/www/encremadas/wp-content/plugins/woocommerce/includes/wc-core-functions.php(249): include('/var/www/encrem...')
+#4 /var/www/encremadas/wp-content/plugins/woocommerce/includes/shortcodes/class-wc-shortcode-checkout.php(248): wc_get_template('checkout/thanky...', Array)
+#5 /var/www/encremadas/wp-content/plugins/woocommerce/includes/shortcodes/class-wc-shortcode-checkout.php(63): WC_Shortcode_Checkout::order_received(0)
+#6 /var/www/encremadas/wp-content/plugins/woocommer en /var/www/encremadas/wp-content/plugins/culqi-woocommerce-master/culqi-woocommerce.php en la línea 33
+
+2019-11-29T10:07:50+00:00 CRITICAL Uncaught Error: Call to a member function get_meta() on null in /var/www/encremadas/wp-content/plugins/culqi-woocommerce-master/culqi-woocommerce.php:33
+Stack trace:
+#0 /var/www/encremadas/wp-includes/class-wp-hook.php(286): woo_change_order_received_text('Gracias. Tu ped...', NULL)
+#1 /var/www/encremadas/wp-includes/plugin.php(208): WP_Hook->apply_filters('Gracias. Tu ped...', Array)
+#2 /var/www/encremadas/wp-content/plugins/woocommerce/templates/checkout/thankyou.php(82): apply_filters('woocommerce_tha...', 'Gracias. Tu ped...', NULL)
+#3 /var/www/encremadas/wp-content/plugins/woocommerce/includes/wc-core-functions.php(249): include('/var/www/encrem...')
+#4 /var/www/encremadas/wp-content/plugins/woocommerce/includes/shortcodes/class-wc-shortcode-checkout.php(248): wc_get_template('checkout/thanky...', Array)
+#5 /var/www/encremadas/wp-content/plugins/woocommerce/includes/shortcodes/class-wc-shortcode-checkout.php(63): WC_Shortcode_Checkout::order_received(0)
+#6 /var/www/encremadas/wp-content/plugins/woocommer en /var/www/encremadas/wp-content/plugins/culqi-woocommerce-master/culqi-woocommerce.php en la línea 33
+
+2019-11-29T10:11:40+00:00 CRITICAL Uncaught Error: Call to a member function get_meta() on null in /var/www/encremadas/wp-content/plugins/culqi-woocommerce-master/culqi-woocommerce.php:33
+Stack trace:
+#0 /var/www/encremadas/wp-includes/class-wp-hook.php(286): woo_change_order_received_text('Gracias. Tu ped...', NULL)
+#1 /var/www/encremadas/wp-includes/plugin.php(208): WP_Hook->apply_filters('Gracias. Tu ped...', Array)
+#2 /var/www/encremadas/wp-content/plugins/woocommerce/templates/checkout/thankyou.php(82): apply_filters('woocommerce_tha...', 'Gracias. Tu ped...', NULL)
+#3 /var/www/encremadas/wp-content/plugins/woocommerce/includes/wc-core-functions.php(249): include('/var/www/encrem...')
+#4 /var/www/encremadas/wp-content/plugins/woocommerce/includes/shortcodes/class-wc-shortcode-checkout.php(248): wc_get_template('checkout/thanky...', Array)
+#5 /var/www/encremadas/wp-content/plugins/woocommerce/includes/shortcodes/class-wc-shortcode-checkout.php(63): WC_Shortcode_Checkout::order_received(0)
+#6 /var/www/encremadas/wp-content/plugins/woocommer en /var/www/encremadas/wp-content/plugins/culqi-woocommerce-master/culqi-woocommerce.php en la línea 33
+
+2019-11-29T10:11:42+00:00 CRITICAL Uncaught Error: Call to a member function get_meta() on null in /var/www/encremadas/wp-content/plugins/culqi-woocommerce-master/culqi-woocommerce.php:33
+Stack trace:
+#0 /var/www/encremadas/wp-includes/class-wp-hook.php(286): woo_change_order_received_text('Gracias. Tu ped...', NULL)
+#1 /var/www/encremadas/wp-includes/plugin.php(208): WP_Hook->apply_filters('Gracias. Tu ped...', Array)
+#2 /var/www/encremadas/wp-content/plugins/woocommerce/templates/checkout/thankyou.php(82): apply_filters('woocommerce_tha...', 'Gracias. Tu ped...', NULL)
+#3 /var/www/encremadas/wp-content/plugins/woocommerce/includes/wc-core-functions.php(249): include('/var/www/encrem...')
+#4 /var/www/encremadas/wp-content/plugins/woocommerce/includes/shortcodes/class-wc-shortcode-checkout.php(248): wc_get_template('checkout/thanky...', Array)
+#5 /var/www/encremadas/wp-content/plugins/woocommerce/includes/shortcodes/class-wc-shortcode-checkout.php(63): WC_Shortcode_Checkout::order_received(0)
+#6 /var/www/encremadas/wp-content/plugins/woocommer en /var/www/encremadas/wp-content/plugins/culqi-woocommerce-master/culqi-woocommerce.php en la línea 33
+
+2019-11-29T10:11:43+00:00 CRITICAL Uncaught Error: Call to a member function get_meta() on null in /var/www/encremadas/wp-content/plugins/culqi-woocommerce-master/culqi-woocommerce.php:33
+Stack trace:
+#0 /var/www/encremadas/wp-includes/class-wp-hook.php(286): woo_change_order_received_text('Gracias. Tu ped...', NULL)
+#1 /var/www/encremadas/wp-includes/plugin.php(208): WP_Hook->apply_filters('Gracias. Tu ped...', Array)
+#2 /var/www/encremadas/wp-content/plugins/woocommerce/templates/checkout/thankyou.php(82): apply_filters('woocommerce_tha...', 'Gracias. Tu ped...', NULL)
+#3 /var/www/encremadas/wp-content/plugins/woocommerce/includes/wc-core-functions.php(249): include('/var/www/encrem...')
+#4 /var/www/encremadas/wp-content/plugins/woocommerce/includes/shortcodes/class-wc-shortcode-checkout.php(248): wc_get_template('checkout/thanky...', Array)
+#5 /var/www/encremadas/wp-content/plugins/woocommerce/includes/shortcodes/class-wc-shortcode-checkout.php(63): WC_Shortcode_Checkout::order_received(0)
+#6 /var/www/encremadas/wp-content/plugins/woocommer en /var/www/encremadas/wp-content/plugins/culqi-woocommerce-master/culqi-woocommerce.php en la línea 33
+
+2019-11-29T10:11:48+00:00 CRITICAL Uncaught Error: Call to a member function get_meta() on null in /var/www/encremadas/wp-content/plugins/culqi-woocommerce-master/culqi-woocommerce.php:33
+Stack trace:
+#0 /var/www/encremadas/wp-includes/class-wp-hook.php(286): woo_change_order_received_text('Gracias. Tu ped...', NULL)
+#1 /var/www/encremadas/wp-includes/plugin.php(208): WP_Hook->apply_filters('Gracias. Tu ped...', Array)
+#2 /var/www/encremadas/wp-content/plugins/woocommerce/templates/checkout/thankyou.php(82): apply_filters('woocommerce_tha...', 'Gracias. Tu ped...', NULL)
+#3 /var/www/encremadas/wp-content/plugins/woocommerce/includes/wc-core-functions.php(249): include('/var/www/encrem...')
+#4 /var/www/encremadas/wp-content/plugins/woocommerce/includes/shortcodes/class-wc-shortcode-checkout.php(248): wc_get_template('checkout/thanky...', Array)
+#5 /var/www/encremadas/wp-content/plugins/woocommerce/includes/shortcodes/class-wc-shortcode-checkout.php(63): WC_Shortcode_Checkout::order_received(0)
+#6 /var/www/encremadas/wp-content/plugins/woocommer en /var/www/encremadas/wp-content/plugins/culqi-woocommerce-master/culqi-woocommerce.php en la línea 33
+
+2019-11-29T10:11:57+00:00 CRITICAL Uncaught Error: Call to a member function get_meta() on null in /var/www/encremadas/wp-content/plugins/culqi-woocommerce-master/culqi-woocommerce.php:33
+Stack trace:
+#0 /var/www/encremadas/wp-includes/class-wp-hook.php(286): woo_change_order_received_text('Gracias. Tu ped...', NULL)
+#1 /var/www/encremadas/wp-includes/plugin.php(208): WP_Hook->apply_filters('Gracias. Tu ped...', Array)
+#2 /var/www/encremadas/wp-content/plugins/woocommerce/templates/checkout/thankyou.php(82): apply_filters('woocommerce_tha...', 'Gracias. Tu ped...', NULL)
+#3 /var/www/encremadas/wp-content/plugins/woocommerce/includes/wc-core-functions.php(249): include('/var/www/encrem...')
+#4 /var/www/encremadas/wp-content/plugins/woocommerce/includes/shortcodes/class-wc-shortcode-checkout.php(248): wc_get_template('checkout/thanky...', Array)
+#5 /var/www/encremadas/wp-content/plugins/woocommerce/includes/shortcodes/class-wc-shortcode-checkout.php(63): WC_Shortcode_Checkout::order_received(0)
+#6 /var/www/encremadas/wp-content/plugins/woocommer en /var/www/encremadas/wp-content/plugins/culqi-woocommerce-master/culqi-woocommerce.php en la línea 33
+
+2019-11-29T10:11:57+00:00 CRITICAL Uncaught Error: Call to a member function get_meta() on null in /var/www/encremadas/wp-content/plugins/culqi-woocommerce-master/culqi-woocommerce.php:33
+Stack trace:
+#0 /var/www/encremadas/wp-includes/class-wp-hook.php(286): woo_change_order_received_text('Gracias. Tu ped...', NULL)
+#1 /var/www/encremadas/wp-includes/plugin.php(208): WP_Hook->apply_filters('Gracias. Tu ped...', Array)
+#2 /var/www/encremadas/wp-content/plugins/woocommerce/templates/checkout/thankyou.php(82): apply_filters('woocommerce_tha...', 'Gracias. Tu ped...', NULL)
+#3 /var/www/encremadas/wp-content/plugins/woocommerce/includes/wc-core-functions.php(249): include('/var/www/encrem...')
+#4 /var/www/encremadas/wp-content/plugins/woocommerce/includes/shortcodes/class-wc-shortcode-checkout.php(248): wc_get_template('checkout/thanky...', Array)
+#5 /var/www/encremadas/wp-content/plugins/woocommerce/includes/shortcodes/class-wc-shortcode-checkout.php(63): WC_Shortcode_Checkout::order_received(0)
+#6 /var/www/encremadas/wp-content/plugins/woocommer en /var/www/encremadas/wp-content/plugins/culqi-woocommerce-master/culqi-woocommerce.php en la línea 33
+
+2019-11-29T10:12:04+00:00 CRITICAL Uncaught Error: Call to a member function get_meta() on null in /var/www/encremadas/wp-content/plugins/culqi-woocommerce-master/culqi-woocommerce.php:33
+Stack trace:
+#0 /var/www/encremadas/wp-includes/class-wp-hook.php(286): woo_change_order_received_text('Gracias. Tu ped...', NULL)
+#1 /var/www/encremadas/wp-includes/plugin.php(208): WP_Hook->apply_filters('Gracias. Tu ped...', Array)
+#2 /var/www/encremadas/wp-content/plugins/woocommerce/templates/checkout/thankyou.php(82): apply_filters('woocommerce_tha...', 'Gracias. Tu ped...', NULL)
+#3 /var/www/encremadas/wp-content/plugins/woocommerce/includes/wc-core-functions.php(249): include('/var/www/encrem...')
+#4 /var/www/encremadas/wp-content/plugins/woocommerce/includes/shortcodes/class-wc-shortcode-checkout.php(248): wc_get_template('checkout/thanky...', Array)
+#5 /var/www/encremadas/wp-content/plugins/woocommerce/includes/shortcodes/class-wc-shortcode-checkout.php(63): WC_Shortcode_Checkout::order_received(0)
+#6 /var/www/encremadas/wp-content/plugins/woocommer en /var/www/encremadas/wp-content/plugins/culqi-woocommerce-master/culqi-woocommerce.php en la línea 33
+
+2019-11-29T10:12:08+00:00 CRITICAL Uncaught Error: Call to a member function get_meta() on null in /var/www/encremadas/wp-content/plugins/culqi-woocommerce-master/culqi-woocommerce.php:33
+Stack trace:
+#0 /var/www/encremadas/wp-includes/class-wp-hook.php(286): woo_change_order_received_text('Gracias. Tu ped...', NULL)
+#1 /var/www/encremadas/wp-includes/plugin.php(208): WP_Hook->apply_filters('Gracias. Tu ped...', Array)
+#2 /var/www/encremadas/wp-content/plugins/woocommerce/templates/checkout/thankyou.php(82): apply_filters('woocommerce_tha...', 'Gracias. Tu ped...', NULL)
+#3 /var/www/encremadas/wp-content/plugins/woocommerce/includes/wc-core-functions.php(249): include('/var/www/encrem...')
+#4 /var/www/encremadas/wp-content/plugins/woocommerce/includes/shortcodes/class-wc-shortcode-checkout.php(248): wc_get_template('checkout/thanky...', Array)
+#5 /var/www/encremadas/wp-content/plugins/woocommerce/includes/shortcodes/class-wc-shortcode-checkout.php(63): WC_Shortcode_Checkout::order_received(0)
+#6 /var/www/encremadas/wp-content/plugins/woocommer en /var/www/encremadas/wp-content/plugins/culqi-woocommerce-master/culqi-woocommerce.php en la línea 33
+
+2019-11-29T10:12:14+00:00 CRITICAL Uncaught Error: Call to a member function get_meta() on null in /var/www/encremadas/wp-content/plugins/culqi-woocommerce-master/culqi-woocommerce.php:33
+Stack trace:
+#0 /var/www/encremadas/wp-includes/class-wp-hook.php(286): woo_change_order_received_text('Gracias. Tu ped...', NULL)
+#1 /var/www/encremadas/wp-includes/plugin.php(208): WP_Hook->apply_filters('Gracias. Tu ped...', Array)
+#2 /var/www/encremadas/wp-content/plugins/woocommerce/templates/checkout/thankyou.php(82): apply_filters('woocommerce_tha...', 'Gracias. Tu ped...', NULL)
+#3 /var/www/encremadas/wp-content/plugins/woocommerce/includes/wc-core-functions.php(249): include('/var/www/encrem...')
+#4 /var/www/encremadas/wp-content/plugins/woocommerce/includes/shortcodes/class-wc-shortcode-checkout.php(248): wc_get_template('checkout/thanky...', Array)
+#5 /var/www/encremadas/wp-content/plugins/woocommerce/includes/shortcodes/class-wc-shortcode-checkout.php(63): WC_Shortcode_Checkout::order_received(0)
+#6 /var/www/encremadas/wp-content/plugins/woocommer en /var/www/encremadas/wp-content/plugins/culqi-woocommerce-master/culqi-woocommerce.php en la línea 33
+

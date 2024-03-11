@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<gallery frameColor="0xFFFFFF" frameWidth="15" imagePadding="20" displayTime="6" enableRightClickOpen="true">
+<image>
+   <url>images/1.jpg</url>
+   <caption></caption>
+   <width>787</width>
+   <height>525</height>
+</image>
+<image>
+   <url>images/2.jpg</url>
+   <caption></caption>
+   <width>787</width>
+   <height>525</height>
+</image>
+</gallery>

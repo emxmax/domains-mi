@@ -1,0 +1,17 @@
+<flash_project name="~autoviewer" version="1">
+    <project_file path="./~autoviewer.fla" filetype="fla" profile="" />
+    <project_file path="./.\com\airtightinteractive\apps\viewers\autoViewer\StageManager.as" filetype="as" />
+    <project_file path="./.\com\airtightinteractive\apps\viewers\autoViewer\XMLManager.as" filetype="as" />
+    <project_file path="./.\mx\utils\Delegate.as" filetype="as" />
+    <project_file path="./.\com\airtightinteractive\apps\viewers\autoViewer\Options.as" filetype="as" />
+    <project_file path="./.\com\airtightinteractive\apps\viewers\autoViewer\RolloverButton.as" filetype="as" />
+    <project_file path="./.\mx\transitions\OnEnterFrameBeacon.as" filetype="as" />
+    <project_file path="./.\mx\transitions\BroadcasterMX.as" filetype="as" />
+    <project_file path="./.\mx\transitions\Tween.as" filetype="as" />
+    <project_file path="./.\mx\transitions\easing\Strong.as" filetype="as" />
+    <project_file path="./.\com\airtightinteractive\apps\viewers\autoViewer\Image.as" filetype="as" />
+    <project_file path="./.\com\airtightinteractive\utils\EffectsUtil.as" filetype="as" />
+    <project_file path="./.\mx\transitions\easing\None.as" filetype="as" />
+    <project_file path="./.\com\airtightinteractive\utils\DrawUtil.as" filetype="as" />
+    <project_file path="./.\com\airtightinteractive\utils\RectUtil.as" filetype="as" />
+</flash_project>
