@@ -1,0 +1,104 @@
+.prevFormat{
+	width: auto;
+  	position: absolute;
+  	margin-top: -30px;
+  	text-align: center;
+  	margin-left: 380px;
+}
+.prevFormat img{
+	width: 30px;
+}
+.imgPreview{
+	max-width: 100%;
+	display: none;
+}
+#precarga2{
+	width: 300px;
+	margin: 0 auto;
+  	text-align: center;
+}
+#optExit,#optPerfil{
+	cursor: pointer;
+}
+.paralel{
+	display: inline-block;
+	vertical-align: top;
+}
+.hide{
+	display: none;
+}
+.w{
+	margin: 0;
+}
+.w10{
+	width: 10%;
+}
+.w20{
+	width: 20%;
+}
+.w30{
+	width: 30%;
+}
+.w33{
+	width: 33%;
+}
+.w40{
+	width: 40%;
+}
+.w49{
+	width: 49%;
+}
+.w50{
+	width: 50%;
+}
+.w60{
+	width: 60%;
+}
+.w70{
+	width: 70%;
+}
+.w80{
+	width: 80%;
+}
+.w90{
+	width: 90%;
+}
+.w100{
+	width: 100%;
+}
+.panel-body{
+	background: #d9d9d9;
+	max-height: 500px;
+	overflow: auto;
+}
+.navbar-inverse .navbar-brand{
+	color: #ffffff;
+}
+.avatar{
+	width: 40px;
+	border-radius: 50%;
+}
+.top-nav>li>a{
+	padding-top: 5px;
+	padding-bottom: 5px;
+}
+.odd,.even{
+	cursor: pointer;
+}
+.form-horizontal .form-group{
+	margin-left: 0;
+	margin-right: 0;
+}
+textarea{
+	width: 95%;
+}
+#botoneraInicio{
+	text-align: center;
+}
+.red{
+	color: red;
+	font-weight: bolder;
+}
+.form-group{
+	margin-bottom: 5px;
+}

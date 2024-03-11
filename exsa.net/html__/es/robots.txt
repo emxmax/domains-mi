@@ -1,0 +1,15 @@
+User-agent: *
+Allow: /archivos
+Allow: /css
+Allow: /facturacion-electronica
+Allow: /feliz-navidad
+Allow: /fonts
+Allow: /imagenes
+Allow: /images
+Allow: /js
+Allow: /modelo
+Allow: /admin
+Allow: /recaptcha
+Allow: /secciones
+Allow: /tarjeta_navidad2015
+Allow: /wp-content

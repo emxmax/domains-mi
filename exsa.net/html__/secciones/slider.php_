@@ -1,0 +1,64 @@
+	<section id="banner">
+		<div id="wowslider-container1">
+			<div class="ws_images">
+				<ul>
+					<li><img src="imagenes/banners/data1/images/exsaquantexbannerhome1.jpg" alt="wows1_5" title="" id="wows1_5"/></li>
+					<li><img src="imagenes/banners/data1/images/exsanuestrapresenciaregional1920x500_4mapa.jpg" alt="wows1_4" title="" id="wows1_4"/></li>
+					<li><img src="imagenes/banners/data1/images/servicios.jpg" alt="wows1_1" title="" id="wows1_1"/></li>
+					<li><img src='imagenes/banners/data1/images/respsocial.jpg' alt='wows1_0' title='' id='wows1_0'/></li>
+					<li><img src="imagenes/banners/data1/images/solucionparacliente.jpg" alt="wows1_2" title="" id="wows1_2"/></li>
+					<li><img src="imagenes/banners/data1/images/productos.jpg" alt="wows1_6" title="" id="wows1_6"/></li>
+					<li><img src="imagenes/banners/data1/images/exsafacturacionelectronica.jpg" alt="wows1_3" title="" id="wows1_3"/></li>
+				</ul>
+			</div>
+			<div class="ws_bullets">
+				<div>
+					<a href="#" title="exsaquantexbannerhome1"><span><img src="imagenes/banners/data1/tooltips/exsaquantexbannerhome1.jpg" alt="exsaquantexbannerhome1"/>6</span></a>
+					<a href="#" title="exsanuestrapresenciaregional1920x500_4mapa"><span><img src="imagenes/banners/data1/tooltips/exsanuestrapresenciaregional1920x500_4mapa.png" alt="exsanuestrapresenciaregional1920x500_4mapa"/>5</span></a>
+					<a href="#" title="servicios"><span><img src="imagenes/banners/data1/tooltips/servicios.jpg" alt="servicios"/>2</span></a>
+					<a href="#" title="respsocial"><span><img src="imagenes/banners/data1/tooltips/respsocial.jpg" alt="respsocial"/>1</span></a>
+					<a href="#" title="solucionparacliente"><span><img src="imagenes/banners/data1/tooltips/solucionparacliente.jpg" alt="solucionparacliente"/>3</span></a>
+					<a href="#" title="productos"><span><img src="imagenes/banners/data1/tooltips/productos.jpg" alt="productos"/>7</span></a>
+					<a href="#" title="exsafacturacionelectronica"><span><img src="imagenes/banners/data1/tooltips/exsafacturacionelectronica.jpg" alt="exsafacturacionelectronica"/>4</span></a>
+				</div>
+			</div>
+			<div class="botones">
+				<div class="cufon" data-slide="wows1_5">
+					<a href="quantex-innovadora-tecnologia-de-exsa-reduce-en-18-las-emisiones-de-gei" class="slider-button">Ver más</a>
+				</div>
+				<div class="cufon" data-slide="wows1_4">
+					<a href="peru" class="slider-button">Ver más</a>
+				</div>
+				<div class="cufon" data-slide="wows1_1">
+					<a href="soluciones" class="slider-button">Ver más</a>
+				</div>
+				<div class="cufon" data-slide="wows1_0">
+					<a href="proyecto-colegios-seguros-con-exsa" class="slider-button">Entérese</a>
+				</div>
+				<div class="cufon" data-slide="wows1_2">
+					<a href="asis-tec-en-mineria-subterranea-y-a-tajo-abierto" class="slider-button">Ver más</a>
+				</div>
+				<div class="cufon" data-slide="wows1_6">
+					<a href="productos" class="slider-button">Ver más</a>
+				</div>
+				<div class="cufon" data-slide="wows1_3">
+					<a href="http://exsa.net/facturacion-electronica/" target="_blank" class="slider-button">Ver más</a>
+				</div>
+			</div>
+		</div>				
+		<script type="text/javascript" src="imagenes/banners/engine1/wowslider.js"></script>
+		<script type="text/javascript" src="imagenes/banners/engine1/script.js"></script>
+		<script>
+		$(".cufon[data-slide='wows1_5']").show();
+		var arr=['wows1_5','wows1_4','wows1_1','wows1_0','wows1_2','wows1_6','wows1_3'];
+		var index=0;
+		setInterval(function(){
+			index=index+1;
+			if(index>6){
+				index=0;
+			}
+			$(".cufon").fadeOut("slow");
+			$(".cufon[data-slide='"+arr[index]+"']").fadeIn("slow");
+		},3900);
+		</script>
+	</section>

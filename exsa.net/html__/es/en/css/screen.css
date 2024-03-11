@@ -1,0 +1,214 @@
+/* ======= DEMO LAYOUT ======= */
+
+.containertm {background-color: #ecedf7;font-size: 62.5%;
+	font-family: Arial, Helvetica, sans-serif;
+	color: #eeefef;
+	/*width: 940px;*/
+	margin-left: auto;
+	margin-right: auto;
+	padding: 10px;
+ *zoom:1;
+}
+
+.containertm h1 {
+	color: #7DBADF;
+	font-size: 36px;
+	font-weight: 400;
+	margin: 0;
+}
+.containertm h6 {
+	font-size: 16px !important ;
+	font-weight: 400;
+	margin: 5px 0;
+	letter-spacing: .1em;
+}
+.containertm h3 {
+	font-size: 1.6em;
+	margin: 10px 0 10px 10px;
+}
+.containertm a:link, .containertm a:visited {
+	color: #7097af;
+	text-decoration: none;
+}
+.containertm a:hover {
+	color: #7DBADF;
+}
+.containertm a img {
+	border: none;
+}
+.containertm p {
+	margin: 0 0 10px 8px;
+	font-size: 1.0em;
+	font-weight: 400;
+	line-height: 1.2em;
+}
+.containertm .clear {
+	clear: both;
+	line-height: 0;
+	font-size: 0;
+}
+/* ============ TIMELINE ============= */
+
+.containertm div#timelineContainer {
+	border-left: 2px solid #007bc1;
+	/*margin: 20px auto;
+	width: 900px;*/
+}
+.containertm div.timelineToggle {
+	float: right;
+	margin-right: 0;
+	white-space: nowrap;
+}
+.containertm a.expandAll {
+	color: #fff;
+	cursor: pointer;
+	background: #007bc1;
+	-webkit-border-radius: 4px;
+	-moz-border-radius: 4px;
+	border-radius: 4px;
+	font-size: 12px;
+	padding: 3px 5px;
+}
+.containertm a.expandAll:hover {
+	color: #7DBADF;
+	cursor: pointer;
+}
+.containertm div.timelineMajor {
+	clear: left;
+	display: inline-block;
+	margin: 0 0 12px;
+	width: 100%;
+	max-width: 900px;
+}
+.containertm .timelineMajor h6 {
+	background: url(../images/timeline_century_tick.gif) left center no-repeat;
+	/*font-family: Palatino, "Times New Roman", Times, serif;*/
+	cursor: pointer;
+	font-size: 1.2em;
+	font-weight: 400;
+	margin: 0 0 10px;
+	padding: 4px 4px 4px 20px; font-family: Arial, Helvetica, sans-serif;
+}
+.containertm .timelineMajor h6 span {
+	background: #007bc1;
+	-webkit-border-radius: 4px;
+	-moz-border-radius: 4px;
+	border-radius: 4px; font-size: 1.2em; font-family: Arial, Helvetica, sans-serif;
+	color: #eeefef;
+	letter-spacing: 0.1em;
+	line-height: 1.7em;
+	padding: 3px 5px 1px;
+}
+.containertm dl.timelineMinor {
+	clear: left;
+	float: left;
+	margin: 0 12px 0 0;
+	padding: 4px 4px 4px 0;
+	position: relative;
+	width: 880px;
+}
+.containertm .timelineMinor dt {
+	background: url(../images/timeline_decade_tick.gif) left center no-repeat;
+	clear: left;
+	font-size: 1.6em;
+	list-style-type: none;
+	line-height: 1.2em;
+	margin: 0 0 12px;
+	padding: 0 0 0 24px;
+	white-space: nowrap;
+	display: none;
+}
+.containertm .timelineMinor dt a {
+	color: #999;
+	cursor: pointer;
+}
+.containertm .timelineMinor dt a.closed {
+	color: #999;
+	font-size: 1em;
+	margin-left: 0;
+}
+.containertm .timelineMinor dt a.open {
+	color: #7DBADF;
+}
+.containertm .timelineMinor dt a:hover {
+	color: #7DBADF;
+}
+.containertm .timelineMinor dd {
+	padding-left: 24px;
+	width: 100%;
+}
+.containertm .timelineMinor dd h3 {
+	color: #FFF;
+	clear: both;
+	float: left;
+	font-size: 1.2em;
+	margin: 0;
+	white-space: nowrap;
+}
+.containertm .timelineEvent p {
+	clear: left;
+	float: left;
+	line-height: 1.2em;
+	margin: 6px 0 10px;
+	color: #4d4d4d; text-align:justify;
+	/*width: 500px*/
+}
+.containertm .timelineEvent h4 {
+	clear: left;
+	float: left;
+	font-size: 1.4em;
+	font-weight: 400;
+	margin: 10px 0 0;
+	padding: 0 0 0 20px;
+}
+.containertm .timelineEvent blockquote {
+	border-left: 2px solid #ccc;
+	clear: left;
+	float: left;
+	font-size: 1.8em;
+	margin-left: 0;
+	padding: 0 30px;
+	width: 400px;
+}
+.containertm .timelineEvent blockquote .attribution {
+	font-size: 0.7em;
+	text-align: right;
+}
+.containertm .timelineEvent div.media {
+	float: left;
+	padding: 0 0 12px;
+	width: 300px;
+}
+.containertm .timelineEvent .media img {
+	border: 2px solid #fff;
+	margin: 0;
+}
+.containertm .timelineEvent .media p {
+	font-size: 1.2em;
+	margin: 0;
+	padding: 0;
+}
+.containertm .timelineEvent .media a:link, .timelineEvent .media a:visited {
+	color: #ab221b;
+}
+.containertm .timelineEvent .media a:hover {
+	color: #7DBADF;
+}
+
+.containertm * {
+	max-width: 580px;
+	font-size: small;/*460*/
+}
+.containertm .timelineContainer .timelineMajor > .media{
+	display: none;
+}
+.media{
+	display: none;
+}
+.media.opened{
+	display: block;
+}
+.media > img{
+	width: 100%;
+	max-width: 570px;
+}

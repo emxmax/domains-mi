@@ -1,0 +1,28 @@
+<IfModule mod_rewrite.c>
+
+# Activar RewriteEngine
+
+RewriteEngine on
+
+RewriteBase /
+RewriteCond %{HTTPS} off
+RewriteRule (.*) https://exsa.net/$1 [R=301,L,QSA]
+
+# Desactivar el trace
+RewriteCond %{REQUEST_METHOD} ^TRACE
+RewriteRule ^ - [F]
+# fin de trace
+
+RewriteCond %{SCRIPT_FILENAME} !-d
+
+RewriteCond %{SCRIPT_FILENAME} !-f
+
+ 
+# Disable server signature
+ServerSignature Off
+
+#RewriteRule ^(.*)$ demo/exsa/?sec=$1
+#RewriteRule ^(.*)$ exsa/nuevaweb/?sec=$1
+RewriteRule ^(.*)$ /?sec=$1
+
+</IfModule>

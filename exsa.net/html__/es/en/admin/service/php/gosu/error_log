@@ -1,0 +1,21 @@
+[28-Oct-2015 10:17:54 America/Chicago] PHP Notice:  Trying to get property of non-object in /home4/vistacom/public_html/proyectos/exsa/nuevaweb/admin/service/php/services/Service.php on line 150
+[28-Oct-2015 10:17:54 America/Chicago] PHP Notice:  Trying to get property of non-object in /home4/vistacom/public_html/proyectos/exsa/nuevaweb/admin/service/php/services/Service.php on line 151
+[28-Oct-2015 10:17:54 America/Chicago] PHP Notice:  Trying to get property of non-object in /home4/vistacom/public_html/proyectos/exsa/nuevaweb/admin/service/php/services/Service.php on line 152
+[28-Oct-2015 10:17:54 America/Chicago] PHP Notice:  Trying to get property of non-object in /home4/vistacom/public_html/proyectos/exsa/nuevaweb/admin/service/php/services/Service.php on line 153
+[28-Oct-2015 10:17:54 America/Chicago] PHP Warning:  Invalid argument supplied for foreach() in /home4/vistacom/public_html/proyectos/exsa/nuevaweb/admin/service/php/services/Service.php on line 157
+[28-Oct-2015 10:17:54 America/Chicago] PHP Notice:  Undefined property: stdClass::$guiaLink in /home4/vistacom/public_html/proyectos/exsa/nuevaweb/admin/service/php/services/Service.php on line 220
+[28-Oct-2015 10:17:54 America/Chicago] PHP Notice:  Trying to get property of non-object in /home4/vistacom/public_html/proyectos/exsa/nuevaweb/admin/service/php/services/Service.php on line 220
+[28-Oct-2015 13:01:33 America/Chicago] PHP Notice:  Trying to get property of non-object in /home4/vistacom/public_html/proyectos/exsa/nuevaweb/admin/service/php/services/Service.php on line 150
+[28-Oct-2015 13:01:33 America/Chicago] PHP Notice:  Trying to get property of non-object in /home4/vistacom/public_html/proyectos/exsa/nuevaweb/admin/service/php/services/Service.php on line 151
+[28-Oct-2015 13:01:33 America/Chicago] PHP Notice:  Trying to get property of non-object in /home4/vistacom/public_html/proyectos/exsa/nuevaweb/admin/service/php/services/Service.php on line 152
+[28-Oct-2015 13:01:33 America/Chicago] PHP Notice:  Trying to get property of non-object in /home4/vistacom/public_html/proyectos/exsa/nuevaweb/admin/service/php/services/Service.php on line 153
+[28-Oct-2015 13:01:33 America/Chicago] PHP Warning:  Invalid argument supplied for foreach() in /home4/vistacom/public_html/proyectos/exsa/nuevaweb/admin/service/php/services/Service.php on line 157
+[28-Oct-2015 13:01:33 America/Chicago] PHP Notice:  Undefined property: stdClass::$guiaLink in /home4/vistacom/public_html/proyectos/exsa/nuevaweb/admin/service/php/services/Service.php on line 220
+[28-Oct-2015 13:01:33 America/Chicago] PHP Notice:  Trying to get property of non-object in /home4/vistacom/public_html/proyectos/exsa/nuevaweb/admin/service/php/services/Service.php on line 220
+[29-Oct-2015 12:04:57 America/Chicago] PHP Notice:  Trying to get property of non-object in /home4/vistacom/public_html/proyectos/exsa/nuevaweb/admin/service/php/services/Service.php on line 150
+[29-Oct-2015 12:04:57 America/Chicago] PHP Notice:  Trying to get property of non-object in /home4/vistacom/public_html/proyectos/exsa/nuevaweb/admin/service/php/services/Service.php on line 151
+[29-Oct-2015 12:04:57 America/Chicago] PHP Notice:  Trying to get property of non-object in /home4/vistacom/public_html/proyectos/exsa/nuevaweb/admin/service/php/services/Service.php on line 152
+[29-Oct-2015 12:04:57 America/Chicago] PHP Notice:  Trying to get property of non-object in /home4/vistacom/public_html/proyectos/exsa/nuevaweb/admin/service/php/services/Service.php on line 153
+[29-Oct-2015 12:04:57 America/Chicago] PHP Warning:  Invalid argument supplied for foreach() in /home4/vistacom/public_html/proyectos/exsa/nuevaweb/admin/service/php/services/Service.php on line 157
+[29-Oct-2015 12:04:57 America/Chicago] PHP Notice:  Undefined property: stdClass::$guiaLink in /home4/vistacom/public_html/proyectos/exsa/nuevaweb/admin/service/php/services/Service.php on line 220
+[29-Oct-2015 12:04:57 America/Chicago] PHP Notice:  Trying to get property of non-object in /home4/vistacom/public_html/proyectos/exsa/nuevaweb/admin/service/php/services/Service.php on line 220

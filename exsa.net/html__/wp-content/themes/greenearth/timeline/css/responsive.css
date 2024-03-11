@@ -1,0 +1,60 @@
+/* Smartphones (landscape and portrait) ----------- */
+@media screen and (max-width: 768px) {
+.containertm * {
+	max-width: 580px;
+	font-size: small;/*460*/
+}
+.containertm {
+	padding: 10px;
+}
+.containertm div.timelineToggle {
+	float: none;
+}
+.containertm .timelineEvent div.media {
+	/*display:none;*/
+	float: none;
+}
+.containertm .timelineMajor h2 {
+	font-size: 1.4em;
+}
+.containertm .timelineMinor dt {
+	font-size: 1.0em;
+	white-space: normal;
+}
+.containertm .timelineMinor dd h3 {
+	font-size: .8em;
+	white-space: normal;
+}
+.containertm div#timelineContainer {
+}
+.containertm .timelineMinor dd {
+	margin-left: 20px;
+	padding-left: 0;
+	width: 100%;
+}
+.containertm .timelineEvent .media p {
+	font-size: .8em;
+}
+.containertm dl.timelineMinor {
+	float: none;
+	max-width: 80%;
+}
+.containertm .timelineEvent p {
+	float: none;
+	width: 580px !important;
+}
+.containertm .timelineEvent blockquote {
+	float: none;
+	width: 200px;
+	font-size: .8em;
+}
+}
+/* Smartphones (portrait) ----------- */
+@media only screen and (max-width : 320px) {
+.containertm * {
+	max-width: 300px;
+}
+.containertm .timelineMajor h2 {
+	font-size: 1.4em;
+}
+}

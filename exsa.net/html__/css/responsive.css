@@ -1,0 +1,136 @@
+@media (max-width: 1000px) {
+    .navbar-nav > li > a {
+        font-size: 9px;
+    }
+    #secMenu{
+		position: relative;
+		width: 100%;
+    }
+    .container{
+    	width: 100%;
+    }
+    .navbar-collapse{
+    	padding-left: 0;
+    	padding-right: 0;
+    }
+    .container > .navbar-collapse, .container-fluid > .navbar-collapse{
+    	padding-left: 0;
+    	padding-right: 0;
+        overflow: hidden;
+    }
+    .spaces{
+    	display: none;
+    }
+}
+@media (max-width: 800px) {
+    .nav-top{
+        display: none;
+    }
+    #wowslider-container1 .ws-title{
+        font-size: 16px;
+    }
+    .navbar-nav > li > .dropdown-menu{
+        display: none;
+        overflow: hidden;
+    }
+}
+@media (max-width: 400px) {
+    .spaces{
+        display: block;
+        margin-left: 150px;
+        margin-bottom: -70px;
+        margin-top: 80px;
+    }
+    .spaces > .spacitos{
+        display: none;
+    }
+    #wowslider-container1 .ws-title{
+        font-size: 12px;
+    }
+}
+div.coments > input[type="text"]{
+  color: #888888;
+    background-color: #ffffff;
+    border: 1px solid #cfcfcf;
+    -webkit-box-shadow: #ececec 0px 1px 4px inset, #f8f8f8 -5px -5px 0px 0px, #f8f8f8 5px 5px 0px 0px, #f8f8f8 5px 0px 0px 0px, #f8f8f8 0px 5px 0px 0px, #f8f8f8 5px -5px 0px 0px, #f8f8f8 -5px 5px 0px 0px;
+    box-shadow: #ececec 0px 1px 4px inset, #f8f8f8 -5px -5px 0px 0px, #f8f8f8 5px 5px 0px 0px, #f8f8f8 5px 0px 0px 0px, #f8f8f8 0px 5px 0px 0px, #f8f8f8 5px -5px 0px 0px, #f8f8f8 -5px 5px 0px 0px;
+}
+div.coments > textarea {
+    height: 165px;
+    width: 590px;
+    margin: 5px 5px 25px;
+    padding: 10px;
+    max-width: 100%;
+    line-height: 20px;
+}
+#contenidoPagina  .coments > img{
+  width: 95px;
+}
+/*--- Comments ---*/
+div.comment-wrapper{  margin-top: 40px; }
+div.comment-wrapper .comment-title{  font-size: 18px; }
+div.comment-wrapper .comment-form-comment{  margin-right: 40px; }
+div.comment-wrapper #reply-title{ font-size: 18px; margin-bottom: 15px; }
+div.comment-wrapper input[type="text"], input[type="password"] {
+    width: 320px; height: 30px; line-height: 30px; padding: 0px 0px 0px 10px; 
+    margin: 5px 5px 25px; line-height: 20px; }
+div.comment-wrapper textarea{
+    height: 165px; width: 590px; margin: 5px 5px 25px; padding: 10px; max-width: 100%;
+    line-height: 20px; }
+
+div.comment-wrapper .comment-form-captcha img { float: left; margin-right: 20px; margin-top: 1px; }
+div.comment-wrapper .comment-form-author input,
+div.comment-wrapper .comment-form-email input,
+div.comment-wrapper .comment-form-url input { float: left; }
+div.comment-wrapper .comment-form-captcha input { float: left; width: 205px; }
+div.comment-wrapper .comment-form-author label,
+div.comment-wrapper .comment-form-email label,
+div.comment-wrapper .comment-form-url label,
+div.comment-wrapper .comment-form-captcha label { float: left; line-height: 32px; margin: 5px 0px 0px 10px; }
+div.comment-wrapper .comment-form-author span,
+div.comment-wrapper .comment-form-email span,
+div.comment-wrapper .comment-form-url span,
+div.comment-wrapper .comment-form-captcha span { float: left; line-height: 32px; margin-left: 2px; }
+
+    
+ol.comment-list{ margin: 0px; list-style: none; }
+ol.comment-list .comment-body{ border-bottom: 1px solid; margin-top: 22px; padding-bottom: 22px; }
+ol.comment-list ul{ margin: 0px 0px 0px 30px; list-style: none; }
+div.comment-avartar{ float: left; }
+div.comment-context{ margin-left: 80px; }
+span.comment-author{  margin-right: 5px; font-size: 16px; }
+span.comment-date{  margin-right: 5px; font-style: italic; font-family: 'Droid Serif'; font-size: 11px;}
+span.comment-time{ margin-right: 5px; font-style: italic; }
+div.comment-content{ margin-top: 7px; }
+
+div.comment-wrapper #respond{ margin-top: 30px; }
+
+/* Slider */
+div.slider-wrapper{ position: relative; overflow: hidden; margin-top: 20px;}
+div.slider-bottom-gimmick{ height: 5px; width: 100%; }
+div.slider-top-shadow{ 
+    height: 6px; width: 100%; position: absolute; top: -1px; z-index: 100;
+    background: url('images/gradient-vertical-6px.png'); }
+div.slider-bottom-shadow{ 
+    height: 6px; width: 100%; position: absolute; bottom: 4px; z-index: 100;
+    background: url('images/gradient-vertical-6px.png') 0px 6px;}
+.gdl-slider-title{
+    margin-left: -2px; padding-bottom: 7px; font-size: 28px; line-height: 30px;
+}
+#submit{
+    color: #786d14;
+    background-color: #e9d424;
+}
+.containertm .timelineMajor h6{
+    color:#007bc1;
+    font-weight: bolder;
+}
+
+
+/*---------------------------------------JOAN---------------------------------------*/
+
+@media(min-width: 0px) and (max-width: 893px){
+    .noexp{
+        text-align: left;
+    }
+}

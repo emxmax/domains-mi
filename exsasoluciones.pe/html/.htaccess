@@ -1,0 +1,40 @@
+# BEGIN WordPress
+<IfModule mod_rewrite.c>
+RewriteEngine On
+RewriteBase /
+RewriteRule ^index\.php$ - [L]
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule . /index.php [L]
+</IfModule>
+
+# END WordPress
+
+
+ErrorDocument 403 /home/xxqitbn01s9k/domains/exsasoluciones.pe/html/index.php?status=403
+ErrorDocument 401 /home/xxqitbn01s9k/domains/exsasoluciones.pe/html/index.php?status=401
+
+# START - Disable server signature #
+ServerSignature Off
+# END - Disable server signature #
+
+
+RequestHeader unset X-Powered-By
+# BEGIN ANSIBLE MANAGED BLOCK
+<IfModule mod_rewrite.c>
+RewriteEngine On
+RewriteCond %{HTTP_HOST} exsasoluciones.pe.mediaimpactperu.com$
+RewriteRule ^(.*)$ "http://mediaimpactperu.com/404" [R=301,L]
+</IfModule>
+# END ANSIBLE MANAGED BLOCK
+AddHandler application/x-httpd-alt-php73___lsphp .php
+DirectoryIndex index.html INDEX.HTML Index.html index.shtml index.cgi index.pl index.php index.xhtml index.htm
+## BEGIN Compability settings for mt
+<IfModule mod_env.c>
+  SetEnv DATABASE_SERVER localhost
+  RewriteEngine on
+  RewriteRule ^ - [E=SITE_ROOT:%{DOCUMENT_ROOT}]
+  RewriteRule ^ - [E=SITE_CGIROOT:%{DOCUMENT_ROOT}/cgi-bin]
+  RewriteRule ^ - [E=SITE_HTMLROOT:%{DOCUMENT_ROOT}]
+</IfModule>
+## END Compability settings for mt

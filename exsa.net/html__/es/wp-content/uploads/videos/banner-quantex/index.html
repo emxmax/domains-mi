@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Banner quantex</title>
+
+  <!-- Chang URLs to wherever Video.js files will be hosted -->
+  <link href="video-js.css" rel="stylesheet" type="text/css">
+  <!-- video.js must be in the <head> for older IEs to work. -->
+  <link href="jquery.fancybox.css" rel="stylesheet" type="text/css">
+  <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.2.6/jquery.min.js"></script>
+
+  <script src="http://dist.projekktor.com/downloads/demoplayer/projekktor-universal.demoplayer.min.js" type="text/javascript"></script>
+  <!-- Unless using the CDN hosted version, update the URL to the Flash SWF -->
+  <script>
+    videojs.options.flash.swf = "video-js.swf";
+  </script>
+  
+  <script type="text/javascript">
+         $(document).ready(function() {
+               projekktor('example_video_1');
+         })
+    </script>
+  <style type="text/css">
+  body{ margin:0;}
+  .link{ display:block; width:500px; height:500px; background:#fff;}
+  .video-js .vjs-tech{ background:#fff;}
+  .vjs-default-skin.vjs-has-started .vjs-control-bar,.vjs-no-js{
+	  display:none;
+	}
+	.vjs-default-skin.vjs-has-started.vjs-user-inactive.vjs-playing .vjs-control-bar{ display:none;}
+	.video-js{ background:#fff;}
+  </style>
+</head>
+<body>
+  <a class="link" href="http://exsa.net/exsa-lanza-quantex/">
+  <video autoplay loop id="example_video_1" class="video-js vjs-default-skin" preload="none" width="500" height="500"  data-setup="{}">
+    <source src="http://exsa.net/wp-content/uploads/videos/banner-quantex/exsa_quantex.ogv" type='video/ogg' />
+    <source src="http://exsa.net/wp-content/uploads/videos/banner-quantex/exsa_quantex.webm" type='video/webm' />
+    <source src="http://exsa.net/wp-content/uploads/videos/banner-quantex/exsa_quantex.mp4" type='video/mp4' />
+    <source src="http://exsa.net/wp-content/uploads/videos/banner-quantex/exsa_quantex.mov" type='video/mov' />
+    <p class="vjs-no-js">To view this video please enable JavaScript, and consider upgrading to a web browser that <a href="http://videojs.com/html5-video-support/" target="_blank">supports HTML5 video</a></p>
+    
+  </video>
+  </a>	
+</body>
+</html>

@@ -1,0 +1,99 @@
+
+.content-central{
+  background-image: url('/public/images/background-form.jpg');
+  background-size: cover;
+  background-position: bottom center;
+  padding: 0 10px;
+  z-index: 5;
+}
+.logo{
+  margin-top: 25px;
+  margin-bottom: 25px;
+}
+.title{
+  margin-bottom: 60px;
+}
+.title img{
+  max-width: 100%;
+}
+label{
+  color: #fff;
+  font-size: 13px;
+}
+
+form .form-group{
+  margin-bottom: 5px;
+}
+form .form-group input{
+  border-radius: 12px;
+  padding: 0.4rem .75rem;
+}
+
+button{
+  cursor: pointer;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  width: 150px;
+}
+.exsa-cruz-logo{
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.content-thanks{
+  color: #FFF;
+  padding: 20px 0;
+}
+.content-thanks .descripcion{
+  margin-bottom: 20px;
+  padding: 60px 0;
+}
+
+.container-videos{
+  position: absolute; 
+  width: 100%; 
+  height: 80vh;
+}
+.container-videos .video-right{
+  width: 60%; 
+  overflow: hidden; 
+  float: left; 
+  z-index: 1; 
+  position: relative; 
+  margin-top: -130px; 
+  margin-left: -250px ;
+}
+
+.container-videos .video-left{
+  width: 45%; 
+  overflow: hidden; 
+  float: right; 
+  z-index: 1; 
+  position: relative; 
+  margin-top: -130px; 
+  margin-right: -0px;
+}
+
+.container-videos iframe{
+  width: 120vh; 
+  height: 100vh;
+}
+
+.container-videos .capa-opacidad{
+  background-color: #005085;
+  width: 100vh; 
+  height: 100vh; 
+  position: absolute; 
+  opacity: 0.6;
+}
+
+/**/
+.footer{
+  position: fixed;
+  bottom: 0;
+  background-image: url('/public/images/back-page.png');
+  height: 750px;
+  width: 100%;
+  z-index: 1;
+  background-position: center bottom;
+  background-size: cover;
+}

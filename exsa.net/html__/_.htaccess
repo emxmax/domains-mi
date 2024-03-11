@@ -1,0 +1,19 @@
+<IfModule mod_rewrite.c>
+
+# Activar RewriteEngine
+
+RewriteEngine on
+
+RewriteBase /
+
+RewriteCond %{SCRIPT_FILENAME} !-d
+
+RewriteCond %{SCRIPT_FILENAME} !-f
+
+ 
+
+#RewriteRule ^(.*)$ demo/exsa/?sec=$1
+#RewriteRule ^(.*)$ exsa/nuevaweb/?sec=$1
+RewriteRule ^(.*)$ /?sec=$1
+
+</IfModule>

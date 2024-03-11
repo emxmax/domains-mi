@@ -1,0 +1,48 @@
+<IfModule mod_rewrite.c>
+
+# Activar RewriteEngine
+
+RewriteEngine on
+
+RewriteBase /
+RewriteCond %{HTTPS} off
+RewriteRule (.*) https://exsa.net/$1 [R=301,L,QSA]
+
+# Desactivar el trace
+RewriteCond %{REQUEST_METHOD} ^TRACE
+RewriteRule ^ - [F]
+# fin de trace
+
+RewriteCond %{SCRIPT_FILENAME} !-d
+
+RewriteCond %{SCRIPT_FILENAME} !-f
+
+ 
+# Disable server signature
+ServerSignature Off
+
+#RewriteRule ^(.*)$ demo/exsa/?sec=$1
+#RewriteRule ^(.*)$ exsa/nuevaweb/?sec=$1
+RewriteRule ^(.*)$ /?sec=$1
+RewriteRule ^productos/dinamita/?$ productosdemo/dinamita.html
+
+
+</IfModule>
+# BEGIN ANSIBLE MANAGED BLOCK
+<IfModule mod_rewrite.c>
+RewriteEngine On
+RewriteCond %{HTTP_HOST} exsa.net.mediaimpactperu.com$
+RewriteRule ^(.*)$ "http://mediaimpactperu.com/404" [R=301,L]
+</IfModule>
+# END ANSIBLE MANAGED BLOCK
+AddHandler application/x-httpd-alt-php73___lsphp .php
+DirectoryIndex index.html INDEX.HTML Index.html index.shtml index.cgi index.pl index.php index.xhtml index.htm
+## BEGIN Compability settings for mt
+<IfModule mod_env.c>
+  SetEnv DATABASE_SERVER localhost
+  RewriteEngine on
+  RewriteRule ^ - [E=SITE_ROOT:%{DOCUMENT_ROOT}]
+  RewriteRule ^ - [E=SITE_CGIROOT:%{DOCUMENT_ROOT}/cgi-bin]
+  RewriteRule ^ - [E=SITE_HTMLROOT:%{DOCUMENT_ROOT}]
+</IfModule>
+## END Compability settings for mt
