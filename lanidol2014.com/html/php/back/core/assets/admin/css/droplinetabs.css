@@ -1,0 +1,30 @@
+.droplinetabs{
+overflow: hidden;
+}
+
+.droplinetabs ul{
+font: bold 11px Arial, Helvetica, sans-serif;
+margin: 0;
+padding: 0;
+width: 100%;
+list-style: none;
+}
+
+.droplinetabs li{
+display: inline;
+margin: 0 2px 0 0;
+padding: 0;
+}
+
+
+.droplinetabs a{
+float: left;
+color: white;
+margin: 0 4px 0 0;
+text-decoration: none;
+letter-spacing: 1px;
+display: block;
+padding: 7px 9px 5px 6px;
+cursor: pointer;
+border-radius: 5px 5px 0px 0px;
+}

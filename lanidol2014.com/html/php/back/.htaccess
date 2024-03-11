@@ -1,0 +1,3 @@
+RewriteEngine On 
+RewriteRule ^core($|/) - [L]
+RewriteRule ^(.*).html$ site/index.php?furl=$1 [QSA]

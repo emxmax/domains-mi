@@ -1,0 +1,29 @@
+# Activar RewriteEngine
+RewriteEngine On
+
+RewriteEngine On
+RewriteCond %{HTTP_HOST} ^http://mediaimpact.pe/demo/karldemo/ [NC]
+RewriteRule ^(.*)$ http://mediaimpact.pe/demo/karldemo/$1 [L,R=301]
+
+Rewriterule ^(.+)/noticias/(.+)/?$ view/noticia.php?not_url=$2&l=$1
+
+Rewriterule ^(.+)/karl-maslo/?$ view/bibliografia.php?codigo=7&l=$1
+
+Rewriterule ^categorias/(.+)/?$ categoria.php?cat_url=$1
+
+Rewriterule ^(.+)/innovacion$ view/categoria.php?codigo=1&l=$1
+
+Rewriterule ^(.+)/industria-del-gas$ view/categoria.php?codigo=2&l=$1
+
+Rewriterule ^(.+)/seguridad$ view/categoria.php?codigo=5&l=$1
+
+Rewriterule ^(.+)/actualidad$ view/categoria.php?codigo=3&l=$1
+
+Rewriterule ^(.+)/servicio-a-la-mineria$ view/categoria.php?codigo=4&l=$1
+
+Rewriterule ^(.+)/gracias/?$ view/gracias.php?codigo=4&l=$1
+
+
+
+
+

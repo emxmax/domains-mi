@@ -1,0 +1,4 @@
+<?php 
+//$oSectionLang=$PAGE->oSectionLang;
+
+?>

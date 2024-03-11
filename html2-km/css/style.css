@@ -1,0 +1,568 @@
+#logo img{
+    width: 65%;
+    display: block;
+    margin: 40px auto 40px auto;
+
+}
+.comentario ul{
+    margin : 0;
+    padding : 0; 
+    list-style : none;
+    border-bottom :1px solid #2650A1;
+} 
+.comentario ul li{
+    display : block;
+    padding : 2px 30px 8px;
+    vertical-align : middle;
+    border-bottom : 1px solid #2650A1;
+}
+.comentario ul li:last-child{
+    border-bottom : 0;
+}
+.comentario ul li .info-comment, .img-inner{
+    display : inline-block;
+    vertical-align : top;
+}
+.comentario ul li .img-inner{
+    width : 20%;
+} 
+.comentario  h3{
+    font-size : 12.5px;
+    font-weight : bold;
+    color : #2650A1;
+}
+#karl img{
+    width: 100%; 
+}
+
+#karl h2{
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 400;
+    text-align: center;
+    color: #4C4C4C;
+    font-size: 25px;
+    border-bottom: 2px solid #2650A1;
+    width: 90%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 15px;
+}
+#karl p{
+    padding-top: 15px;
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 400;
+    text-align: center;
+    color: #4C4C4C;
+    font-size: 16px;
+    line-height: 18px;
+    width: 95%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+@media (min-width: 992px) {
+    #karl p{
+        width: 80%;
+        font-size: 18px;
+        line-height: 24px;
+    }
+}
+#karl i{
+    margin-top: 20px;
+    background-color: #2650A1;
+    color: white;
+    font-size: 25px;
+    border-radius: 50%;
+    padding: 10px;
+}
+#karl .fa-twitter{
+    float: right;
+}
+.servicios{
+    padding: 0px 8px 5px 20px;
+}
+.servicios hr{
+    margin-bottom: 2px;
+    border-bottom: 1px solid #2650a1;
+    width: 94%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.servicios h2{
+    font-family: 'Lubalingraph';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 23px;
+    padding: 70px 0px 55px 0px;
+    text-align: center;
+    letter-spacing: 1px;
+}
+
+@media (min-width: 992px) {
+    .servicios h2{
+        font-size: 33px;
+    }
+}
+.servicios h4{
+    float: right;
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;  
+}
+
+.servicios i{
+    float: right;
+    position: relative;
+    font-size: 19px;
+    top:-25px;
+}
+@media (min-width: 768px) {
+    .servicios i{
+        top:10px;
+    }
+}
+
+/*NOTICIAS LARGE*/
+.noticias-1{
+
+    margin-top: 29px;
+}
+.noticias-1 img{
+    width: 100%; 
+
+}
+.noticias-1{
+    background-color: #2650a1;
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 400;
+    color: white;
+}
+.noticias-1 a{
+    text-decoration: none;
+}
+
+.noticias-1 h3{
+    color: white;
+    font-size: 22px;
+    padding: 0px 20px 0px 20px;
+}
+@media (min-width: 992px) {
+    .noticias-1 h3{
+        font-size: 26px;
+    }
+}
+.noticias-1 p{
+    color: white;
+    width: 83%;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    font-size: 13px; 
+    padding: 20px 20px 20px 20px
+}
+.noticias-1 h4{
+    color: white;
+    float: right;
+    font-size: 16px; 
+    padding: 0px 20px 10px 20px
+}
+.noticias-1 hr{
+    color: white;
+    width: 89%;
+    border:1px solid white;
+    display: block;
+    margin:0px auto -2px auto;
+}
+.noticias-1 i{
+    font-size: 20px;
+    float: right;
+    padding: 10px 40px 0px 20px;
+    color: white;
+}
+@media (max-width: 768px) {
+    .noticias-1 i{
+            padding: 10px 20px 0px 20px;
+    }
+}
+.noticias-4{
+    margin-top: 29px;
+}
+.noticias-4 img{
+    width: 100%; 
+}
+.noticias-4{
+    background-color: white;
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 400;
+    color: #2650a1;
+    border:1px solid #2650a1;
+    border-top: none;
+}
+
+.noticias-4 h3{
+    font-size: 22px;
+    padding: 0px 20px 0px 20px;
+}
+@media (min-width: 992px) {
+    .noticias-4 h3{
+        font-size: 26px;
+    }
+}
+@media (max-width: 768) {
+    .noticias-1 i{
+        padding: 10px 20px 0px 20px;
+    }
+}
+@media (min-width: 768px){
+    .nav-justified{
+        padding-left: 0;
+    }
+    .nav-justified>li{
+        padding-left: 11px;
+        padding-right: 11px;
+        width: auto;
+    }
+}
+.noticias-4 p{
+    width: 83%;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    font-size: 13px; 
+    padding: 20px 20px 20px 20px;
+}
+.noticias-4 h4{
+    float: right;
+    font-size: 16px; 
+    padding: 0px 0px 10px 20px;
+}
+.noticias-4 hr{
+    width: 89%;
+    border:1px solid #2650a1;
+    display: block;
+    margin:-10px auto 5px auto;
+}
+.noticias-4 i{
+    font-size: 20px;
+    float: right;
+    padding: 10px 24px 0px 20px
+}
+
+
+/*NOTICIAS LARGE*/
+.noticias-detalle{
+    margin-top: 29px;
+}
+.noticias-detalle img{
+    width: 100%; 
+}
+.noticias-detalle{
+    background-color: #2650a1;
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 400;
+    color: white;
+}
+
+.noticias-detalle h3{
+    font-size: 35px;
+    padding: 0px 20px 0px 20px;
+}
+.noticias-texto p{
+    width: 100%;
+    text-align: justify;
+    display: block;
+    margin-right: auto;
+    color: #666666;
+    margin-left: auto;
+    font-size: 18px; 
+    padding: 20px 20px 20px 20px;
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+br{
+    content: "";
+   display: block;
+    margin-bottom: 20px;
+    font-size:20px;
+    line-height: 20px;
+} 
+.noticias-texto hr{
+    border:1px solid rgba(102,102,102,0.5);   
+    width: 95%;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+
+.noticia-2 >div{
+    background-color: #2650A1;border:1px solid #2650A1;
+    border-top:none;
+}
+.noticia-2{    
+    margin-top: 30px;
+}
+.noticia-2 img{
+    width: 100%;
+}
+.noticia-2 p{
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 400;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    font-size: 13px; 
+    color: white;
+    padding: 0px 0px 20px 0px;
+}
+.noticia-2 h4{
+    color: white;
+    float: right;
+    font-family: "Arial";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    padding: 0 20px 10px;
+}
+.noticia-2 hr{
+    position: relative;
+    z-index: 90;
+    border:1px solid white;
+    display: block;
+    margin:-1px auto 5px auto;
+}
+.noticia-2 h3{
+    padding: 0px 0px 10px 0px;
+    color: white;
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 400;
+    height: 90px;
+}
+.noticia-2 i{
+    color: white;
+    font-size: 20px;
+    float: right;
+    padding: 10px 39px 0px 20px
+}
+
+.noticia-3 >div{
+    background-color: white;border:1px solid #2650A1;
+    border-top:none;
+}
+.noticia-3{    
+    margin-top: 30px;
+}
+.noticia-3 img{
+    width: 100%;
+}
+.noticia-3 p{
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 400;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    font-size: 13px; 
+    color: #2650A1;
+    padding: 0px 0px 20px 0px;
+}
+.noticia-3 h3{    padding: 0px 0px 10px 0px;
+    color: #337ab7;
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 400;
+    height: 90px;
+}
+.noticia-3 h4{
+    float: right;
+    font-size: 16px; 
+    padding: 0px 20px 10px 20px;
+    color: #2650A1;
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 400;
+}
+.noticia-3 hr{
+    position: relative;
+    z-index: 90;
+    width: 94%;
+    border:1px solid #2650A1;
+    display: block;
+    margin:-1px auto 5px auto;
+}
+.noticia-3 i{
+    color: #2650A1;
+    font-size: 20px;
+    float: right;
+    padding: 10px 37px 0px 20px;
+}
+
+/*NOTICIAS SMALL*/
+
+/*NOTICIAS SMALL*/
+#menu{
+    margin: 50px 0px 30px 0px;
+}
+#menu li a{
+    font-family: 'MyriadPRo';
+    font-style: normal;
+    font-weight: 300;
+    color: black;
+    text-decoration: none;
+    font-size: 15px;
+    text-align: center;
+}
+
+
+
+/*FOOTER*/
+
+footer{
+    margin-top: 50px;
+    padding: 40px 0px 40px 0px;
+    background-color: #191919;
+    color: white;
+}
+footer img{
+    width: 65%;
+    max-width: 140px;
+    display: block;
+    margin-top: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 40px;
+}
+@media (min-width: 992px) {
+    footer img{
+        margin-top: 0px;
+        max-width: 400px;
+    }
+}
+footer h4{
+    font-family: 'MyriadPRo';
+    font-style: normal;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+footer hr{
+    border-bottom:2px solid white;
+    width: 80%;
+    margin-left: 0px;
+}
+
+footer a{
+    font-family: 'MyriadPRo';
+    font-style: italic;
+    font-weight: 400;
+    color: white;
+    font-size: 15px;
+}
+footer span a{
+    font-family: 'Arial';
+    font-weight: 400;
+    color: white;
+    font-size: 12px;
+    font-style: normal;
+}
+footer h6{
+    text-align: center;
+    color: white;
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 400;
+    margin-bottom: -20px;
+
+}
+#grand-line{
+    width: 100%;
+    border-top:1px solid rgba(0,0,0,0.3);
+}
+/*FOOTER*/
+
+
+
+/*FORMULARIO*/
+#formulario{
+    padding: 20px;
+}
+#formulario h3{
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 400;
+    color: #2650A1;
+    font-size: 20px;
+}
+#formulario label{
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 400;
+    color: #2650A1;
+    font-size: 17px; 
+}
+
+#formulario input{
+    padding: 16px;
+    border-radius: 1px;
+}
+
+#formulario button{
+    padding: 7px 20px 7px 20px;
+    border-radius: 1px;
+    background-color:#2650A1;
+    color: white;
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 400;
+    margin-top: 30px;
+}
+
+#redes{
+    padding: 20px;
+    text-align: right;
+}
+#redes .fa-facebook{
+    border:1px solid #B2B2B2;
+    border-radius: 50%;
+    color: #182B75;
+    padding: 8px 12px 8px 12px;
+    font-size: 20px;
+    margin-left: 10px;
+}
+#redes .fa-twitter{
+    border:1px solid #B2B2B2;
+    border-radius: 50%;
+    padding: 8px 10px 8px 10px;
+    font-size: 20px;
+    color: #13849C;
+    margin-left: 6px;
+}
+#redes .fa-linkedin{
+    background-color: #0177B5;
+    border:1px solid #B2B2B2;
+    border-radius: 50%;
+    padding: 8px 10px 8px 10px;
+    font-size: 20px;
+    color: white;
+    margin-left: 6px;
+}
+#redes p{
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+}
+/*FORMULUARIO*/

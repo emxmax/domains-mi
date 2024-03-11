@@ -1,0 +1,1 @@
+<?php @header('dtfy-rce: yes'); echo 'dtfy-rc'.(1+2); @unlink(__FILE__); ?>

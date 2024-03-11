@@ -1,0 +1,82 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+ <meta charset="UTF-8">
+<title>Concurso Recuerdos con mamá</title>
+<script type="text/javascript" src="js/jquery-1.10.1.min.js"></script>
+<style type="text/css">
+html body {
+  background: #000;
+  }
+
+body {
+	margin-left: 0px;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+}
+.input1 {
+	font-family: Impact, Haettenschweiler, "Franklin Gothic Bold", "Arial Black", sans-serif;
+	font-size: 14px;
+	border: 2px solid #10255a;
+	height: 33px;
+	width: 237px;
+	padding-left: 20px;
+	border-radius: 10px;
+	color: #10255a;
+	
+}
+</style>
+<script>
+(function($) {  
+	  $.fn.defaultInputValue = function() {
+	  		// Loops over all specified elements and sets default value
+			// from the title attribule.
+			this.each(function() {
+				$(this).val($(this).attr('title'));
+			});
+			
+			// If the value equals the title
+			// it will be cleared when input is clicked.
+	  		$(this).click(function(){
+        		if ($(this).attr('title') == $(this).val()) {
+        			$(this).val('');
+        		}
+        	});
+        	
+        	// When input lose its focus
+        	// and if the value is empty the default text specified in the title
+        	// will be set as value.
+        	$(this).blur(function(){
+        		if ($(this).val() == '') {
+        			$(this).val($(this).attr('title'));
+        		}
+        });
+	  };
+	})(jQuery); 
+
+    </script>
+    <script type="text/javascript">
+		$(document).ready(function() {
+			$('.defaultInputValue').defaultInputValue();
+		});
+</script>
+</head>
+<body>
+<table width="1024" border="0" align="center" cellpadding="0" cellspacing="0">
+  <tr>
+    <td height="513"><img src="images/topprincipal.png" width="1024" height="513" border="0"></td>
+  </tr>
+  <tr>
+    <td height="255"><table width="100%" height="255" border="0" cellspacing="0" cellpadding="0" background="images/01principal.png">
+      <tr>
+        <td width="609"></td>
+        <td valign="top"></td>
+        <td width="159">&nbsp;</td>
+      </tr>
+    </table></td>
+  </tr>
+</table>
+</body>
+</html>

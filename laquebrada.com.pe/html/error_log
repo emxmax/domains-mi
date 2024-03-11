@@ -1,0 +1,15 @@
+[10-Mar-2023 06:04:43 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_connect() in /home/xxqitbn01s9k/domains/laquebrada.com.pe/html/fns_db.php:10
+Stack trace:
+#0 /home/xxqitbn01s9k/domains/laquebrada.com.pe/html/index.php(3): db_connect()
+#1 {main}
+  thrown in /home/xxqitbn01s9k/domains/laquebrada.com.pe/html/fns_db.php on line 10
+[10-Mar-2023 06:04:43 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_connect() in /home/xxqitbn01s9k/domains/laquebrada.com.pe/html/fns_db.php:10
+Stack trace:
+#0 /home/xxqitbn01s9k/domains/laquebrada.com.pe/html/index.php(3): db_connect()
+#1 {main}
+  thrown in /home/xxqitbn01s9k/domains/laquebrada.com.pe/html/fns_db.php on line 10
+[10-Mar-2023 06:04:43 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_connect() in /home/xxqitbn01s9k/domains/laquebrada.com.pe/html/fns_db.php:10
+Stack trace:
+#0 /home/xxqitbn01s9k/domains/laquebrada.com.pe/html/index.php(3): db_connect()
+#1 {main}
+  thrown in /home/xxqitbn01s9k/domains/laquebrada.com.pe/html/fns_db.php on line 10

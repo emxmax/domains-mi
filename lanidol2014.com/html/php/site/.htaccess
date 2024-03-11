@@ -1,0 +1,25 @@
+Options +FollowSymLinks
+RewriteEngine On
+
+# --------------------------------------------------------------------
+# Anti XSS protection
+# --------------------------------------------------------------------
+RewriteCond %{QUERY_STRING} base64_encode.*\(.*\) [OR]
+RewriteCond %{QUERY_STRING} (\<|%3C).*script.*(\>|%3E) [NC,OR]
+RewriteCond %{QUERY_STRING} (\<|%3C).*iframe.*(\>|%3E) [NC,OR]
+RewriteCond %{QUERY_STRING} GLOBALS(=|\[|\%[0-9A-Z]{0,2}) [OR]
+RewriteCond %{QUERY_STRING} _REQUEST(=|\[|\%[0-9A-Z]{0,2})
+RewriteRule ^(.*)$ /site/index.php#error [F,L]
+RewriteCond %{REQUEST_METHOD} ^(TRACE|TRACK|OPTIONS)
+RewriteRule .* - [F]
+
+# --------------------------------------------------------------------
+# SQL Injection Protection 
+# --------------------------------------------------------------------
+RewriteRule ^.*EXEC\(@.*$        - [R=404,L,NC]
+RewriteRule ^.*CAST\(.*$         - [R=404,L,NC] 
+RewriteRule ^.*DECLARE.*$        - [R=404,L,NC]  
+RewriteRule ^.*DECLARE%20.*$     - [R=404,L,NC]
+RewriteRule ^.*NVARCHAR.*$       - [R=404,L,NC]  
+RewriteRule ^.*sp_password.*$    - [R=404,L,NC]
+RewriteRule ^.*%20xp_.*$         - [R=404,L,NC]

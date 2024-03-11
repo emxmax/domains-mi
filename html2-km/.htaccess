@@ -1,0 +1,18 @@
+# Activar RewriteEngine
+RewriteEngine on
+ 
+Rewriterule ^noticias/(.+)/?$ noticia-detalle.php?no_url=$1
+
+Rewriterule ^categorias/(.+)/?$ categoria.php?cat_url=$1
+
+Rewriterule ^innovacion.html$ innovacion.php
+Rewriterule ^industria-del-gas.html$ industria-del-gas.php
+Rewriterule ^servicios-a-la-mineria.html$ servicios-a-la-mineria.php
+Rewriterule ^actualidad.html$ actualidad.php
+
+# Reescribir la URL solicitada por el usuario
+#   Entrada:  home
+#   Salida: index.php
+RewriteRule ^home/?$ index.php
+
+

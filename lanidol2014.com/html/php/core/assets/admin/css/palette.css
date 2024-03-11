@@ -1,0 +1,19 @@
+@charset "utf-8";
+/* CSS Document */
+#divPalette{
+	background-color:#ffffff;
+	border:1px solid #cecece;
+	border-radius: 5px;
+	width: 84px;
+}
+#divPalette table{
+	width: 80px;
+}
+#divPalette td{
+	border:#cecece 1px solid;
+}
+#divPalette a{
+	display:block;
+	text-decoration:none;
+}
+

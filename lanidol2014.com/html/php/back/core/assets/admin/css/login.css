@@ -1,0 +1,44 @@
+﻿#divLogin 
+{
+    width: 350px;
+    background-color: #ffffff;
+    border-color: #00549A;
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 7px; 
+}
+#divLogin .header
+{
+	font-size: 12px;
+    text-align: center;
+    color: #ffffff;
+    margin-bottom:15px;
+    background-color: #00549A;
+    border-radius: 7px 7px 0px 0px; 
+}
+#divLogin .header img
+{
+	margin: 5px;
+    border-radius: 3px; 
+}
+#divLogin table tr td
+{
+	font-size: 12px;
+	color:#f6a800;
+	font-weight:bold;
+}
+#divLogin .admButton {
+	margin: 10px 0 0 0;
+	border: solid 1px #f6a800; 
+	background-color: #00549A;
+	font-size: 12px;
+	padding: 2px 20px 2px 20px;
+	color: #FFFFFF; 
+	height: 30px;
+    border-radius: 8px;
+}
+#divLogin .textbox {
+    Width:180px;
+    Height:30px;
+    Font-Size:16px;
+}

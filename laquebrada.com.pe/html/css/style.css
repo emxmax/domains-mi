@@ -1,0 +1,672 @@
+/*
+	MARRON OSCURO: #221B19
+	MARRON CLARO: #342927
+	LETRA TITULO: #AE8B81
+	PARRAFO: #AE9F9F
+*/
+.carousel-control.left, .carousel-control.right{
+	background-image: none !important;
+	height: 65px !important;
+}
+.carousel-control{
+	top: 40% !important;
+}
+@font-face {
+  font-family: 'Gotham';
+  font-style: normal;
+  font-weight: 700;
+  src:url(../fonts/GOTHAM-BOLD.TTF) format("TrueType")
+}
+@font-face {
+  font-family: 'Gotham';
+  font-style: normal;
+  font-weight: 500;
+  src:url(../fonts/GOTHAM-MEDIUM.TTF) format("TrueType")
+}
+@font-face {
+  font-family: 'Gotham';
+  font-style: normal;
+  font-weight: 200;
+  src:url(../fonts/GOTHAM-LIGHT.TTF) format("TrueType")
+}
+.menorca-slide h3{
+	color: white;
+    font-family: "Gotham";
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+}
+.menorca-slide p{
+	color: #ae9f9f;
+    font-family: "Arial";
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 200;
+    margin-bottom: 0;
+}
+.modal-dialog {
+    margin: 40px auto !important;
+}
+#menorca-sesion{
+	background-color: #221B19;
+	font-family: 'Arial';
+	font-style: normal;
+	font-weight: 200;
+	font-size: 14px;
+	padding-bottom: 5px;
+    padding-top: 5px;
+    color: white;
+}
+#menorca-sesion a{
+	color: white;
+	text-decoration: none;
+	cursor: pointer;
+}
+header{
+	position: absolute;
+	top: 100px;
+	width: 100%;
+}
+header ul{
+	list-style: none;
+	text-align: center;
+	padding-left: 0px;
+	margin-bottom: 0px;
+}
+header li{
+	display: inline-block;
+    margin-right: 5px;
+    padding-left: 5px;
+    vertical-align: top;
+    color: white;
+}
+header li a{
+	font-family: 'Arial';
+	font-style: normal;
+	font-weight: 400;
+	color: white;
+	font-size: 12px;
+}
+header li a:hover{
+	text-decoration: none;
+	cursor: pointer;
+	color: white;
+}
+.menorca-barra{
+	background-color: rgba(29,29,29,0.7);
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+#menorca-slider img{
+	width: 100%;
+}
+#menorca-ficha{
+	background-color: #221B19;
+	padding-top: 40px; 
+	padding-bottom: 40px;
+}
+#menorca-ficha h2{
+	color: #AE8B81;
+	font-family: 'Gotham';
+	font-style: normal;
+	font-weight: 500;
+	font-size: 30px;
+	text-align: justify;
+}
+#menorca-ficha p{
+	color: #AE9F9F;
+	font-family: 'Arial';
+	font-style: normal;
+	font-weight: 200;
+	font-size: 12px;
+	text-align: justify;
+}
+.menorca-sob-bene{
+	background-image: url('../img/fondo_medio6.png');
+	background-position: center 0;
+	background-repeat: no-repeat;
+	padding-top: 20px;
+}
+#menorca-beneficios{
+	background-color: #342927;
+    padding-top: 0px;
+	padding-bottom: 40px;	
+}
+#menorca-beneficios h3{
+	color: white;
+	font-family: 'Gotham';
+	font-style: normal;
+	font-weight: 500;
+	font-size: 20px;
+	display: table;
+}
+#menorca-beneficios h3 .menorca-icon{
+	background-color: white;
+    border-radius: 50%;
+    display: inline-block;
+    height: 30px;
+    vertical-align: middle;
+    width: 30px;
+    text-align: center;
+    padding-top: 5px;
+}
+#menorca-beneficios h3 .menorca-icon span{
+	color: #342927;
+}
+#menorca-beneficios p{
+	color: #AE9F9F;
+	font-family: 'Arial';
+	font-style: normal;
+	font-weight: 200;
+	font-size: 12px;
+	margin-left: 37px;
+	line-height: 18px;
+	text-align: justify;
+	margin-bottom: 30px;
+}
+#menorca-collap{
+	padding-top: 40px;
+	background-color: #221B19;
+}
+#menorca-collap .panel-group{
+	margin-bottom: 0px !important;
+}
+#menorca-collap .panel-default{
+	border-radius: 0 !important;
+	border: 0 !important;
+	background-color: #342927 !important;
+}
+#menorca-collap .panel-heading{
+	background-color: #342927 !important;
+	border-radius: 0 !important;
+}
+#menorca-collap h4{
+	padding-top: 10px; 
+	padding-bottom: 10px;
+}
+#menorca-collap h4 a{
+	color: #AE8B81 !important;
+	font-family: 'Gotham' !important;
+	font-style: normal !important;
+	font-weight: 500 !important;
+	font-size: 20px !important;
+}
+#menorca-collap h4 a{
+	text-decoration: none;
+}
+#menorca-collap p{
+	color: #AE9F9F;
+	font-family: 'Arial';
+	font-style: normal;
+	font-weight: 200;
+	font-size: 12px;
+	text-align: justify;
+}
+#menorca-collap ul{
+	list-style: none;
+	padding-top: 20px;
+}
+#menorca-collap li{
+	color: white;
+	font-family: 'Gotham';
+	font-style: normal;
+	font-weight: 500;
+	font-size: 18px;
+	margin-bottom: 10px;
+	display: table;
+}
+#menorca-collap img{
+	width: 100%;
+	padding-top: 15px;
+}
+#menorca-collap .menorca-icon{
+	background-color: white;
+    border-radius: 50%;
+    display: inline-block;
+    height: 30px;
+    vertical-align: middle;
+    width: 30px;
+    text-align: center;
+    padding-top: 5px;
+}
+#menorca-collap .menorca-icon span{
+	color: #342927;
+}
+#menorca-mapa{
+	height: 350px;
+    width: 100%;
+}
+#menorca-ubicacion{
+	background-color: #221B19;
+	padding-top: 20px;
+}
+#menorca-ubicacion h2{
+	color: #AE8B81;
+	font-family: 'Gotham';
+	font-style: normal;
+	font-weight: 500;
+	font-size: 30px;
+	padding-bottom: 10px;
+	text-align: justify;
+}
+#menorca-planos{
+	background-color: #221B19;
+	padding-top: 20px;
+	padding-bottom: 40px;
+}
+#menorca-planos h2{
+	color: #AE8B81;
+	font-family: 'Gotham';
+	font-style: normal;
+	font-weight: 500;
+	font-size: 30px;
+	padding-bottom: 10px;
+	text-align: justify;
+}
+#menorca-planos ul{
+	list-style: none;
+	padding-left: 0px;
+}
+#menorca-planos ul a{
+	text-decoration: none;
+}
+#menorca-planos li{
+	width: 90px;
+	padding-top: 15px;
+	padding-bottom: 15px;
+	margin-bottom: 10px;
+	font-family: 'Gotham';
+	font-style: normal;
+	font-weight: 500;
+	font-size: 16px;
+	text-align: center;
+	color: white;
+	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#ae8b81+0,4e3f3a+100 */
+	background: #ae8b81; /* Old browsers */
+	/* IE9 SVG, needs conditional override of 'filter' to 'none' */
+	background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIwJSIgeTI9IjEwMCUiPgogICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iI2FlOGI4MSIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiM0ZTNmM2EiIHN0b3Atb3BhY2l0eT0iMSIvPgogIDwvbGluZWFyR3JhZGllbnQ+CiAgPHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEiIGhlaWdodD0iMSIgZmlsbD0idXJsKCNncmFkLXVjZ2ctZ2VuZXJhdGVkKSIgLz4KPC9zdmc+);
+	background: -moz-linear-gradient(top, #ae8b81 0%, #4e3f3a 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#ae8b81), color-stop(100%,#4e3f3a)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top, #ae8b81 0%,#4e3f3a 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top, #ae8b81 0%,#4e3f3a 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top, #ae8b81 0%,#4e3f3a 100%); /* IE10+ */
+	background: linear-gradient(to bottom, #ae8b81 0%,#4e3f3a 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ae8b81', endColorstr='#4e3f3a',GradientType=0 ); /* IE6-8 */
+}
+#menorca-planos img{
+	width: 100%;
+}
+#menorca-grafico{
+	background-color: #342927;
+	padding-top: 20px;
+	padding-bottom: 40px;
+}
+#menorca-grafico h2{
+	color: #AE8B81;
+	font-family: 'Gotham';
+	font-style: normal;
+	font-weight: 500;
+	font-size: 30px;
+	text-align: justify;
+}
+#menorca-grafico p{
+	color: #AE9F9F;
+	font-family: 'Arial';
+	font-style: normal;
+	font-weight: 200;
+	font-size: 12px;
+	text-align: justify;
+}
+#menorca-grafico p>b{
+	color: white;
+	font-family: 'Gotham';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 18px;
+}
+#menorca-grafico img{
+	width: 100%;
+}
+#menorca-contacto{
+	background-color: #221B19;
+	padding-top: 20px;
+	padding-bottom: 40px;
+}
+#menorca-contacto h2{
+	color: #AE8B81;
+	font-family: 'Gotham';
+	font-style: normal;
+	font-weight: 500;
+	font-size: 30px;
+}
+#menorca-contacto h3{
+	color: #AE8B81;
+	font-family: 'Gotham';
+	font-style: normal;
+	font-weight: 500;
+	font-size: 20px;
+	margin-top: 0px;
+}
+#menorca-contacto p{
+	color: #AE9F9F;
+	font-family: 'Arial';
+	font-style: normal;
+	font-weight: 200;
+	font-size: 12px;
+	margin-bottom: 5px;
+}
+#menorca-contacto input, #menorca-contacto textarea{
+	border-radius: 15px !important;
+	color: black !important;
+	font-family: 'Gotham' !important;
+	font-style: normal !important;
+	font-weight: 200 !important;
+	font-size: 16px !important;
+}
+.menorca-login-sesion{
+	background-color: #221B19;
+}
+.menorca-login-sesion h4{
+	color: #AE8B81 !important;
+	font-family: 'Gotham' !important;
+	font-style: normal !important;
+	font-weight: 700 !important;
+	font-size: 18px !important;
+}
+.menorca-login-sesion label{
+	color: #AE8B81 !important;
+	font-family: 'Gotham' !important;
+	font-style: normal !important;
+	font-weight: 500 !important;
+	font-size: 16px !important;
+}
+.menorca-login-sesion button#btn-enviar{
+	background-color: #65514B !important;
+	color: white !important;
+	font-family: 'Gotham' !important;
+	font-style: normal !important;
+	font-weight: 500 !important;
+	font-size: 16px !important;
+	border: 0 !important;
+}
+.menorca-login-sesion .modal-header{
+	border-bottom:0 !important;
+}
+.menorca-login-sesion .modal-footer{
+	border-top:0 !important;
+}
+/*documentos*/
+#menorca-documentos{
+	background-color: #221B19;
+}
+#menorca-documentos ol{
+	background-color: transparent !important;
+	background-image: url("../img/fondo_navegacion.png");
+    background-position: 0 bottom;
+    background-repeat: repeat-x;
+	padding: 8px 0px;
+	margin-top: 20px;
+}
+#menorca-documentos ol>li a{
+	color: #AE9F9F;
+	font-family: 'Arial';
+	font-style: normal;
+	font-weight: 200;
+	font-size: 14px;
+}
+#menorca-documentos h1{
+	color: #AE8B81;
+	font-family: 'Gotham';
+	font-style: normal;
+	font-weight: 500;
+	font-size: 22px;
+	text-align: justify;
+}
+#menorca-documentos h2{
+	color: #AE9F9F;
+	font-family: 'Gotham';
+	font-style: normal;
+	font-weight: 200;
+	font-size: 20px;
+}
+#menorca-documentos h3{
+	color: white;
+	font-family: 'Gotham';
+	font-style: normal;
+	font-weight: 500;
+	font-size: 20px;
+}
+#menorca-documentos p{
+	color: #AE9F9F;
+	font-family: 'Arial';
+	font-style: normal;
+	font-weight: 200;
+	font-size: 14px;
+	margin-bottom: 0px;
+}
+#menorca-documentos p>b{
+	font-family: 'Gotham';
+	font-style: normal;
+	font-weight: 200;
+	color: white;
+	font-size: 16px;
+	margin-top: 0px;
+}
+.menorca-doc-bloque{
+	padding-top: 40px; 
+	padding-bottom: 60px;
+	background-image: url("../img/fondo_medio_superior4.png");
+    background-position: center bottom;
+    background-repeat: no-repeat;
+}
+.menorca-anexo{
+	margin-bottom: 5px;
+}
+.menorca-anexo a{
+	text-decoration: none;
+	cursor: pointer;
+	display: inline-block;
+}
+.menorca-anexo img{
+	width: 35%;
+}
+.menorca-doc-ico img{
+	width: 100%;
+	margin-bottom: 20px;
+}
+/*documentos*/
+footer{
+	background-image: url("../img/fondo_pie.png");
+    background-position: center 0;
+    background-repeat: no-repeat;
+    height: 194px;
+    width: 100%;
+    padding: 30px 0 0 0;
+}
+footer h2{
+	font-family: 'Gotham';
+  	font-style: normal;
+  	font-weight: 700;
+  	font-size: 16px;
+  	color: #AE8B81;
+}
+footer p{
+	font-family: 'Gotham';
+  	font-style: normal;
+  	font-weight: 700;
+  	color: #AE8B81;
+}
+footer a{
+	font-family: 'Gotham';
+  	font-style: normal;
+  	font-weight: 200;
+  	font-size: 14px;
+  	color: #AE9F9F;
+  	text-decoration: none;
+  	cursor: pointer;
+}
+footer a:hover{
+  	color: #AE9F9F;
+}
+footer img{
+	width: 60%;
+}
+/*FONT*/
+@font-face {
+	font-family: 'icomoon';
+	src:url('../fonts/icomoon.eot?44ohrc');
+	src:url('../fonts/icomoon.eot?44ohrc#iefix') format('embedded-opentype'),
+		url('../fonts/icomoon.ttf?44ohrc') format('truetype'),
+		url('../fonts/icomoon.woff?44ohrc') format('woff'),
+		url('../fonts/icomoon.svg?44ohrc#icomoon') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+	font-family: 'icomoon';
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+
+	/* Better Font Rendering =========== */
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+.icon-23:before {
+	content: "\e904";
+}
+.icon-20:before {
+	content: "\e900";
+}
+.icon-21:before {
+	content: "\e901";
+}
+.icon-22:before {
+	content: "\e902";
+}
+.icon-19:before {
+	content: "\e903";
+}
+.icon-1:before {
+	content: "\e800";
+}
+.icon-2:before {
+	content: "\e801";
+}
+.icon-3:before {
+	content: "\e802";
+}
+.icon-4:before {
+	content: "\e803";
+}
+.icon-5:before {
+	content: "\e804";
+}
+.icon-6:before {
+	content: "\e805";
+}
+.icon-7:before {
+	content: "\e806";
+}
+.icon-8:before {
+	content: "\e807";
+}
+.icon-9:before {
+	content: "\e808";
+}
+.icon-10 .path1:before {
+	content: "\e809";
+	color: rgb(0, 0, 0);
+}
+.icon-10 .path2:before {
+	content: "\e80a";
+	margin-left: -1em;
+	color: rgb(0, 0, 0);
+}
+.icon-10 .path3:before {
+	content: "\e80b";
+	margin-left: -1em;
+	color: rgb(0, 0, 0);
+}
+.icon-10 .path4:before {
+	content: "\e80c";
+	margin-left: -1em;
+	color: rgb(0, 0, 0);
+}
+.icon-10 .path5:before {
+	content: "\e80d";
+	margin-left: -1em;
+	color: rgb(0, 0, 0);
+}
+.icon-10 .path6:before {
+	content: "\e80e";
+	margin-left: -1em;
+	color: rgb(255, 255, 255);
+}
+.icon-10 .path7:before {
+	content: "\e80f";
+	margin-left: -1em;
+	color: rgb(255, 255, 255);
+}
+.icon-10 .path8:before {
+	content: "\e810";
+	margin-left: -1em;
+	color: rgb(255, 255, 255);
+}
+.icon-10 .path9:before {
+	content: "\e811";
+	margin-left: -1em;
+	color: rgb(255, 255, 255);
+}
+.icon-10 .path10:before {
+	content: "\e812";
+	margin-left: -1em;
+	color: rgb(0, 0, 0);
+}
+.icon-11:before {
+	content: "\e813";
+}
+.icon-12:before {
+	content: "\e814";
+}
+.icon-13:before {
+	content: "\e815";
+}
+.icon-14:before {
+	content: "\e816";
+}
+.icon-15:before {
+	content: "\e817";
+}
+.icon-16:before {
+	content: "\e818";
+}
+.icon-17:before {
+	content: "\e819";
+}
+.icon-18:before {
+	content: "\e81a";
+}
+
+
+.bloquetelefono{
+	padding: 30px 45px 0 0;
+}
+.telefono{
+	padding-left: 60px;
+}
+.derechos{
+	padding-top: 55px;
+}
+/*FONT*/
+#result{
+	padding-top: 10px; 
+	text-align: center;
+	color: white;
+	padding-bottom: 20px;
+}

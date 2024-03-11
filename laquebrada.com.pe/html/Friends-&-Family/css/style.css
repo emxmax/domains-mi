@@ -1,0 +1,242 @@
+#titulos{
+    color: white;
+
+    text-align: center;
+}
+#header{
+    width: 100%;
+    height: 350px;
+    background-image: url(../img/banner_home_menorca-2.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+@media (min-width: 992px) {
+   #header{
+        height: 450px;
+    }
+}
+
+
+.brow{
+    height: 20px;
+    background-color: #221B19;
+}
+#header img{
+    width: 100%;
+    max-width: 230px;
+    padding-top: 30px;
+}
+#titulos h2{
+    font-size: 25px;
+    font-family: 'Gotham-Medium';
+    font-style: normal;
+    font-weight: 400;
+    letter-spacing: 2px;
+}
+
+#titulos h3{
+    font-size: 20px;
+    font-family: 'Gotham-Medium';
+    font-style: normal;
+    font-weight: 400;
+}
+
+#titulos .brow-dark{
+
+    background-color: #0F0B0B;
+}
+
+#titulos .brow-ligth{
+    background-color: #211514;
+}
+#contenido{
+    color: #211514;
+}
+
+#contenido img{
+    width: 100%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#contenido h3{
+    font-family: 'Gotham-bold';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 19px;
+}
+#contenido p{
+    text-align: justify;
+    font-family: 'gotham-book';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 19px;
+}
+#contenido a{
+    font-family: 'Gotham-Medium';
+    font-style: normal;
+    font-weight: 400;
+    text-align: center;
+    border:1px solid #211514;
+    width: 230px;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    color: #211514;
+    border-radius: 3px;
+    margin-bottom: 30px;
+    margin-top: 30px;
+    transition-duration: 0.25s;
+    text-decoration: none;
+}
+#contenido a:hover{
+    color: white;
+    background-color: #211514; 
+    transition-duration: 0.25s;  
+}
+#referidos .row{
+    margin-bottom: 13px;
+}
+#contenido h5{
+    font-size: 18px;
+}
+#contenido h6{
+    text-align: center;
+    font-family: 'Gotham-Thin';
+    font-style: italic;
+    font-weight: 400;
+    font-size: 13px;
+    margin-top: -10px;
+}
+
+
+
+
+#entregas{
+    color: white;
+    text-align: center;
+    background-color: #211514;
+    padding: 40px 0px 40px 0px;
+    position: relative;
+    z-index: 3;
+}
+#entregas h3{
+    font-family: 'Gotham-Medium';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+}
+
+#entregas p{
+    font-family: 'gotham-book';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 17px;
+}
+.sombra-1{
+    width: 100%;
+    margin-bottom: -16px;
+}
+.sombra-2{
+    width: 100%;
+    margin-top: -13px;
+    transform:  rotate(180deg);
+}
+footer{
+    padding: 40px 0px 40px 0px;
+}
+footer img{
+    max-width: 250px;
+    width: 100%;
+}
+
+#footer{
+    margin-top: 20px;
+    background-color: #211514;
+    padding: 40px 0px 40px 0px;
+}
+#footer img{
+    max-width: 250px;
+    width: 100%;
+}
+
+
+#formulario p{
+    text-align: center;
+    font-family: 'gotham-book';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 18px;
+    margin-top: 20px;
+}
+#referidos h3{
+    font-family: 'Gotham-bold';
+    font-style: normal;
+    font-weight: 700;
+    color: #100B0B;
+    font-size: 23px;
+    margin-top: -30px;
+}
+#referidos img{
+    width: 100%;
+    margin-top: 40px;
+}
+#referidos .tel{
+    text-align: right;
+}
+#formulario input{
+    display: block;
+    max-width: 410px;
+    width: 100%;
+    padding: 6px 15px;
+    font-size: 19px;
+    border: 1px solid #9E958E;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 20px;
+    box-shadow: 0px 0px 11px #adadad;
+}
+
+#referidos label{
+    text-align: left;
+    font-family: 'gotham-book';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    position: relative;
+    top:4px;
+}
+#referidos input{
+    border: 1px solid #9E958E;
+}
+
+#referidos button{
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    padding: 6px 10px 6px 10px;
+    font-family: 'Gotham-Medium';
+    font-style: normal;
+    font-weight: 400;
+    text-align: center;
+    border:1px solid #211514;
+    width: 200px;
+    color: #211514;
+    border-radius: 3px;
+    margin-bottom: 30px;
+    margin-top: 30px;
+    font-size: 16px;
+    transition-duration: 0.25s;
+    text-decoration: none;
+    background-color: white;
+}
+#referidos button:hover{
+    color: white;
+    background-color: #211514; 
+    transition-duration: 0.25s;  
+}

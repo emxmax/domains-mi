@@ -1,0 +1,78 @@
+body{
+    background-size:100%;
+    padding-right: 0px; padding-left: 0px; padding-bottom: 0px; margin: 0px; padding-top: 0px;
+    font-family: tahoma,verdana,arial,sans-serif; font-size: 11px; color: #00549A; 
+    background-color: #e1e1e1;
+}
+#divLogin 
+{
+	display: inline-block;
+    width: 520px;
+    min-height: 200px;
+    background-color: #ffffff;
+    border-radius: 7px; 
+    box-shadow: 10px 10px 10px #999;
+}
+#divLogin .header
+{
+    background-color: #00549A;
+    color:#ffffff;
+    font-weight: bold;
+    height: auto;
+    padding: 10px;
+    border-radius: 7px 7px 0px 0px; 
+}
+#logo
+{
+    border: 2px solid #ffffff;
+    background-color:#ffffff;
+    margin: 10px;
+    padding: 5px;
+    width: 170px;
+    float: left;
+    border-radius: 5px;
+}
+#divLogin table
+{
+    padding:10px;
+    float: right;
+}
+#divLogin table tr td
+{
+    font-size: 12px;
+    color:#00549A;
+    font-weight:bold;
+}
+.admButton
+{
+    border: 1px solid #c63f2c;
+    background: #c63f2c;
+    font-size: 12px;
+    padding: 2px 20px 2px 20px;
+    color: #f3f3f3; 
+    height: 28px;
+    cursor: pointer;
+    border-radius: 4px;
+    box-shadow: 3px 3px 3px #999;
+}
+input[type=text], input[type=password]{
+    width:180px;
+    height:30px;
+    font-Size:16px;
+    border: 1px solid #aaa;
+    height: 30px;
+    padding: 5px;
+}
+.msgErr{
+    font-weight:normal;
+    color:#F65D20;
+}
+.msgErr li{
+    list-style-type: none;
+    color:#F65D20;
+}
+#pie 
+{
+    text-align: center;
+    padding: 20px;
+}

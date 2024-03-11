@@ -1,0 +1,48 @@
+@media (max-width: 1200px) {
+	.logo{
+		width: 100%;
+	}
+    
+}
+@media (max-width: 768px) {
+    .logo{
+		width: 100%;
+	}
+	footer{
+		text-align: center;
+		background-image: none;
+		background-color: #4c3632;
+	}
+	.derechos{
+		background-color: #4c3632;
+	}
+	.bloquetelefono{
+		background-color: #4c3632;
+	}
+	.fondo{
+		background-color: #4c3632;
+	}
+	footer h2{
+		text-align: center;
+	}
+	#menorca-planos li{
+		margin-right: 5px;
+		float: left;
+	}
+}
+@media (max-width: 480px) {
+	footer{
+		text-align: center;
+		background-image: none;
+		background-color: #4c3632;
+	}
+	.derechos{
+		background-color: #4c3632;
+	}
+	.bloquetelefono{
+		background-color: #4c3632;
+	}
+	.fondo{
+		background-color: #4c3632;
+	}
+}

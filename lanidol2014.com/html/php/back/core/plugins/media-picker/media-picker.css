@@ -1,0 +1,31 @@
+.dropdown  { position:relative; width:310px; }
+.dropdown .panel {display:none; width:480px; height:250px; background-color:#e4dfcb; z-index: 1399;
+				top:0px; left:0px; padding:5px 0px; position:absolute; border:1px solid #d4ca9a; color:#C5C0B0; border-radius: 5px; }
+.dropdown .panel, .dropdown .panel, .dropdown ul { margin:0px; padding:0px; }
+.dropdown a, .dropdown a:visited { color:#816c5b; text-decoration:none; outline:none;}
+.dropdown a:hover { color:#5d4617;}
+.dropdown .label { background:#e4dfcb url(arrow.png) no-repeat scroll right center; display:block; padding:5px 18px 5px 5px; border:1px solid #d4ca9a; height: 40px; width:218px; line-height:40px; border-radius: 5px;}
+.dropdown .label a:hover { color:#5d4617; }
+.dropdown .label a {font-size:12px; font-weight:lighter; white-space:nowrap; display:block; overflow:hidden;}
+.dropdown .label a img {width: 40px; height: 40px; padding-right:5px; vertical-align:middle; }
+.dropdown .tool{float:right; display:block; padding:5px; font-size:12px; font-weight:bold;}
+.dropdown .legend{float:left; display:block; padding:5px; font-size:11px; color:#5d4617; display:none;}
+
+.dropdown .panel ul { background:#e4dfcb none repeat scroll 0 0;
+				 width:100%; height:225px; overflow:auto; list-style:none;}
+.dropdown .panel ul li a { padding:5px; display:block; background-color:#e4dfcb;}
+.dropdown .panel ul li a.thumb { width:64px; margin:1px; overflow:hidden;}
+.dropdown .thumb { padding:3px; display:block; width: 66px; height: 72px; float: left;}
+.dropdown .panel ul li a:hover { background-color:#d0c9af;}
+.dropdown .browse { background-color:#ebebeb; display:none; position:absolute; top:50px; left:20px; z-index: 1400;
+				width:340px; height:145px; padding:10px; text-align:center; border:1px solid #999999; border-radius: 5px; }
+
+.dropdown .panel img { border:none; width:32px; height:32px; margin-right:3px; vertical-align:middle; }
+.dropdown img.icon { border:none; width:64px; height:64px; vertical-align:middle; }
+.dropdown p { font-size:14px; color:#333333; text-align:center; vertical-align:middle; padding-top:20px; }
+.dropdown p a{ text-decoration:underline; }
+
+.contextMenu {display:none;}
+
+.dropdown .clear { float:right; padding-top:20px;}
+.dropdown .clear img{ vertical-align:text-top; padding: 0px 3px 0px 0px;}

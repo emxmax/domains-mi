@@ -1,0 +1,64 @@
+
+<div class="inner-panel">
+  <div class="column">
+    <header id="menuLeft" ng-controller="menuPrincipalCrtl">
+      <div class="inner-logo"><img src="./resources/assets/image/logo.png" alt=""/></div>
+      <div class="inner-user"><img src="./resources/assets/image/usuario/{{photoUser}}" alt=""/></div>
+      <div class="detail-user">
+        <h2>{{nombreUser}}</h2>
+        <p>{{perfilUser}} </p>
+      </div>
+      <nav>
+		<a href="#/vista/principal" >Inicio</a>
+		<a href="#/usuario" ng-if=" 'Administrador' == perfilUser">Usuarios</a>
+		<a href="#/noticia">Noticias</a>
+		<a href="#/bibliografia" >Biografía</a>
+		<a href="#/suscriptores" class="active">Suscriptores</a>
+		</nav>
+    </header>
+  </div>
+  <div class="column">
+    <div ng-controller="listarSuscriptorCrtl" class="inner-contenido">
+      <div class="inner-nave">
+        <ul>
+          <li><a href="javascript:void(0)">Suscriptores</a><span class="dividir">>></span></li>
+          <li><a href="javascript:void(0)" class="active">Listado de Suscriptores</a></li>
+        </ul>
+      </div>
+      <div class="inner-botones">
+        <div class="column">
+          <input type="text" ng-model="form.buscarArt" placeholder="Buscar nombre..."/><a href="javascript:void(0)" ng-click="buscar(form)"><i class="icon-search"></i>Buscar</a>
+        </div>
+      </div>
+      <div class="inner-listado">
+        <table>
+          <thead>
+            <tr>
+              <th class="center" width="20px">Nº</th>
+              <th class="center">Email</th>
+              <th class="center">Fecha</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr ng-repeat="arrinfo in datos">
+              <td class="center">
+                <p>{{arrinfo.items}}</p>
+              </td>
+              <td class="ancho200">
+                <p>{{arrinfo.email}}</p>
+              </td>
+              <td class="ancho200">
+                <p>{{arrinfo.fecha}}</p>
+              </td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+      <div class="inner-paginado">
+        <ul>
+          <li ng-repeat="n in range"><a href="javascript:void(0)" ng-click="paginar(n + 1)">{{n + 1}}</a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</div>
