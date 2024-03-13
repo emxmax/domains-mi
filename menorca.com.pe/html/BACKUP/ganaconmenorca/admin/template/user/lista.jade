@@ -1,0 +1,42 @@
+section.propietario(ng-controller="propietarioCrtl")
+	.container.inner-propietario
+		.table-responsive
+			table.table.table-striped.table-bordered
+				thead
+					tr
+						th.center
+							| #
+						th.center
+							p
+								| Nombre del propietario
+						th.center
+							p
+								| Móvil
+						th.center
+							p
+								| D.N.I
+						th.center
+							p
+								| Fecha registro
+						th.center
+							i.glyphicon.glyphicon-pencil
+				tbody
+					tr(ng-repeat="data in propietario")
+						td.center
+							a(href="javascript:void(0)",ng-click="viewDetail(data.id)")
+								| {{data.item}}
+						td
+							a(href="javascript:void(0)",ng-click="viewDetail(data.id)")
+								| {{data.name}}
+						td.center
+							p
+								| {{data.phone}}
+						td.center
+							p
+								| {{data.dni}}
+						td.center
+							p
+								| {{data.datecreate}}
+						td.center
+							a(href="javascript:void(0)", ng-click="viewDetail(data.id)")
+								i.glyphicon.glyphicon-eye-open

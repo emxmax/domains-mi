@@ -1,0 +1,486 @@
+<DOCTYPE HTML> 
+<html> 
+  <head> 
+    <title>Calificar - Sistema de control</title>
+  <link rel="shortcut icon" href="images/arellano.ico" type="image/x-icon" />
+  <link  href ="css/bootstrap.min.css"  rel = "stylesheet"  media = "screen"> 
+  <link rel="stylesheet" type="text/css" href="css/jquery-ui.css">
+  <link rel="stylesheet" type="text/css" href="css/index.css">
+  <script type="text/javascript" src="js/utiles/jquery-1.9.1.js"></script>
+  <script type="text/javascript" src="js/utiles/jquery-ui.js"></script>
+  <!--JAVASCRIPT DE LAS SECCIONES-->
+  <script type="text/javascript" src="js/Secciones.js"></script>
+  <script type="text/javascript" src="js/Login.js"></script>
+  <script type="text/javascript" src="js/Tabletas.js"></script>
+  <script type="text/javascript" src="js/Agentes.js"></script>
+  <script type="text/javascript" src="js/Locales.js"></script>
+  <script type="text/javascript" src="js/Administradores.js"></script>
+  <script type="text/javascript" src="js/Clientes.js"></script>
+  <script type="text/javascript" src="js/Vercuestionario.js"></script>
+  <script type="text/javascript" src="js/NuevoCuestionario.js"></script>
+  <script type="text/javascript" src="js/AddCuestionariopr.js"></script>
+  <!--LIBRERIA-->
+  <script type="text/javascript" src="js/U.js"></script>
+  <!--JAVASCRIPT DE APOYO-->
+  <script type="text/javascript" src="js/index.js"></script>
+  </head> 
+  <body>
+    <script type="text/javascript" src="js/main.js"></script>
+
+    <div id="login">
+                <header>
+                    <img src="images/calificar/logoGrande.png" class="logoArellanoCalificar" id="logoPrincipal">
+                </header>   
+                <div id="formLogin">
+                <span>Usuario</span>
+                    <p><input type="text" id="usuario" /></p>
+                    <span>Clave</span>
+                    <p><input type="password" id="clave" /></p>
+                </div>
+                <div id="botones">
+                    <button id="cancelar">Cancelar</button>
+                    <button id="aceptar">Aceptar</button>
+                </div>
+    </div>
+
+
+    <div id="general">
+        <div id="header">
+            <boton id="btnCuestionario" class="btn btn-default">Cuestionarios</boton>
+            <boton id="btnCliente" class="btn btn-default">Clientes</boton>
+            <boton id="btnLocal" class="btn btn-default">Locales</boton>  
+            <boton id="btnAdministrador" class="btn btn-default">Usuarios</boton>
+            <boton id="btnAgentes" class="btn btn-default">Agentes</boton>
+            <boton id="btnTabletas" class="btn btn-default">Dispositivos</boton>
+            <boton id="btnEstadisticas" class="btn btn-default">Estad&iacute;sticas</boton>
+            <boton id="btnSalir" class="btn btn-default">Salir</boton>
+        </div>
+
+        <div id="CuesTionArios">
+          <div id="navCuestionarios">
+            <div id="sub-bar-nav">
+                <boton id="btnVerQst" class="btn btn-default">Ver Cuestionario</boton>
+                <boton id="btnNewQst" class="btn btn-default">Nuevo Cuestionario</boton>
+                <div id="modo"></div>
+                <h1>Cuestionarios</h1>
+            </div>            
+          </div>
+
+          <div id="verCuesTioNarIo">
+                          <div id="left-panel-navVC">
+                            <ul id="listaCuestionarios">      
+                            </ul>
+                          </div>
+                            <div id="right-panel-contentVC">
+                              <div id="detalleCuestionario">
+                                <div id="contenidoDetalleCuestionario">
+                                  <input type="hidden" id="idCuestionario"/>
+                                  <div id="logo"><img src="images/calificar/logoGrande.png"></div>
+                                  <p><input type="text" id="page"/><input type="text" id="preguntaDetalle"/></p>
+                                  <div id="respuestasDetalleCuestionario">
+                                    <div id="respuesta1" class="respuestaDetalleCuestionario"><input type="text" id="rptaDetalleCuestionario1" class="txtRptaDetalleCuest" /></div>
+                                    <div id="respuesta2" class="respuestaDetalleCuestionario"><input type="text" id="rptaDetalleCuestionario2" class="txtRptaDetalleCuest"/></div>
+                                    <div id="respuesta3" class="respuestaDetalleCuestionario"><input type="text" id="rptaDetalleCuestionario3" class="txtRptaDetalleCuest"/></div>
+                                    <div id="respuesta4" class="respuestaDetalleCuestionario"><input type="text" id="rptaDetalleCuestionario4" class="txtRptaDetalleCuest"/></div>
+                                    <div id="respuesta5" class="respuestaDetalleCuestionario"><input type="text" id="rptaDetalleCuestionario5" class="txtRptaDetalleCuest"/></div>
+                                  </div>
+                                  <div id="imagenesrptaDetalleCuestionario">
+                                    <img src="" id="imgPregunta1" class="imagenDCPregunta"/>
+                                    <img src="" id="imgPregunta2" class="imagenDCPregunta"/>
+                                    <img src="" id="imgPregunta3" class="imagenDCPregunta"/>
+                                    <img src="" id="imgPregunta4" class="imagenDCPregunta"/>
+                                    <img src="" id="imgPregunta5" class="imagenDCPregunta"/>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                          <div id="footer-content">
+                            <div id="fot">
+                              <boton id="btnEditCuest" class="btn btn-default">Editar</boton>
+                              <span id="inconsNav">
+                              <img src="images/atras.png" id="imgAtrasVC" width="70" height="70">
+                              <img src="images/adelante.png" id="imgAdelanteVC" width="70" height="70">
+                              </span>
+                            </div>
+                          </div>            
+          </div>
+
+          <div id="nuevoCuesTioNarIo">
+                          <div id="scan">   
+                          <label>Nombre del Cuestionario</label><input type="text" id="nameCuestionary" size="35"/>
+                          <label>Sector</label><select id="sectorCuestionario">
+
+                                    </select>         
+                          </div>
+                          <div id="left-panel-navNC">
+                          <h2>Preguntas</h2>
+                          <p><a id="nTipoPregunta">+ Nuevo tipo de Pregunta</a></p>
+                            <ul id="lstTipoPreguntas">
+
+                            </ul>
+                          </div>
+                              <div id="cargando"></div>
+                              <div id="right-panel-contentNC">
+                                <div id="corPregunta">Pregunta <input type="text" id ="correlativoPregunta" size="3" disabled="disabled"></div>
+                                  <div id="panelPregunta">
+                                      <div id="datosPregunta">
+                                          
+                                        <p><input type="text" id="pregunta" placeholder="PREGUNTA" disabled="disabled" required />
+                                        <input type="text" id="variable" size="20" placeholder="VARIABLE"/></p>
+                                        <p><label>.</label><input type="hidden" id="idTPregunta"/></p>
+                                        <hr> 
+                                      </div>
+                                      <div id="detail-question-2">
+                                        <div id="question1" class="question">
+                                        <p id="rpt"><input type="text" id="rpta1" size="28" placeholder="Respuesta 1" disabled="disabled" /></p>
+                                        <img src="" width="150" height="146" id="imgDtNC1"/>
+                                        </div>
+                                        <div id="question2"  class="question">
+                                        <p id="rpt"><input type="text" id="rpta2" size="28" placeholder="Respuesta 2" disabled="disabled"/></p>
+                                        <img src="" width="150" height="146" id="imgDtNC2"/>
+                                        </div>
+                                        <div id="question3" class="question">
+                                        <p id="rpt"><input type="text" id="rpta3" size="28" placeholder="Respuesta 3" disabled="disabled"/></p>
+                                        <img src="" width="150" height="146" id="imgDtNC3"/>
+                                        </div>
+                                        <div id="question4" class="question">
+                                        <p id="rpt"><input type="text" id="rpta4" size="28" placeholder="Respuesta 4" disabled="disabled"/></p>
+                                        <img src="" width="150" height="146" id="imgDtNC4"/>
+                                        </div>
+                                        <div id="question5" class="question">
+                                        <p id="rpt"><input type="text" id="rpta5" size="28" placeholder="Respuesta 5" disabled="disabled"/></p>
+                                        <img src="" width="150" height="146" id="imgDtNC5"/>
+                                        </div>                                
+                                      </div>    
+                                  </div>
+                                  <boton id="btnDeletePregunta" class="btn btn-warning">Eliminar Pregunta</boton>
+                              </div>
+                            
+
+                          <div id="footer-content">
+                            <div id="fot">
+                              <boton id="btnSaveCuest" class="btn btn-default">Guardar</boton>
+                              <span id="inconsNav">
+                              <img src="images/atras.png" id="btnAtrasNC" width="70" height="70">
+                              <img src="images/adelante.png" id="btnAdelanteNC" width="70" height="70">
+                              </span>
+                            </div>
+                          </div>
+
+
+                        <div id='ntPregunta' style="display:none;" title="NUEVO TIPO DE PREGUNTA">
+                          <div style='width: 1050px;' id='int_dialog'>
+                            <div style='text-align: justify; font-size: 13px; width: 1050px;'>
+                              <div id="name-pregunta">
+                              <label>Nombre Tipo</label><input type="text" id="nameTipoPregunta" size="20"/>
+                              <label>Pregunta</label><input type="text" id="namePreguntaTipoPregunta" size="45"/>
+                              </div>
+
+                                <div id="actionRpt">
+                                  <boton id="susRpt" class="btn btn-warning" title="Quitar Pregunta">-</boton>
+                                  <boton id="addRpt" class="btn btn-warning" title="Agregar Pregunta">+</boton>
+                                  <label>Respuestas</label><input type="text" id ="cantOpRpt" size="3" disabled="disabled"/>
+                                </div>
+
+                              <input type="hidden" id="cantidadRespuestas" name="cantidadRespuestas"/>
+                              <div id="detail-question">
+                          
+                              </div>
+                              <boton id="btnGrabarNtPregunta" class="btn btn-default">Guardar</boton>
+                            </div>
+                          </div>
+                        </div>            
+          </div>
+        </div>
+
+        <div id="ClientEs">
+                          <div id="scanCte">
+                            <label id="nomClie">Buscar</label><input type="text" id="nameScanCliente" size="35"/>
+                          </div>
+                          <h1>Clientes</h1>
+                          <div id="conTitulos">
+                            <div id="borderLeftTabla">
+                            </div>
+                            <div id="titulosTabla">
+                                <table width="95%" border="0" cellspacing="0" id="tablaTitTabla">
+                                <tr class="cabecera">
+                                  <th width="16%">Cliente / Empresa</th>
+                                  <th width="15%">Nombre Contacto</th>
+                                  <th width="15%">Apellido Contacto</th>
+                                  <th width="15%">Usuario</th>
+                                  <th width="10%">Clave</th>
+                                  <th width="11%">Sector</th>
+                                  <th width="11%">Estado</th>
+                                  <th width="7%">Acciones</th>      
+                                </tr> 
+                                <tr class="cabecera">
+                                  <td><input type="text" id="clienteName" placeholder="Cliente / Empresa"></td>
+                                  <td><input type="text" id="contactName" placeholder="Nombre"></td>
+                                  <td><input type="text" id="contactApellido" placeholder="Apellido"></td>
+                                  <td><input type="text" id="usuarioEmpresa" placeholder="Usuario"></td>
+                                  <td><input type="text" id="claveEmpresa" placeholder="Clave"></td>
+                                  <td>
+                                    <select id="sectorCliente">
+
+                                    </select>         
+                                  </td>
+                                  <td>
+                                    <select id="estadoCliente">
+                                      <option value="0">Seleccionar</option>
+                                      <option value="piloto">Piloto</option>
+                                      <option value="ejecucion">Ejecucion</option>
+                                    </select>
+                                  </td>
+                                  <td><boton id="btnSaveClie" class="btn btn-danger">Guardar</boton></td>     
+                                </tr>       
+                                </table>  
+                            </div>
+                            <div id="borderRightTabla">
+                            </div>
+                          </div>
+
+                          <div id="conReporte">
+                            <div id="conBorderLeftTabla">
+                            </div>
+                            <div id="conDetalleTabla">
+                              <table width="100%" border="0" id="tablaDetTabla">
+                              </table>
+                            </div>
+                            <div id="conBorderRightTabla">
+                            </div>
+                          </div>
+
+                          <div id='detallesCliente' style="display:none;" title="AGREGAR DETALLES">
+                            <div style='width: 320;' id='int_dialog'>
+                              <div style='text-align: justify; font-size: 13px; width: 320px;'>
+                                <div id="datos">
+                                  <div id="labels">
+                                    <label>Cliente</label>
+                                    <label>Nombre</label>
+                                    <label>Apellido</label>
+                                    <label>Usuario</label>
+                                    <label>Clave</label>
+                                    <label>Sector</label>
+                                    <label>Estado</label></br>
+                                    <p><label>Competencia</label></p>
+                                  </div>
+                                  <div id="inputs">
+                                    <input type="text" id="txtDCliente" size="30" disabled="disabled" />
+                                    <input type="text" id="txtDNombre" size="30" disabled="disabled"/>
+                                    <input type="text" id="txtDApellido" size="30" disabled="disabled"/>
+                                    <input type="text" id="txtDUsuario" size="30" disabled="disabled"/>
+                                    <input type="text" id="txtDClave" size="30" disabled="disabled"/>
+                                    <input type="text" id="txtDSeccion" size="30" disabled="disabled"/>
+                                    <input type="hidden" id="txtIdCliente"/>
+                                    <input type="text" id="txtDEstado" size="30" disabled="disabled"/></br>
+
+                                    <p><select id="lstClientes"></select></p>
+                                    <table border="1" id="tblCompetencias">
+                                      <tr class="headCompetencias">
+                                        <td width="400">Empresa</td>
+                                        <td width="30">Accion</td>
+                                      </tr>
+                                      
+                                    </table>          
+                                    <input type="file" id="logoPngEmpresa" accept=".png"/>
+                                    <p><boton id="btnGrabarDetalles" class="btn btn-success">Guardar</boton></p>
+                                  </div>
+                                  <div id="previewLogo">
+                                    <img width="100" height="70" id="imgLogoPngEmpresa" />
+                                  </div>
+                                </div>
+                            
+
+                                
+                              </div>
+                            </div>
+                          </div>          
+        </div>
+
+        <div id="LoCaLeS">
+                          <div id="scanCte">
+                            <label id="nomClie">Seleccionar Cliente</label>
+                            <select id="selectClienteLocal">
+
+                            </select>
+                          </div>
+                          <h1>Locales</h1>
+                          <div id="conTitulos">
+                            <div id="borderLeftTabla">
+                            </div>
+                            <div id="titulosTabla">
+                                <table width="95%" border="0" cellspacing="0" id="tablaTitTabla">
+                                <tr class="cabecera">
+                                  <th width="30%">Nombre del Local</th>
+                                  <th width="20%">Localidad</th>
+                                  <th width="30%">Direcci&oacute;n</th>
+                                  <th width="13%">Estado</th>
+                                  <th width="7%">Acciones</th>      
+                                </tr> 
+                                <tr class="cabecera">
+                                  <td><input type="text" id="localName" placeholder="Nombre Local" size="45"></td>
+                                  <td><input type="text" id="localidad" placeholder="Localidad" size="25"></td>
+                                  <td><input type="text" id="localDireccion" placeholder="Direccion Local" size="45"></td>
+                                  <td>
+                                    <select id="localEstado">
+                                      <option value="0">Seleccionar</option>
+                                      <option value="Activo">Activo</option>
+                                      <option value="Oculto">Oculto</option>
+                                      <option value="Eliminado">Eliminado</option>
+                                    </select>
+                                  </td>
+                                  <td><boton id="btnSaveLocal" class="btn btn-danger">Guardar</boton></td>      
+                                </tr>       
+                                </table>  
+                            </div>
+                            <div id="borderRightTabla">
+                            </div>
+                          </div>
+
+                          <div id="conReporte">
+                            <div id="conBorderLeftTabla">
+                            </div>
+                            <div id="conDetalleTabla">
+                                <table width="100%" border="0" id="tablaDetTablaLocal">
+                                </table>
+                            </div>
+                            <div id="conBorderRightTabla">
+                            </div>
+                          </div>          
+        </div> 
+        
+        <div id="UsUaRiOs">
+                          <div id="scanCte">
+                            <label id="nomClie">Cliente</label>
+                            <select id="selectClienteAdm">
+
+                            </select>
+                              
+                              <input type="radio" name="opt" id="optLocal" value="1" checked="checked">Local
+                              <input type="radio" name="opt" id="optGeneral" value="2">Empresa
+                              <input type="radio" name="opt" id="optTodos" >Todos
+                            <label id="localClie">Local</label>
+                            <select id="selectLocalClienteAdm">
+
+                            </select> 
+                          </div>
+                          <h1 id="tituloPagina">Administradores</h1>
+                          <div id="conTitulos">
+                            <div id="borderLeftTabla">
+                            </div>
+                            <div id="titulosTabla">
+                                <table width="95%" border="0" cellspacing="0" id="tablaTitTabla">
+                                <tr class="cabecera">
+                                  <th width="26%">Nombre del Administrador</th>
+                                  <th width="17%">Apellido del Administrador</th>
+                                  <th width="11%">Usuario</th>
+                                  <th width="26%">E-mail</th>
+                                  <th width="13%">Clave</th>
+                                  <th width="7%">Acciones</th>      
+                                </tr> 
+                                <tr class="cabecera">
+                                  <td><input type="text" id="admName" placeholder="Nombre Administrador" size="45"></td>
+                                  <td><input type="text" id="admApe" placeholder="Apellido Administrador" size="25"></td>
+                                  <td><input type="text" id="admUsu" placeholder="Usuario" size="15"></td>
+                                  <td><input type="text" id="admMail" placeholder="E-mail Administrador" size="45"></td>
+                                  <td><input type="text" id="admClave" placeholder="Clave" size="15"></td>
+                                  <td><boton id="btnSaveAdm" class="btn btn-danger">Guardar</boton></td>      
+                                </tr>       
+                                </table>  
+                            </div>
+                            <div id="borderRightTabla">
+                            </div>
+                          </div>
+
+                          <div id="conReporte">
+                            <div id="conBorderLeftTabla">
+                            </div>
+                            <div id="conDetalleTabla">
+                                <table width="100%" border="0" id="tablaDetTablaUsuario">
+                                </table>
+                            </div>
+                            <div id="conBorderRightTabla">
+                            </div>
+                          </div>
+        </div>                      
+
+        <div id="agentes">
+          <div id="filtroAgentes">
+            Cliente<select id="empresasAgente">
+            </select>
+
+            Local<select id="localEmpresaAgente">
+            </select>
+          </div>
+                <div id="titulosTablaAgente">
+                    <table width="95%" border="0" cellspacing="0" id="tablaTitTabla">
+                    <tr class="cabecera">
+                      <th width="26%">Nombre del Agente</th>
+                      <th width="17%">Apellido del Agente</th>
+                      <th width="11%">Usuario</th>
+                      <th width="26%">E-mail</th>
+                      <th width="13%">Clave</th>
+                      <th width="7%">Acciones</th>      
+                    </tr> 
+                    <tr class="cabecera">
+                      <td><input type="text" id="agtName" placeholder="Nombre Agente" size="45"></td>
+                      <td><input type="text" id="agtApe" placeholder="Apellido Agente" size="25"></td>
+                      <td><input type="text" id="agtUsu" placeholder="Usuario" size="15"></td>
+                      <td><input type="text" id="agtMail" placeholder="E-mail Agente" size="45"></td>
+                      <td><input type="text" id="agtClave" placeholder="Clave" size="15"></td>
+                      <td><boton id="btnSaveAgt" class="btn btn-danger">Guardar</boton></td>      
+                    </tr>       
+                    </table>  
+                </div> 
+                
+
+                <div id="detalleTablaAgente">
+                    <table width="95%" border="0" id="tablaAgente">
+                    
+                    </table>
+                </div>                        
+          
+        </div>
+
+        <div id="tabletas">
+          <div id="filtroTabletas">
+            Cliente<select id="listEmpresas">
+            </select>
+
+            Local<select id="listLocalEmpresas">
+            </select>
+          </div>
+
+                <div id="titulosTablaTabletas">
+                    <table width="95%" border="0" cellspacing="0" id="tablaTitTabletas">
+                    <tr class="cabecera">
+                      <th width="15%">Id Tableta</th>
+                      <th width="24%">Empresa</th>
+                      <th width="20%">Local</th>
+                      <th width="16%">Fecha Inicio</th>
+                      <th width="10%">Act Cuestionario</th>
+                      <th width="10%">Act Agente</th>      
+                    </tr>       
+                    </table>  
+                </div> 
+                
+
+                <div id="detalleTablaTableta">
+                    <table width="95%" border="0" id="tablaTableta">
+                    
+                    </table>
+                </div>
+        </div>
+
+        <div id="estadisticas">
+          <h1>Estad&iacute;sticas</h1>
+        </div>
+
+        <div id="container">
+
+        </div>
+    </div>
+    <script type="text/javascript" src="js/index.js"></script>
+    <script src = "js/utiles/bootstrap.min.js"> </script> 
+  </body> 
+</html>

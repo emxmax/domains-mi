@@ -1,0 +1,23 @@
+section.referidoModal
+	form
+		.block-list(ng-repeat = "data in referido")
+			.form-group
+				h1 Referido {{data.item}}
+			.form-grouprow
+				.form-col
+					.inner-elment
+						label Nombre y apellidos:
+						input(type="text" ng-model="data.name", readonly)
+				.form-col
+					.inner-elment
+						label Direccion:
+						textarea(ng-model="data.address", readonly)
+			.form-grouprow
+				.form-col
+					.inner-elment
+						label Email:
+						input(type="text" ng-model="data.email", readonly)
+				.form-col
+					.inner-elment
+						label Teléfono:
+						input(type="text" ng-model="data.phone", readonly)

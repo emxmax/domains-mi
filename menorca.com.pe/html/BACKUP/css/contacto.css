@@ -1,0 +1,7 @@
+#banner > .jumbotron{
+    background-position:center -200px;
+    height:350px;
+}
+.breadcrumb{
+	margin-bottom: 0;
+}

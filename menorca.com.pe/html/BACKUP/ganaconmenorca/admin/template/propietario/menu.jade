@@ -1,0 +1,14 @@
+.menuContacto
+	ul
+		li.active(ng-click = "irSeccion('detalle',$event)", id="option_1",data-id = "1")
+			.inner-nav
+				i.glyphicon.glyphicon-user
+				a(href="javascript:void(0)")
+					| Datos 
+					br
+					| Personales
+		li(ng-click = "irSeccion('referido',$event)", id="option_2",data-id = "2")
+			.inner-nav
+				i.glyphicon.glyphicon-list-alt
+				a(href="javascript:void(0)")
+					| Referidos

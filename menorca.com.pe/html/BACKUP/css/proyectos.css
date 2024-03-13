@@ -1,0 +1,71 @@
+@font-face {
+font-family: "Gotham"; 
+src: url("fonts/Gotham-Bold.otf");
+}
+#proyectos,#proyectosDetalle{
+	color: #909090;
+}
+#proyectos p,#proyectosDetalle p,#proyectosDetalle ul li{
+	font-size: 12px;
+}
+#proyectosDetalle ul{
+	padding: 10px 0;
+	margin-left: 10px;
+}
+#proyectosDetalle ul li{
+	font-weight: bold;
+	list-style-image: url('../imagenes/puntogreen1.png');
+}
+#proyectosDetalle img.imgProyecto{
+	margin-top: 50px;
+}
+#proyectosDetalle .galeria{
+	text-align: center;
+}
+#proyectosDetalle .galeria img{
+	margin: 5px;
+}
+#banner > .jumbotron{
+    background-position:center -200px;
+    height:350px;
+}
+.breadcrumb{
+	margin-bottom: 0;
+}
+.jumbotron h1, .jumbotron .h1{
+	margin: 0;
+	font-size: 40px;
+	font-weight: bolder;
+	font-family:'Gotham', Arial;
+}
+.pryInpar{
+	background: #ffffff;
+}
+.pryPar{
+	background: #eeeeee;
+}
+.borderRigth{
+	border-right-style: solid;
+	border-right-width: 2px;
+	border-right-color: #eeeeee;
+}
+.textoContenido{
+	padding: 15px 20px;
+}
+.botonera{
+	margin: 20px 0 40px 0;
+	text-align: right;
+}
+.btngreen{
+	border-radius: 20px;
+	background: #1c953f;
+	color:#ffffff;
+	border: 1px solid #1c953f;
+	padding: 5px 15px;
+}
+
+.div2{
+	padding-left: 50px;
+	background-image: url('../imagenes/fondo_medio5.png');
+	background-repeat: no-repeat;
+}

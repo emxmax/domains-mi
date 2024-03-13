@@ -1,0 +1,29 @@
+section.login
+	//figure
+		img(src="./public/images/logo.png", class="img-responsive")
+	form(name="form",id="form")
+		.wrapper-form
+			hgroup
+				h1 Bienvenidos al administrador 
+					span.color-celeste de Gana con Menorca
+			.form-group
+				.wrapper
+					.icon-block.active
+						i.icon-user
+					input(type="text",name="user", id="user",placeholder="Nombre de usuario", ng-model="datalogin.user", title="",aria-required="false")
+			.form-group
+				.wrapper
+					.icon-block.active
+						i.icon-key
+					input(type="password",name="password",id="password",placeholder="Clave", ng-model="datalogin.password", title="",aria-required="false")
+			.form-group
+				.form-error
+					span
+						| {{error}}
+			.form-group
+				button(type="submit", ng-click="login(datalogin)")
+					| Continuar
+			.form-group
+				p
+					| Si tienes problemas para acceder al sistema
+					| contáctate con el administrador.

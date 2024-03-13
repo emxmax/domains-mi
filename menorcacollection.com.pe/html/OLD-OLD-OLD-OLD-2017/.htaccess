@@ -1,0 +1,14 @@
+# Activar RewriteEngine
+RewriteEngine On
+
+RewriteRule ^proyectos/?$ index.php?sec=proyectos
+
+RewriteRule ^contacto/?$ index.php?sec=contacto
+
+RewriteRule ^proyecto-la-quebrada/?$ index.php?sec=proyecto-la-quebrada
+
+RewriteRule ^finca-entre-rios/?$ index.php?sec=proyecto-finca-entre-rios
+
+RewriteRule ^proyecto-la-quebrada/?$ index.php?proyectos?sec=proyecto-la-quebrada
+
+RewriteRule ^finca-entre-rios/?$ index.php?proyectos?sec=proyecto-finca-entre-rios

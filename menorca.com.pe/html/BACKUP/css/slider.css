@@ -1,0 +1,151 @@
+#imgPopupInicio,.popupreferido{
+	width: 100%;
+}
+#popuptransparente{
+	width: 23%;
+	margin-top: -275px;
+	/*margin-left: 64%;*/
+	position: absolute;
+	margin-left: 489px;
+}
+.colResponsive2{
+	cursor: pointer;
+}
+#slider1Oculto{
+	display: none;
+	text-align: center;
+	margin-top: -215px;
+}
+#slider1Oculto > .colResponsive2 > img{
+	width: 100%;
+}	
+.encima{
+	display: none;
+}
+.direccional{
+	position: absolute;
+	cursor: pointer;
+	margin-top: -70px;
+}
+.btnIzq{
+	margin-left: -20px;
+}
+.btnDer{
+	margin-left: 920px;
+}
+.normal{
+	width: 160px;
+}
+.encima{
+	width: 160px;
+}
+.oculto > .opciones > ul > li {
+	cursor: pointer;
+	-webkit-transition:all .3s ease-out;  /* Chrome y Safari */
+    -o-transition:all .3s ease-out;  /* Opera */
+    -moz-transition:all .3s ease-out;  /* Mozilla Firefox */
+    -ms-transition:all .3s ease-out;   /* Internet Explorer */
+    transition:all .3s ease-out;  /* W3C */
+    cursor: pointer;
+}
+.oculto > .opciones > ul > li:hover{
+	cursor: pointer;
+	transform: scale(1);
+}
+.imagenProyectoInicio{
+	width: 100%;
+	max-width: 276;
+}
+.slider2{
+	margin-top: -58px;
+	padding-top: 50px;
+	background: -webkit-linear-gradient(#b5b5b5 , #eee);
+    background: -moz-linear-gradient(#b5b5b5 , #eee);
+    background: -o-linear-gradient(#b5b5b5 , #eee);
+    background: linear-gradient(#b5b5b5 , #eee);
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+    border-bottom-color: #a39e9e;
+}
+.botoneraMenu{
+	text-align: center;
+}
+.botoneraMenu > a > .tipe1,.botoneraMenu > a > .tipe2{
+	width: 80%;
+	margin: 5px 0;
+	border-radius: 15px;
+}
+.botoneraMenu > a > .tipe1{
+	color: #1c953f;
+}
+.botoneraMenu > a > .tipe2{
+	font-weight: bolder;
+}
+.gana {
+    width: 310px;
+    height: 216px;
+    margin-top: 78px;
+    margin-right: 50px;
+    background-image: url('../imagenes/estrella1.png');
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+#example1{
+	cursor:pointer; 
+	width: 92px; 
+	height: 56px; 
+	border: 0; 
+	position: absolute; 
+	top: 220px; 
+	left: 17px;
+}
+#example2{
+	cursor:pointer; 
+	width: 72px; 
+	height: 56px; 
+	border: 0; 
+	position: absolute; 
+	top: 120px; 
+	left: 238px;
+}
+@media (max-width: 1000px) {
+    .slider1{
+        display: none;
+    }
+    #slider1Oculto{
+    	display: block;
+    }
+   .gana {
+	    width: 250px;
+	    background-size: 100%;
+	    background-repeat: no-repeat;
+	}
+	#example1{
+		top: 200px; 
+	}
+	#example2{
+		top: 100px; 
+		left: 198px;
+	}
+}
+@media (max-width: 850px) {
+   .gana {
+	    display: none;
+	}
+	#bannerEstrella{
+        display: block;
+    }
+}
+@media (max-width: 770px) {
+    #slider1Oculto{
+    	margin-top: 10px;
+    	margin-bottom: 100px; 
+    }
+
+}
+@media screen and (min-width:0\0) { 
+   #popuptransparente{
+     margin-top: 124px;
+   /*	margin-left: -88%;*/
+   }
+}

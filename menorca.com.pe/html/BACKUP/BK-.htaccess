@@ -1,0 +1,2 @@
+RewriteEngine on 
+Redirect 301 / http://www.menorca.pe/

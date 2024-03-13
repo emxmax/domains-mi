@@ -1,0 +1,131 @@
+.formCabecera
+	border-top 10px solid verde_claro
+	.contenidoForm
+		color verde_oscuro
+		display flex
+		flex-flow column no-wrap
+		padding-top 10px
+		.form-error
+			text-align center
+		&:nth-child(n)
+			margin-bottom 20px
+		input[type="text"]
+			border-radius 40px
+			border-style solid
+			border-width 1px
+			height 40px
+			border-color gris
+			box-shadow 0px 2px 15px 0px rgba(0,0,0,0.45)
+			
+		h1
+			font-family open_sansextrabold
+			text-align center
+		p
+			color verde_claro
+			font-family open_sansregular
+			font-size 20px
+			padding-top 20px
+		#textoNegro
+			color negro
+			font-size 15px
+		.cajasContenedor
+			color verde_oscuro
+			display flex
+			flex-flow column wrap
+			@media screen and (min-width:768px)
+				flex-flow row wrap
+				justify-content space-between
+			.cajacol
+				&:nth-child(n)
+					margin-bottom 20px
+					@media screen and (min-width:768px)
+						margin-bottom 0px
+				input[type="text"]
+					width 100%
+					@media screen and (min-width:768px)
+						width 350px
+				p
+					color verde_claro
+.formBody
+	color verde_oscuro
+	display flex 
+	flex-flow column wrap
+	padding-bottom 70px
+	padding-top 30px
+	align-items flex-start
+	.contenidoDatos
+		margin-bottom 20px
+		h1
+			font-family open_sansbold
+			line-height 1
+			text-align center
+			@media screen and (min-width:768px)
+				line-height 0.3em
+		p
+			font-family open_sansregular
+			font-size 19px
+			padding-top 7px
+			color negro
+		#textoNegro
+			color negro
+			font-size 15px
+			padding-top 20px
+		input
+			border-radius 0px
+			margin-left 0px
+			width 100%
+			/*@media screen and (min-width:768px)
+				margin-left 20px
+				width 350px
+			*/
+		.cajasDatos
+			olor verde_oscuro
+			display flex
+			flex-flow column wrap
+			@media screen and (min-width:768px)
+				flex-flow row wrap
+				justify-content space-between
+			.cajarow
+				p
+					padding-right 50px
+					width auto
+				&:first-child
+					input[type="text"]
+						@media screen and (min-width:768px)
+							width 250px
+				&:last-child
+					input[type="text"]
+						@media screen and (min-width:768px)
+							width 200px					
+			//.cajarow
+		.verdeOscuro
+			color verde_claro
+	.separacion
+		padding-bottom 15px
+	.botonera
+		justify-content space-around 
+		display flex 
+		flex-flow row wrap
+	/*
+		Es para la alineacion de los formularios
+	*/
+	.rowForm
+		justify-content space-between
+		display flex 
+		flex-flow column wrap
+		@media screen and (min-width:768px)
+			flex-flow row wrap
+		.formElment
+			#separacionCaja
+				padding-right 120px
+			input[type="text"]
+				padding-bottom 5px
+				padding-top 5px
+				@media screen and (min-width:768px)
+					width 400px
+				@media screen and (min-width:992px)
+					width 600px
+			p
+				padding-right 23px
+			
+					

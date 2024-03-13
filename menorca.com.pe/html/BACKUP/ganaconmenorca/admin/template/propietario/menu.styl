@@ -1,0 +1,43 @@
+.menuContacto
+	position absolute
+	top -103px
+	left -20px
+	margin 0
+	padding 0
+	@media screen and (min-width : 992px)
+		top 80px
+		left -150px
+	ul
+		display flex
+		flex-direction row
+		flex-wrap no-wrap
+		justify-content flex-start
+		align-items stretch
+		list-style none
+		@media screen and (min-width : 992px)
+			flex-direction column
+		li
+			background color-grislight3
+			cursor pointer
+			padding 20px 20px 
+			height auto
+			.inner-nav
+				display flex
+				flex-direction column
+				flex-wrap no-wrap
+				justify-content flex-start
+				align-items center
+			a
+				align-self center
+				text-align center
+				font-size 14px
+				line-height 1.5em
+				text-decoration none
+			i
+				margin-bottom 5px
+			&.active,&:hover
+				background color-grisoscuro
+				a, i
+					color color-blanco
+			&:hover
+				background #8c8c8c

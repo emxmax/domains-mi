@@ -1,0 +1,19 @@
+@media (max-width: 1200px) {
+    header > #bannerImg{
+        height: 350px;
+    }
+}
+@media (max-width: 768px) {
+    header > #bannerImg{
+        height: 300px;
+    }
+    #detallePost figure img{
+		width: 100%;
+	}
+}
+@media (max-width: 480px) {
+    header > #bannerImg{
+        height: 250px;
+
+    }
+}

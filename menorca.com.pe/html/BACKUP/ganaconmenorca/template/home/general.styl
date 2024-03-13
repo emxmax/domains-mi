@@ -1,0 +1,113 @@
+/***
+	Autor 	: Carlos Espinoza
+	Email 	: c.augusto.espinoza@gmail.com
+***/
+
+/***
+	Descripcion: Prefijos
+***/
+
+/***
+	Descripcion: Se definen los colores que se usaran durante
+	todo el desarrollo del site
+***/
+blanco 		= #fff
+negro 		= #000
+verde_oscuro = #005F27
+verde_subtitulo = #159231
+verde_claro = #1F8E30
+plomo_claro = #F6F6F6
+gris = #A5A4A4
+/***
+	Descripcion: Se definen las fuentes que se usaran durante
+	todo el desarrollo del site
+***/
+
+arial 				= "Arial"
+//opensanlight 		= "open_sanslight"
+
+/***
+	Descripcion: Se definen las funciones mixtas
+	que emplearemos 
+***/
+
+font-tipografia(tamano, peso, _color,_fuente)
+	font-size tamano
+	font-family _fuente, sans-serif;
+	font-weight peso 
+	color _color
+
+body
+	/***
+	background-image url('../images/fondo/logueo.jpg')
+	background-repeat no-repeat
+	background-size cover
+	background-position center center
+	****/
+	background blanco
+	font-size 16px
+a, button
+	font-tipografia(20px, normal, negro,arial)
+h1
+	font-tipografia(26px, normal, verde_oscuro,arial)
+p
+	font-tipografia(14px, normal, negro,arial)
+h2,h3,h4
+	font-tipografia(18px, normal, verde_subtitulo,arial)
+span
+	font-tipografia(12px, normal, negro,arial)
+
+/***
+	Descripción: Estilos para un modal
+***/
+.outer-flex-container
+	animation mostrarDialog 0.5s ease-in-out
+	animation-fill-mode forwards
+	align-content center
+	align-items center
+	background rgba(0,0,0,0.5)
+	display flex
+	height 100%
+	justify-content center
+	left 0
+	padding-top 50px
+	pointer-events auto
+	position fixed
+	top 0
+	opacity 1
+	overflow-y scroll
+	transition opacity 400ms ease-in
+	width 100%
+	z-index 9999
+	.inner-flex-container
+		animation mostarContainer 1s ease-in-out 0.5s
+		animation-fill-mode forwards
+		position relative
+		margin 10% auto
+		padding 5px 20px 13px 20px
+		border-radius 10px
+		background color-blanco
+		opacity 0
+		top 0%
+		.ngdialog-close
+			color color-grisoscuro
+			cursor pointer
+			font-size 20px
+			line-height 25px
+			position absolute
+			right -12px
+			text-align center
+			top -10px
+			text-decoration none
+			width 24px
+			&:hover
+				color color-grisoscuro
+			
+@keyframes mostarContainer
+	0% 
+		opacity 0
+		top 0% 
+	100%
+		opacity 1
+		top 0 
+		

@@ -1,0 +1,87 @@
+#proyectos,#proyectosDetalle{
+	color: #909090;
+}
+#proyectos p,#proyectosDetalle p,#proyectosDetalle ul li{
+	font-size: 12px;
+}
+#proyectosDetalle ul{
+	padding: 10px 0;
+	margin-left: 80px;
+}
+#proyectosDetalle ul li{
+	font-weight: bold;
+	list-style-image: url('../imagenes/puntogreen1.png');
+}
+#proyectosDetalle img.imgProyecto{
+	margin-top: 150px;
+}
+#proyectosDetalle .galeria{
+	text-align: center;
+	margin-left: 73px;
+}
+#proyectosDetalle .galeria img{
+	margin: 5px;
+}
+#banner > .jumbotron{
+    background-position:center -200px;
+}
+.breadcrumb{
+	margin-bottom: 0;
+	background-color: #231c1a;
+}
+.jumbotron h1, .jumbotron .h1{
+	margin: 0;
+	font-size: 40px;
+	font-weight: bolder;
+}
+.pryInpar{
+	width: 100%;
+	height: auto;
+	position: relative;
+	z-index: 0;
+	background-image: url("../imagenes/fondo_coleccion1.png");
+	background-repeat: repeat-y;
+	background-position: center 0;
+	margin-left: -23px;
+}
+.pryPar{
+	width: 100%;
+	height: auto;
+	position: relative;
+	z-index: 0;
+
+	background-repeat: repeat-y;
+	background-position: center 0;
+	margin-left: -23px;
+}
+.borderRigth{
+	border-right-style: solid;
+	border-right-width: 2px;
+	border-right-color: #eeeeee;
+}
+.textoContenido{
+	padding: 15px 20px;
+}
+.botonera{
+	margin: 20px 0 40px 0;
+	text-align: left;
+}
+.btngreen{
+	border-radius: 20px;
+	background: #473c3c;
+	color:#ffffff;
+	border: 1px solid #473c3c;
+	padding: 5px 15px;
+}
+
+.div2{
+	padding-left: 50px;
+	background-image: url('../imagenes/fondo_medio5.png');
+	background-repeat: no-repeat;
+}
+.textop2{
+	margin-top: -10px;
+}
+#imgFinq{
+	margin-top: 10px;
+}

@@ -1,0 +1,89 @@
+nav#menuNav{
+	width: 100%;
+}
+nav#menuNav ul{
+	margin: 0;
+	padding: 0;
+}
+nav#menuNav > ul > li{
+	list-style: none;
+	float: left;
+	text-align: center;
+}
+nav#menuNav > ul > li > a{
+	display: block;
+	padding: 30px 0;
+}
+nav#menuNav > ul > li > a:hover{
+	text-decoration: none;
+}
+nav#menuNav > ul > li > a:hover > .menu-lvl-1{
+	display: block;
+}
+nav#menuNav > ul > li > a > .menu-lvl-1{
+	z-index: 10;
+	position: absolute;
+	display: none;
+	margin-top: 30px;
+}
+nav#menuNav > ul > li > a > .menu-lvl-1 li{
+	list-style: none;
+}
+nav#menuNav > ul > li > a > .menu-lvl-1 li a{
+	display: block;
+	padding: 10px 0;
+}
+nav#menuNav > ul > li > a > .menu-lvl-1 li a:hover{
+	text-decoration: none;
+
+}
+.navbar-inverse{
+	background-image: none;
+	background: #c8a20c;
+}
+.side-nav{
+	background: #c8a20c;
+}
+.navbar-inverse .navbar-nav > li > a,.top-nav>li>a{
+	color: #ffffff;
+}
+.tab-content{
+	padding: 20px 0;
+}
+.botonera{
+	text-align: center;
+}
+table.dataTable tbody th, table.dataTable tbody td{
+	padding: 5px 10px;
+}
+/*
+@media only screen and (max-width: 654px){
+	nav#menuNav{
+		width: 100%;
+	}
+	nav#menuNav ul{
+		margin: 0;
+		padding: 0;
+	}
+	nav#menuNav > ul > li{
+		list-style: none;
+		text-align: center;
+	}
+	nav#menuNav > ul > li > a{
+		display: block;
+		padding: 10px 0;
+	}
+	nav#menuNav > ul > li > a > .menu-lvl-1{
+		z-index: 10;
+		display: none;
+		margin-top: 0px;
+		position: initial;
+	}
+	nav#menuNav > ul > li > a > .menu-lvl-1{
+		width: 100%;
+	}
+}
+*/
+.nav-pills > li.active > a, .nav-pills > li.active > a:hover, .nav-pills > li.active > a:focus{
+	background-color: #c8a20c;
+}

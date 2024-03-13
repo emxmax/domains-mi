@@ -1,0 +1,5 @@
+RewriteCond %{HTTP_HOST} ^menorca.com.pe$ [NC]
+RewriteRule ^(.*)$ http://menorca.pe [R=301,L]
+
+RewriteCond %{HTTP_HOST} ^menorca.com.pe/san-antonio-pachacamac.html$ [NC]
+RewriteRule ^(.*)$ http://menorca.pe [R=301,L]

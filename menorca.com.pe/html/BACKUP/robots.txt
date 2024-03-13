@@ -1,0 +1,4 @@
+User-Agent: *
+Disallow: 
+
+Sitemap: http://menorca.com.pe/sitemap.xml

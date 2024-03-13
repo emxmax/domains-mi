@@ -1,0 +1,86 @@
+/***
+	Mensajes de alerta 
+***/
+.form-error
+	display none
+	label
+		display none !important
+	span
+		color color-rojo
+		font-family family_robotobold
+		font-size 14px
+/***
+	Estilos Generalas para botones, link formularios en general
+***/
+button
+	align-self center
+	background linear-gradient(top, color-turqueza, color-turqueza)
+	border-radius 10px
+	border 0px
+	font-size 25px
+	color color-blanco
+	padding-top 10px
+	padding-bottom 10px
+	&:focus
+		outline 0px
+button[disabled]
+	background linear-gradient(top, color-grisclaro, color-gris)
+	cursor default
+input[type="text"],input[type="password"]
+	background color-blanco
+	border 1px solid color-azul
+	border-top-right-radius 20px
+	border-bottom-right-radius 20px
+	border-top-left-radius 0px
+	border-bottom-left-radius 0px
+	padding-left 20px
+	&:focus
+		background color-blanco
+		outline 0px
+	&:-webkit-autofill
+		-webkit-text-fill-color color-negro
+		-webkit-box-shadow 0 0 0px 1000px color-blanco inset
+
+/****
+	Estilos Generales para formularios de detalle
+***/
+/*
+	Para columnas
+*/
+form
+	label
+		font-size 12px
+.form-group
+	display flex
+	flex-direction column
+	flex-wrap no-wrap
+	justify-content flex-start
+	align-items flex-star
+/*
+	Para filas
+*/
+.form-grouprow
+	display flex
+	flex-direction column
+	flex-wrap no-wrap
+	justify-content space-between
+	align-items flex-star
+	margin-bottom 10px
+	@media screen and (min-width : 768px)
+			flex-direction row
+	.form-col
+		padding 0px 15px 0 0
+		width 100%
+		margin-bottom 10px
+		@media screen and (min-width : 768px)
+			margin-bottom 0
+	.inner-elment
+		display flex
+		flex-direction column
+		flex-wrap no-wrap
+		justify-content space-between
+		align-items flex-star
+		@media screen and (min-width : 768px)
+			flex-direction row
+			
+		

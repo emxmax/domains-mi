@@ -1,0 +1,545 @@
+@media (max-width: 1000px) {
+    #menu{
+        position: initial;
+    }
+    #menu > .jumbotron{
+        background-image: none;
+        background: #231b1a;
+    }
+    .ancho{
+        width: 100%;
+    }
+}
+.row{
+    margin-left: 0;
+    margin-right: 0;
+}
+#scrolllanos ul li{
+    margin-bottom: 10px;
+}
+.btn1{
+    cursor: pointer;
+}
+.imagenPlano{
+    display: none;
+}
+#fase1{
+    display: block;
+}
+
+@media (max-width: 991px) {
+    #logoinv{
+        width: 130px;
+        margin: 0 auto;
+        margin-left: 72px;
+        margin-top: 29px;
+    }
+    #headerHome{
+        width: 75px;
+        margin: 0 auto;
+        margin-left: 135px;
+        margin-top: 20px;
+    }
+    .logoHome{
+        width: 80px;
+        margin: 0 auto;
+        margin-left: 130px;
+        margin-top: 20px;
+
+    }
+    .alinLeftProyecto{
+    margin-left: -1110px;
+}
+    #alinLeft{
+        margin-left: -37px;
+    }
+    #fcenter{
+    text-align: center;
+    }
+    .headerHome{
+
+    }
+    #alineacionMenu{
+        margin-left: 20px;
+    }
+    #rBoton{
+        text-align: center;
+    }
+    #textoArriba{
+        margin-top: 12px;
+    }
+    #itemQuebrada{
+        margin-top: -160px;
+    }
+    #btnProyectosHome{
+        margin-left: 0px;
+    }
+    #projTextoIzquierda{
+        margin-top: -50px;
+    }
+    #botonQuebrada{
+        
+        margin-top: 20px;
+    } 
+    #noticias{
+        
+    }
+    #telefonos{
+        margin-top: 20px;
+    }
+    #wowslider-container1 a.ws_next, #wowslider-container1 a.ws_prev{
+        margin-top: 37px;
+    }
+    #fotosHome{
+   
+    }
+
+    #alinLogo2{
+        margin-top: -100px;
+    }
+    #btnFooter{
+        margin-left: 25px;
+    }
+    #alinLogo{
+        margin-top:  50px;
+    }
+    #h2f{
+        text-align: center;
+    }
+    #alinGaleria{
+        margin-top: 10px;
+    }
+    #projTextoIzquierda{
+        background-image: none;
+        padding-bottom: 70px;
+    }
+    #textoIconoQuebrada{
+        margin-left: 300px;
+        margin-top: -250px;
+        max-width: 287px;
+    }
+    #btn2{
+        margin-left: 80px;
+        margin-top: -100px;
+    }
+    #btn3{
+        margin-top: -156px;
+        margin-left: 159px;
+    }
+    
+    .alinxIcon{
+        margin-left: 70px;
+        margin-top: -30px;
+    }
+    .mapaImg{
+        margin-top: 15px;
+        margin-left: -41px;
+    }
+    #iconosQuebrada2{
+        margin-left: -334px;
+        margin-top: -228px;
+    }
+    #iconosFinca{
+        margin-left: -496px;
+    }
+    #iconoTextoFinca{
+        margin-left: 300px;
+        margin-top: -208px;
+        max-width: 287px;
+    }
+    #iconosQuebrada{
+        margin-left: -496px;
+    }
+    #blockContacto{
+        margin-top: 30px;
+    }
+    #logoContacto{
+        margin-left: 170px;
+    }
+
+    #logoHeader{
+        margin-left: 150px;
+        margin-top: -691px;
+    }
+    #logoHeaderQuebrada{
+        margin-left: 204px;
+    }
+    #logoHeaderFinca{
+        margin-left: 200px;
+    }
+    #iconosFinca2{
+        margin-left: -334px;
+        margin-top: -191px;
+    }
+    #tContacto{
+        margin-top: -9px;
+    }
+    .espacioimg{
+
+    }
+    .prueba{
+        margin-right: 250px;
+        margin-top: -81px;
+    }
+    #tContacto2{
+        margin-top: 95px;
+        margin-left: 30px;
+    }
+    .prueba{
+        margin-left: -300px;
+    }
+    #textoArriba2{
+        margin-top: 22px;
+    }
+    .textop{
+        margin-left: 70px;
+    }
+    #projTextoIzquierda2{
+        background-image: none;
+        margin-top: -40px;
+    }
+    #itemFinca{
+        margin-top: -108px;
+    } 
+    #finPie{
+        text-align: center;
+    }
+    .h2f{
+        text-align: center;
+        margin-top: 44px;
+    }
+    .pf{
+        text-align: center;
+    }
+    #galeriaHome{
+
+    }
+    #banner > .jumbotron{
+        background-position:center -200px;
+
+    }
+    #popuptransparente{
+        margin-top: -38%;
+        margin-left: 5%;
+    }
+    #pieImg{
+        background-image: none;
+        background: #473834;
+    }
+    #iMail{
+        height: auto;
+        margin-left: 363px;
+        margin-top: -47px;
+        width: 25px;
+    }
+    #iFacebook{
+        margin-top: 20px;
+        width: 30px;
+        height: auto;
+        margin-left: 307px;
+    }
+    #alinPie{
+        margin-top: -44px;
+    }
+    #logoHeader{
+        
+    }
+    .enlacesHome > a > img.fb{
+    margin-top: -16px
+    }
+    .enlacesHome > a > img.ml{
+    margin-top: -16px;
+    }
+    #logoHome{
+        width: 200px;
+    }
+    #logoCollection{
+        
+    }
+     #footer > .jumbotron{
+        background-image: none;
+    }
+}
+@media (max-width: 480px) {
+    #footer{
+        background-color: #362622;
+        background-image: none;
+    }
+    .title-contacto{
+    margin-left: 20px;
+    }
+    .botones{
+        margin-left: -40px;
+    }
+    #logoHome{
+        width: 100px;
+        margin-top: -29px;
+    }
+    #fcenter{
+    text-align: center;
+    }
+    #iMail{
+        margin-left: 235px;
+    }
+    .quebradaTop{
+        margin-left: 30px;
+    }
+    #alinLogo2{
+        margin-top: -116px;
+    }
+    #iFacebook{
+        margin-left: 174px;
+    }
+    .enlacesHome > a > img.fb{
+    margin-top: -25px
+    }
+    .enlacesHome > a > img.ml{
+    margin-top: -25px;
+    }
+    .EnlacesHome2{
+    margin-top: -6px;
+    }
+    #banner .jumbotron .row .col figure img{
+        width: 80px;
+        margin-top: -110px;
+    }
+    #masNosotros{
+        margin-bottom: 15px;
+    }
+    #logoCollection{
+       
+    }
+    .bCollection{
+        height: 300px;
+        width: 200%;
+        margin-top: 25px;  
+        margin-left: -226px; 
+    }
+    .bCollectionFinca{
+        height: 300px;
+        width: 200%;
+        margin-top: 25px;  
+        margin-left: -218px; 
+    }
+    .alinFinca{
+        height: 300px;
+        width: 200%;
+        margin-top: 25px;  
+        margin-left: -183px; 
+    }
+    #alinGaleria2{
+        margin-top: 10px;
+    }
+    #textoPlanoQuebrada{
+        margin-top: 70px;
+    }
+    .alin5{
+        margin-top: 22px;
+    }
+    #mapaQuebrada{
+        margin-top: 90px;
+    }
+    #iconosFinca{
+        margin-left: -264px;
+    }
+    #iconosFinca2{
+        margin-left: -287px;
+        margin-top: 20px;
+    }
+    #iconosQuebrada2{
+        margin-left: -300px;
+        margin-top: 20px;
+    }
+    #iconoTextoFinca{
+        margin-left: 11px;
+        margin-top: -206px;
+        max-width: 280px;
+    }
+    #textoIconoQuebrada{
+        margin-left: 24px;
+        margin-top: -206px;
+        max-width: 280px;e
+    }
+    #proyectosDetalle img.imgProyecto{
+        padding-top: 30px;
+    }
+    .enlacesProyecto {
+        text-align: center;
+    }
+    #alineamientoSolo{
+        margin-top: none;
+    }
+    #fotosHome{
+
+
+    }
+    #projTextoIzquierda{
+        margin-top: -45px;
+    }
+    .alinxIcon{
+        margin-left: 78px;
+        margin-top: -29px;
+    }
+    .textop{
+        margin-left: 79px;
+    }
+    #iconoTexto{
+        margin-bottom: -4px;
+        margin-left: 32px;
+    }
+    .tQuebrada{
+        margin-left: 15px;
+    }
+    #iconosQuebrada{
+       margin-left: -255px;
+    }
+    #iconosQuebrada2{
+        margin-left: -411px;
+        margin-top: 30px;
+    }
+    #contenedorCaracteristicas{
+        background-color: #231b1a;
+    }
+    #textoFinca{
+        margin-top: -5px;
+    }
+    #textoIconoQuebrada{
+        margin-top: -245px;
+        margin-left: 35px;
+    }
+    #iconosQuebrada2{
+        margin-left: -303px;
+        margin-top: 18px;
+    }
+    h2.white{
+        text-align: center;
+        padding-top: 20px;
+    }
+    #txtNombre{
+        margin-top: 35px;
+    }
+    #txtEmail{
+        margin-top: 10px;
+    }
+    #txtTelefono{
+        margin-top: 10px;
+    }
+    #todoCaracteristicasQuebrada{
+        margin-left: -32px;
+    }
+    #txtMensaje{
+        margin-top: 10px;
+    }
+    #pantallaC{
+        margin-right: 67px;
+        margin-top: 4px;
+    }
+    #btn2{
+
+        margin-top: -101px;
+    }
+    #btn3{
+        margin-top: -160px;
+    }
+    #botonesQuebrada{
+        margin-top: 30px;
+    }
+    #fase1 {
+        margin-top: -75px;
+    }
+    #fase2{
+        margin-top: -75px;
+    }
+    #fase3{
+        margin-top: -75px;
+    }
+    #btnQuebrada{
+        margin-top: 0;
+        margin-left: -31px;
+    }
+    #galeriaFotos{
+        margin-top: 30px;
+    }
+    #btnProyectosHome{
+        margin-left: -1px;
+    }
+    #tContacto{
+
+    }
+    #logoFincaContacto{
+
+    }
+    #listaNoticias{
+        margin-top: -43px;
+    }
+    #btnContactoVer{
+        margin-top: -79px;
+    }
+    #tContacto2 {
+        margin-top: 90px;
+        margin-left: 30px;
+    }
+    .espacioimg{
+ 
+    }
+    #blockContacto{
+
+    }
+    #alinGaleria{
+        margin-top: 10px;
+    }
+    #tUbicacionVideos{
+        margin-top: 30px;
+    }
+    #wowslider-container1 a.ws_next{
+        width: 35px;
+    }
+    #wowslider-container1 a.ws_next, #wowslider-container1 a.ws_prev{
+        width: 25px;
+        margin-top: 20px;
+    }
+    #wowslider-container1 .ws_bullets a{
+        height: 0px;
+        background: none;
+    }
+    #wowslider-container1 a.ws_next{
+    margin-top: 20px;
+    width: 25px;
+    }
+    #caracteristicasProyecto{
+        background-image: none;
+        width: 100%;
+        height: auto;
+        position: relative;
+        z-index: 0;
+        background-repeat: no-repeat;
+
+    }
+    .proyectoItem{
+        padding-top: 0px;
+    }
+    #googlemapQuebrada{
+        margin-top: 50px;
+    }
+    #footer > .jumbotron{
+        background-image: none;
+    }
+    body{
+        background-color: #231C1A;
+    }
+    #fotosQuebrada{
+        margin-top: 30px;
+    }
+    #tVideo{
+        text-align: center;
+    }
+    #logoContacto{
+        display: none;
+    }
+    #botonQuebrada{
+        margin-top: 20px;
+    }
+    #rBoton{
+        text-align: center;
+    }
+}

@@ -1,0 +1,1 @@
+<script type="text/javascript" src="/min/g=noticias_js&amp;1"></script>

@@ -1,0 +1,56 @@
+@media (max-width: 480) {
+   .galeriaBottom{
+    padding-bottom: 20px;
+   }
+   .paddingMovil{
+    padding: 10px 10px;
+   }
+   .noticiaPachacamac{
+    padding-top: 20px;
+   }
+   .proyectoItem{
+    padding-top: 0px;
+   }
+   .textoFicha{
+    padding-left: 20px;
+   }
+   .textoGaleria{
+    text-align: left;
+    padding-left: 20px;
+   }
+
+
+}
+@media (max-width: 768px) {
+    #banner > .jumbotron{
+        background-position:center -200px;
+        height:350px;
+    }
+    /*#popuptransparente{
+        margin-top: -38%;
+        margin-left: 18%;
+        width: 190px;
+    }*/
+    #popuptransparente{
+        margin-top: -41%;
+        margin-left: 68%;
+        width: 25%;
+        position: absolute;
+    }
+    .textoTituloProyecto{
+        padding-left: 20px;
+    }
+}
+@media (max-width: 1000px) {
+    #menu{
+        position: initial;
+    }
+    #menu > .jumbotron{
+        background-image: none;
+        background: #15702f;
+    }
+}
+.row{
+    margin-left: 0;
+    margin-right: 0;
+}

@@ -1,0 +1,207 @@
+form(ng-controller="formularioCrl")#form
+	section.formCabecera.container
+		.contenidoForm
+			h1
+				| FORMULARIO PARA REFERIDOS
+		.contenidoForm
+			.form-error.alert.alert-danger
+				span
+				| {{error}}
+		.contenidoForm
+			p
+				| Nombre del Propietario
+			input(type="text", ng-model="propietario.nombre",name="nombre")
+		.contenidoForm
+			.cajasContenedor
+				.cajacol
+					p
+						| Teléfono
+					input(type="text", ng-model="propietario.telefono",name="telefono")
+				.cajacol
+					p
+						| D.N.I.
+					input(type="text", ng-model="propietario.dni",name="dni")
+	section.formBody.container
+		.contenidoDatos
+			p
+				| Para empezar a participar del programa, completa los siguientes datos con la información de tu familiar o amigo que deseas referir
+			h1
+				| Registra aquí a tus referidos
+		.contenidoDatos
+			p.verdeOscuro
+				| Referido 1
+		.contenidoDatos
+			.rowForm
+				.formElment
+					p
+						| Nombres y apellidos
+				.formElment
+					input(type="text", ng-model="propietario['referido'][0].nombre", name="nombre_1")
+		.contenidoDatos
+			.rowForm
+				.formElment
+					p#separacionCaja
+						| Dirección
+				.formElment
+					input(type="text", ng-model="propietario['referido'][0].direccion")
+		.contenidoDatos.separacion
+			.cajasDatos
+				.cajarow
+					.rowForm
+						.formElment
+							p
+								| Email
+						.formElment
+							input(type="text", ng-model="propietario['referido'][0].email")
+				.cajarow
+					.rowForm
+						.formElment
+							p
+								| Teléfono
+						.formElment
+							input(type="text", ng-model="propietario['referido'][0].telefono" name="telefono_1")
+				p#textoNegro
+					| Entrega esta ficha a tu familiar o amigo referido, quien deberá presentarla al vendedor de Menorca al momento de la compra
+		.contenidoDatos
+			p.verdeOscuro
+				| Referido 2
+		.contenidoDatos
+			.rowForm
+				.formElment
+					p
+						| Nombres y apellidos
+				.formElment
+					input(type="text", ng-model="propietario['referido'][1].nombre" name="nombre_2")
+		.contenidoDatos
+			.rowForm
+				.formElment
+					p#separacionCaja
+						| Dirección
+				.formElment
+					input(type="text", ng-model="propietario['referido'][1].direccion")
+		.contenidoDatos.separacion
+			.cajasDatos
+				.cajarow
+					.rowForm
+						.formElment
+							p
+								| Email
+						.formElment
+							input(type="text", ng-model="propietario['referido'][1].email")
+				.cajarow
+					.rowForm
+						.formElment
+							p
+								| Teléfono
+						.formElment
+							input(type="text", ng-model="propietario['referido'][1].telefono" name="telefono_2")
+				p#textoNegro
+					| Entrega esta ficha a tu familiar o amigo referido, quien deberá presentarla al vendedor de Menorca al momento de la compra
+		.contenidoDatos
+			p.verdeOscuro
+				| Referido 3
+		.contenidoDatos
+			.rowForm
+				.formElment
+					p
+						| Nombres y apellidos
+				.formElment
+					input(type="text", ng-model="propietario['referido'][2].nombre" name="nombre_3")
+		.contenidoDatos
+			.rowForm
+				.formElment
+					p#separacionCaja
+						| Dirección
+				.formElment
+					input(type="text", ng-model="propietario['referido'][2].direccion")
+		.contenidoDatos.separacion
+			.cajasDatos
+				.cajarow
+					.rowForm
+						.formElment
+							p
+								| Email
+						.formElment
+							input(type="text", ng-model="propietario['referido'][2].email")
+				.cajarow
+					.rowForm
+						.formElment
+							p
+								| Teléfono
+						.formElment
+							input(type="text", ng-model="propietario['referido'][2].telefono" name="telefono_3")
+				p#textoNegro
+					| Entrega esta ficha a tu familiar o amigo referido, quien deberá presentarla al vendedor de Menorca al momento de la compra
+		.contenidoDatos
+			p.verdeOscuro
+				| Referido 4
+		.contenidoDatos
+			.rowForm
+				.formElment
+					p
+						| Nombres y apellidos
+				.formElment
+					input(type="text", ng-model="propietario['referido'][3].nombre" name="nombre_4")
+		.contenidoDatos
+			.rowForm
+				.formElment
+					p#separacionCaja
+						| Dirección
+				.formElment
+					input(type="text", ng-model="propietario['referido'][3].direccion")
+		.contenidoDatos.separacion
+			.cajasDatos
+				.cajarow
+					.rowForm
+						.formElment
+							p
+								| Email
+						.formElment
+							input(type="text", ng-model="propietario['referido'][3].email")
+				.cajarow
+					.rowForm
+						.formElment
+							p
+								| Teléfono
+						.formElment
+							input(type="text", ng-model="propietario['referido'][3].telefono" name="telefono_4")
+				p#textoNegro
+					| Entrega esta ficha a tu familiar o amigo referido, quien deberá presentarla al vendedor de Menorca al momento de la compra
+		.contenidoDatos
+			p.verdeOscuro
+				| Referido 5
+		.contenidoDatos
+			.rowForm
+				.formElment
+					p
+						| Nombres y apellidos
+				.formElment
+					input(type="text", ng-model="propietario['referido'][4].nombre" name="nombre_5")
+		.contenidoDatos
+			.rowForm
+				.formElment
+					p#separacionCaja
+						| Dirección
+				.formElment
+					input(type="text", ng-model="propietario['referido'][4].direccion")
+		.contenidoDatos.separacion
+			.cajasDatos
+				.cajarow
+					.rowForm
+						.formElment
+							p
+								| Email
+						.formElment
+							input(type="text", ng-model="propietario['referido'][4].email")
+				.cajarow
+					.rowForm
+						.formElment
+							p
+								| Teléfono
+						.formElment
+							input(type="text", ng-model="propietario['referido'][4].telefono" name="telefono_5")
+				p#textoNegro
+					| Entrega esta ficha a tu familiar o amigo referido, quien deberá presentarla al vendedor de Menorca al momento de la compra
+		.botonera
+			button(type="button", ng-click= "guardarform(propietario)").btn.btn-success
+				| Enviar

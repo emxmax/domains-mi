@@ -1,0 +1,37 @@
+header.header(ng-controller="menuCrtl", ng-if= "boolmenu == true" )
+	.headerElement
+		a(href="javascript:void(0)")
+			span.icon-menu
+	.headerElement.posicion2
+		img.logo(src="./public/images/logointerno.png", alt="Embajador Bienestar")
+	.headerElement
+		.inner-info
+			.infoElment
+				.buttonInfo(ng-click="viewMenu($event)")
+					ul
+						li.block-user
+							span.icon-user
+						li
+							span {{userName}}
+					.main-info
+						img(src="./public/images/triangulo.png", class="activemain")
+						ul
+							li
+								a(href="javascript:void(0)", ng-click="viewMyuser()")
+									span.icon-user
+									span Mi perfil
+							//li
+								a(href="#")
+									span.icon-confi
+									span Configuración
+							//li.separate
+							//li.active
+								a(href="#")
+									span.icon-candado
+									span Términos y Condiciones
+							li.separate
+							li
+								a(href="javascript:void(0)", ng-click="closeIntranet()")
+									span.icon-salir
+									span Salir	
+

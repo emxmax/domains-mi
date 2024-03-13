@@ -1,0 +1,105 @@
+@font-face {font-family: "Gotham";
+src: url("fonts/Gotham-Bold.otf");
+}
+#banner > .jumbotron{
+    background-position:center -210px;
+    height:350px;
+}
+.breadcrumb{
+	margin-bottom: 0;
+}
+.lista > li{
+	color: #909090;
+	font-size: 12px;
+	margin-left: -25px;
+}
+#txtMensaje{
+	resize:none;
+}
+.galeriaBottom{
+	padding-bottom: 20px;
+}
+.bottop{
+	padding-top: 50px;
+	padding-bottom: 10px;
+}
+.top5{
+	padding-top: 5px;
+}
+.jumbotron h1{
+	margin: 0;
+	font-size: 35px;
+	color: #1c953f;
+	font-family: 'Gotham', sans-serif;
+	font-weight: bolder;
+}
+.jumbotron h2{
+	font-size: 35px;
+	line-height: normal;
+	color: #1c953f;
+}
+#scroll_galeria{
+	background: #f5f5f5;
+	padding-top: 25px;
+}
+#scroll_contacto{
+	background: #1c953f;
+	padding: 15px 0;
+}
+.row{
+	margin: 5px 0;
+}
+.title-contacto{
+	margin-left: 100px;
+}
+.imgMapa{
+	width: 100%;
+	max-width: 800px;
+}
+.imgSobre{
+	width: 100%;
+	max-width: 280px;
+}
+#scroll_ficha{
+	background: #f7f4f4;
+	border: solid 1px #eeeeee;
+}
+@media (max-width: 480px) {
+	.jumbotron h1{
+		font-size: 25px;
+	}
+	#scroll_galeria{
+		text-align: center;
+	}
+	#scroll_ficha > p,p, .jumbotron p{
+		text-align: justify;
+		padding-left: 20px;
+	}
+	.proyecto-item > .jumbotron > .container > .panel > .panel-heading > h1{
+		font-size: 30px;
+	}
+	.paddingMovil{
+    padding: 10px 10px;
+   }
+   .title-contacto{
+   	margin-left: 20px;
+   }
+	#txtTelefono{
+		margin-left: -15px;
+	}
+	#txtEmail{
+		margin-left: -15px;
+	}
+	.formContacto{
+		padding-top: 5px;
+	}
+	.proyectoGaleria{
+		text-align: left;
+		padding-left: 20px;
+	}
+	.textoGaleria{
+    text-align: left;
+    padding-left: 20px;
+   }
+
+}

@@ -1,0 +1,31 @@
+section.detalleUser
+	form
+		.form-grouprow
+			.form-col
+				.inner-elment
+					label Nombre:
+					input(type="text" ng-model="usuario.name")
+			.form-col
+				.inner-elment
+					label Apellido:
+					input(type="text" ng-model="usuario.lastname")
+		.form-grouprow
+			.form-col
+				.inner-elment
+					label Email:
+					input(type="text" ng-model="usuario.email")
+			.form-col
+				.inner-elment
+					label Teléfono:
+					input(type="text" ng-model="usuario.phone")
+		.form-group
+			label Móvil:
+			input(type="text" ng-model="usuario.movil")
+		.form-group
+			label Usuario:
+			input(type="text" , ng-model="usuario.myuser", readonly)
+		.form-group
+			label Password:
+			input(type="password" ng-model="usuario.pass")
+		.form-group
+			button(ng-click="saveUser(usuario)") Guardar
