@@ -1,0 +1,883 @@
+@font-face {
+
+	font-family: 'Source Sans Pro';
+
+	font-style: normal;
+
+	font-weight: 200;
+
+	src: url("../fonts/SourceSansPro-ExtraLight.otf") format("OpenType")
+
+}
+
+
+
+@font-face {
+
+	font-family: 'Source Sans Pro';
+
+	font-style: italic;
+
+	font-weight: 200;
+
+	src: url("../fonts/SourceSansPro-ExtraLightIt.otf") format("OpenType")
+
+}
+
+
+
+@font-face {
+
+	font-family: 'Source Sans Pro';
+
+	font-style: italic;
+
+	font-weight: 300;
+
+	src: url("../fonts/SourceSansPro-LightIt.otf") format("OpenType")
+
+}
+
+
+
+@font-face {
+
+	font-family: 'Source Sans Pro';
+
+	font-style: normal;
+
+	font-weight: 300;
+
+	src: url("../fonts/SourceSansPro-Light.otf") format("OpenType")
+
+}
+
+
+
+@font-face {
+
+	font-family: 'Source Sans Pro';
+
+	font-style: normal;
+
+	font-weight: 400;
+
+	src: url("../fonts/SourceSansPro-Regular.otf") format("OpenType")
+
+}
+
+
+
+@font-face {
+
+	font-family: 'Source Sans Pro';
+
+	font-style: normal;
+
+	font-weight: 600;
+
+	src: url("../fonts/SourceSansPro-Semibold.otf") format("OpenType")
+
+}
+
+
+
+@font-face {
+
+	font-family: 'Source Sans Pro';
+
+	font-style: italic;
+
+	font-weight: 600;
+
+	src: url("../fonts/SourceSansPro-SemiboldIt.otf") format("OpenType")
+
+}
+
+
+
+@font-face {
+
+	font-family: 'Source Sans Pro';
+
+	font-style: normal;
+
+	font-weight: 700;
+
+	src: url("../fonts/SourceSansPro-Bold.otf") format("OpenType")
+
+}
+
+
+
+@font-face {
+
+	font-family: 'Source Sans Pro';
+
+	font-style: italic;
+
+	font-weight: 700;
+
+	src: url("../fonts/SourceSansPro-BoldIt.otf") format("OpenType")
+
+}
+
+
+
+@font-face {
+
+	font-family: 'Source Sans Pro';
+
+	font-style: normal;
+
+	font-weight: 900;
+
+	src: url("../fonts/SourceSansPro-Black.otf") format("OpenType")
+
+}
+
+
+
+@font-face {
+
+	font-family: 'Source Sans Pro';
+
+	font-style: italic;
+
+	font-weight: 900;
+
+	src: url("../fonts/SourceSansPro-BlackIt.otf") format("OpenType")
+
+}
+
+
+
+body {
+
+	font-family: 'Source Sans Pro', sans-serif;
+
+	color: #fff
+
+}
+
+
+
+header {
+
+	background: #fff;
+
+	top: 0;
+
+	width: 100%;
+
+	height: 70px;
+
+}
+
+
+
+@media (max-width:414px) {
+
+	header {
+
+		text-align: center
+
+	}
+
+}
+
+
+
+header img {
+
+	padding-top: 9px;
+
+	max-width: 102px
+
+}
+
+
+
+.alerta {
+
+	position: absolute;
+
+	top: 44px;
+
+	right: 0;
+
+	z-index: 2;
+
+	max-width: 290px;
+
+	background: #34a433;
+
+	padding: 12px 10px;
+
+	height: 48px;
+
+}
+
+
+
+.alerta div {
+
+	position: relative;
+
+}
+
+
+
+.alerta div:before {
+
+	content: "";
+
+	width: 28px;
+
+	height: 48px;
+
+	background: url("../img/borde.png") no-repeat;
+
+	position: absolute;
+
+	left: -29px;
+
+	top: -12px;
+
+}
+
+
+
+@media (max-width:414px) {
+
+	.alerta div:before {
+
+		display: none
+
+	}
+
+}
+
+
+
+.alerta div img {
+
+	position: absolute;
+
+	left: 0;
+
+	top: 0
+
+}
+
+
+
+.alerta div p {
+
+	font-size: 11px;
+
+	font-weight: 600;
+
+	padding-left: 35px;
+
+	margin-bottom: 0;
+
+	line-height: 12px
+
+}
+
+
+
+@media (max-width:414px) {
+
+	.alerta {
+
+		max-width: 100%;
+
+		position: relative;
+
+		top: 0
+
+	}
+
+}
+
+
+
+#main {
+
+	background: url("../img/fondo-landing.jpg") center no-repeat;
+
+	background-attachment: fixed;
+
+	background-size: cover;
+
+}
+
+
+
+#main .wh>div {
+
+	padding-top: 3%
+
+}
+
+
+
+#main .wh .hr {
+
+	display: none;
+
+}
+
+
+
+@media (max-width:736px) {
+
+	#main .wh .hr {
+
+		display: block
+
+	}
+
+	#main .wh .hr img {
+
+		width: 100%;
+
+		padding: 10px 0 28px
+
+	}
+
+}
+
+
+
+#main .box-formulario {
+
+	padding-right: 1em;
+
+}
+
+
+
+@media (max-width:736px) {
+
+	#main .box-formulario {
+
+		padding-right: 0
+
+	}
+
+}
+
+
+
+#main .box-formulario h2 {
+
+	font-family: 'Source Sans Pro';
+
+	font-weight: 700;
+
+	font-style: italic;
+
+	text-transform: uppercase;
+
+	font-size: 27px
+
+}
+
+
+
+#main .box-formulario .subt {
+
+	font-size: 22px;
+
+	font-weight: 600;
+
+	font-style: italic;
+
+	font-family: 'Source Sans Pro';
+
+	line-height: 32px;
+
+}
+
+
+
+#main .box-formulario .subt span {
+
+	color: #fac200;
+
+	font-weight: 700;
+
+	font-style: italic;
+
+	font-size: 30px
+
+}
+
+
+
+#main .box-formulario .subt .cb {
+
+	color: #fff;
+
+	text-transform: lowercase
+
+}
+
+
+
+#main .box-formulario p {
+
+	font-size: 16px;
+
+	font-style: italic;
+
+	font-weight: 200
+
+}
+
+
+
+#main .box-formulario form {
+
+	padding-top: .5em;
+
+}
+
+
+
+#main .box-formulario form .form-control-plaintext {
+
+	border: 0px solid transparent;
+
+	border-bottom: 1px solid #fff;
+
+	padding-left: 25px;
+
+	font-size: 16px;
+
+	font-style: italic;
+
+	font-weight: 200;
+
+	color: #fff;
+
+}
+
+
+
+@media (max-width:736px) {
+
+	#main .box-formulario form .form-control-plaintext {
+
+		margin-bottom: 15px
+
+	}
+
+}
+
+
+
+#main .box-formulario form .form-control-plaintext:focus {
+
+	outline: 0
+
+}
+
+
+
+#main .box-formulario form .nombres,
+
+#main .box-formulario form .telefono,
+
+#main .box-formulario form .email,
+
+#main .box-formulario form .empresa,
+
+#main .box-formulario form .ciudad {
+
+	position: relative;
+
+}
+
+
+
+#main .box-formulario form .nombres:before,
+
+#main .box-formulario form .telefono:before,
+
+#main .box-formulario form .email:before,
+
+#main .box-formulario form .empresa:before,
+
+#main .box-formulario form .ciudad:before {
+
+	content: "";
+
+	width: 20px;
+
+	height: 20px;
+
+	display: block;
+
+	position: absolute;
+
+	top: 9px;
+
+	background: url("../img/nombre.png") no-repeat
+
+}
+
+
+
+#main .box-formulario form .telefono:before {
+
+	background: url("../img/telefono.png") no-repeat
+
+}
+
+
+
+#main .box-formulario form .email:before {
+
+	background: url("../img/email.png") no-repeat
+
+}
+
+
+
+#main .box-formulario form .empresa:before {
+
+	background: url("../img/empresa.png") no-repeat
+
+}
+
+
+
+#main .box-formulario form .ciudad:before {
+
+	background: url("../img/mapa.png") no-repeat
+
+}
+
+
+
+#main .box-formulario form .form-check {
+
+	font-size: 13px;
+
+	font-weight: 200;
+
+	text-align: left;
+
+	margin-top: 20px;
+
+	margin-bottom: 20px;
+
+}
+
+
+
+#main .box-formulario form .form-check label {
+
+	cursor: pointer
+
+}
+
+
+
+#main .box-formulario form button {
+
+	background: #0078a1;
+
+	color: #fff;
+
+	font-size: 20px;
+
+	font-weight: 600;
+
+	border-radius: 0
+
+}
+
+
+
+#main .box-descripcion {
+
+	padding-left: 2.5em;
+
+}
+
+
+
+@media (max-width:736px) {
+
+	#main .box-descripcion {
+
+		padding-left: 0
+
+	}
+
+}
+
+
+
+#main .box-descripcion h2 {
+
+	font-family: 'Source Sans Pro';
+
+	font-weight: 700;
+
+	font-style: italic;
+
+	font-size: 29px
+
+}
+
+
+
+#main .box-descripcion p {
+
+	font-size: 17px;
+
+	font-weight: 600;
+
+	font-style: italic;
+
+	line-height: 20px
+
+}
+
+
+
+#main .box-descripcion .min {
+
+	font-size: 15px;
+
+	line-height: 15px;
+
+}
+
+
+
+#main .box-descripcion .min a {
+
+	font-weight: 400;
+
+	color: #f0bc06;
+
+	text-decoration: underline
+
+}
+
+
+
+#main .box-descripcion #carrusel .carousel-item {
+
+	opacity: 0;
+
+	transition-duration: 1s;
+
+	transition-property: opacity
+
+}
+
+
+
+#main .box-descripcion #carrusel .carousel-item img {
+
+	opacity: .2;
+
+	transition-duration: 1s;
+
+	transition-property: opacity
+
+}
+
+
+
+#main .box-descripcion #carrusel .carousel-item.active,
+
+#main .box-descripcion #carrusel .carousel-item-next.carousel-item-left,
+
+#main .box-descripcion #carrusel .carousel-item-prev.carousel-item-right,
+
+#main .box-descripcion #carrusel .carousel-item.active img {
+
+	opacity: 1;
+
+	transition: 1s
+
+}
+
+
+
+#main .box-descripcion #carrusel #carrusel .active.carousel-item-left,
+
+#main .box-descripcion #carrusel #carrusel .active.carousel-item-right {
+
+	opacity: 0;
+
+	transition: 1s
+
+}
+
+
+
+#main .box-descripcion #carrusel .carousel-item-next,
+
+#main .box-descripcion #carrusel .carousel-item-prev,
+
+#main .box-descripcion #carrusel .carousel-item.active,
+
+#main .box-descripcion #carrusel .active.carousel-item-left,
+
+#main .box-descripcion #carrusel .active.carousel-item-prev {
+
+	transform: translateX(0);
+
+	transform: translate3d(0, 0, 0);
+
+	transition: 1s
+
+}
+
+
+
+#main .box-descripcion .content-img {
+
+	text-align: center;
+
+	padding: 2em 0;
+
+}
+
+
+
+#main .box-descripcion .content-img img {
+
+	max-width: 400px;
+
+	width: 100%;
+
+	margin: 0 auto
+
+}
+
+
+
+
+
+#footer-top {
+
+	position: relative;
+
+	bottom: 0;
+
+	background: #0078a1;
+
+	width: 100%;
+
+	font-size: 12px;
+
+	font-weight: 400;
+
+	padding: 10px 0;
+
+}
+
+
+
+#footer-top .text-r {
+
+	text-align: right
+
+}
+
+
+
+#footer-top a {
+
+	font-style: italic;
+
+	color: #fff
+
+}
+
+
+
+::-webkit-input-placeholder {
+
+	color: #fff
+
+}
+
+
+
+::-moz-placeholder {
+
+	color: #fff
+
+}
+
+
+
+:-ms-input-placeholder {
+
+	color: #fff
+
+}
+
+
+
+:-moz-placeholder {
+
+	color: #fff
+
+}
+
+
+
+@media (max-width:768px) {
+
+	.form-group {
+
+		margin-bottom: 0
+
+	}
+
+}
+
+
+
+@media (max-width:736px) {
+
+	header {
+
+		position: relative
+
+	}
+
+	#main {
+
+		padding-top: 50px;
+
+		padding-bottom: 50px;
+
+	}
+
+	#main .wh {
+
+		flex-wrap: wrap-reverse
+
+	}
+
+	#footer-top {
+
+		position: relative
+
+	}
+
+}

@@ -1,0 +1,271 @@
+/*
+ * Base structure
+ */
+
+/* Move down content because we have a fixed navbar that is 50px tall */
+body {
+  padding-top: 50px;
+}
+
+
+/*
+ * Global add-ons
+ */
+.max-w{
+  max-width: 130px;
+  width: 100%;
+}
+.max-w2{
+  max-width: 230px;
+  width: 100%;
+}
+.sub-header {
+  padding-bottom: 10px;
+  border-bottom: 1px solid #eee;
+}
+
+/*
+ * Top navigation
+ * Hide default border to remove 1px line.
+ */
+.navbar-fixed-top {
+  border: 0;
+}
+
+/*
+ * Sidebar
+ */
+
+/* Hide for mobile, show later */
+.bg-color{
+    background-color: #F3F4F5;
+}
+.btn-editar{
+    display: inline;
+    padding: 7px 20px;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    background-color: #00AFFF;
+    border:1px solid #00AFFF;
+    color: white;
+    text-align: center;
+    font-size: 17px;
+    text-decoration: none;
+    transition-duration: 0.25s;
+  }
+.btn-editar:hover{
+    background-color: white;
+    color: #00AFFF;
+    transition-duration: 0.25s;
+}
+.control-label{
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    color: #808080;
+    font-size: 15px;
+    color: #445963;
+}
+.btn-volver{
+    display: inline;
+    padding: 7px 20px;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    background-color: #64d167;
+    border:1px solid #64d167;
+    color: white;
+    text-align: center;
+    font-size: 17px;
+    text-decoration: none;
+    transition-duration: 0.25s;
+  }
+.btn-volver:hover{
+    background-color: white;
+    color: #64d167;
+    transition-duration: 0.25s;
+}
+
+.sidebar {
+  display: none;
+}
+@media (min-width: 768px) {
+  .sidebar {
+    position: fixed;
+    top: 50px;
+    bottom: 0;
+    left: 0;
+    z-index: 1000;
+    display: block;
+    padding: 20px;
+    overflow-x: hidden;
+    overflow-y: auto; /* Scrollable contents if viewport is shorter than content. */
+      background-color: #32373C;
+    border-right: 1px solid #eee;
+  }
+}
+
+/* Sidebar navigation */
+.nav-sidebar {
+  margin-right: -21px; /* 20px padding + 1px border */
+  margin-bottom: 20px;
+  margin-left: -20px;
+}
+.nav-sidebar > li > a {
+  padding-right: 20px;
+  padding-left: 20px;
+  color: white;
+}
+.nav-sidebar > .active > a,
+.nav-sidebar > .active > a:hover,
+.nav-sidebar > .active > a:focus {
+  color: #0073AA;
+  background-color: #23282D;
+}
+.nav-sidebar a:hover{
+    color: #0073AA;
+  background-color: #23282D;
+}
+
+/*
+ * Main content
+ */
+
+.main {
+  padding: 20px;
+}
+@media (min-width: 768px) {
+  .main {
+    padding-right: 40px;
+    padding-left: 40px;
+  }
+}
+.main .page-header {
+  margin-top: 0;
+}
+
+
+/*
+ * Placeholder dashboard ideas
+ */
+
+.placeholders {
+  margin-bottom: 30px;
+  text-align: center;
+}
+.placeholders h4 {
+  margin-bottom: 0;
+}
+.placeholder {
+  margin-bottom: 20px;
+}
+.placeholder img {
+  display: inline-block;
+  border-radius: 50%;
+}
+
+.video-responsive {
+    position: relative;
+    margin-bottom: 20px;
+    padding-top: 56.25%;
+}
+.video-responsive iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+.p-rigth{
+  float: right;
+  display: inline;
+}
+.red{
+  color:red;
+}
+.green{
+  color:green;
+}
+.testimoniales{
+  padding: 20px;
+  border:1px solid #dbdbdb;
+
+}
+.testimoniales p{
+text-align: justify;
+font-size: 18px;
+line-height: 19px;
+}
+.testimoniales h4{
+  text-align: center;
+  font-size: 18px;
+line-height: 19px;
+}
+.testimoniales h6, .testimoniales h5{
+ text-align: center;
+}
+.testimoniales img{
+  border-radius: 50%;
+  width: 150px;
+  display: block;
+  margin: 0 auto 0 auto;
+  object-fit: cover;
+  height: 150px;
+  border:1ps solid #626262;
+}
+
+.cursos{
+  border:1px solid #626262;
+  padding: 5px 10px 10px 10px;
+  background-color: #e2e1df;
+}
+.cursos img{
+  width: 100%;
+}
+.cursos h3{
+  text-transform: uppercase;
+  font-size: 20px;
+  line-height: 21px;
+  text-align: center;
+}
+.cursos p{
+  margin-top: 20px;
+  text-align: justify;
+}
+.calendario{
+  padding: 10px;
+  border-radius: 10px;
+  background-color: #e0e0e0;
+  margin: 5px;
+min-height: 150px;
+}
+.no a{
+  text-decoration: none;
+}
+.calendario h3{
+  color:black;
+  font-size: 14px;
+  text-align: center;
+  width: 100%;
+}
+.calendario p{
+  text-align: center;
+  color: black;
+  font-size: 14px;
+  padding: 0px 10px 0px 10px;
+  margin: 0px;
+}
+.btn-de{
+  background-color: red;
+  float: right;
+  margin: -3px 10px 10px 10px;
+  border-color: red;
+  transition-duration:0.25s;
+}
+.h{
+  position: relative;
+  margin-left: 10px;
+  display: inline;
+  font-size: 16px;
+}

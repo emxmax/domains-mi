@@ -1,0 +1,28 @@
+@charset "UTF-8";
+/* CSS Document */
+
+img {
+	border: none;
+}
+
+input {
+	height: 20px;
+	border-top-style: none;
+	border-right-style: none;
+	border-bottom-style: none;
+	border-left-style: none;
+	background-color: transparent;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 10px;
+}
+textarea {
+	width:210px;
+	height: 70px;
+	border-top-style: none;
+	border-right-style: none;
+	border-bottom-style: none;
+	border-left-style: none;
+	background-color: transparent;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 10px;
+}

@@ -1,0 +1,16 @@
+header(ng-controller="headerCrtl")
+	.container
+		.inner-header
+			a(href="#/bienvenida")
+				img(src="./resources/assets/image/logointerno.png", alt="Ohmedical")
+			.inner-user
+				figure
+					img(src="./resources/assets/image/mifoto.jpg", alt="Ohmedical")
+				.inner-data
+					h2
+						| Jessica Maldonado
+					h2.gris
+						| SECRETARIA
+					a(href="javascript:void(0)",ng-nclick="cerrarSession()")
+						i.icon-cross
+						| CERRAR SESIÓN

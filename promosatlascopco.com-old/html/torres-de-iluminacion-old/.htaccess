@@ -1,0 +1,9 @@
+# Activar RewriteEngine
+
+RewriteEngine On
+
+RewriteCond %{HTTP_HOST} ^promosatlascopco.com/torres-de-iluminacion/ [NC]
+
+RewriteRule ^(.*)$ http://www.promosatlascopco.com/torres-de-iluminacion/$1 [L,R=301]
+
+RewriteRule ^gracias/?$ gracias.php

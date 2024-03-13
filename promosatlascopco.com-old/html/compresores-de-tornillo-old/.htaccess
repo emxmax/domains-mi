@@ -1,0 +1,9 @@
+# Activar RewriteEngine
+
+RewriteEngine On
+
+RewriteCond %{HTTP_HOST} ^promosatlascopco.com/compresores-de-tornillo/ [NC]
+
+RewriteRule ^(.*)$ http://www.promosatlascopco.com/compresores-de-tornillo/$1 [L,R=301]
+
+RewriteRule ^gracias/?$ gracias.html

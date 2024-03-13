@@ -1,0 +1,412 @@
+body{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: "source_sans_proregular";
+}
+header{
+	height: 10vh;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+header .redes{
+	display: flex;
+	width: 100px;
+	justify-content: space-between;
+}
+header .redes i{
+	color: #0096c4;
+	font-size: 20px;
+}
+section{
+	background-image: url("../image/fondo.png");
+	background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: auto;
+    background-attachment: fixed;
+}
+section.grac{
+    height: 83vh;
+}
+.gracias{
+	position: absolute;
+    width: 60%;
+    height: 100px;
+    bottom: 0;
+    top: 0;
+    right: 0;
+    left: 0;
+    margin: auto;
+    text-align: center;
+    color: white;
+    font-size: 20px;
+}
+.gracias p{
+	margin: 0;
+	font-family: "source_sans_proitalic";
+	line-height: 1;
+}
+.gracias .btn-atlas{
+	background: white;
+    border: none;
+    color: #0096c4;
+    display: block;
+    padding: 14px 30px;
+    width: 180px;
+    margin: auto;
+    margin-top: 20px;
+    font-size: 15px;
+    text-decoration: none;
+    font-family: "source_sans_probold";
+    font-size: 18px;
+}
+.gracias .btn-atlas:hover{
+	background-color: white;
+}
+.cuerpo-gracias{
+	height: 100vh;
+}
+section .consulta{
+	color: white;
+	line-height: 1.3em;
+	font-size: 18px;
+	font-family: "source_sans_probold_italic";
+}
+section .container .cuerpo-landing{
+	height: auto;
+    display: flex;
+    align-items: center;
+    margin-top: 120px;
+}
+section .foto-carro{
+	color: white;
+}
+section .foto-carro img{
+	width: 100%;
+	padding-top: 0px;
+	/*margin-bottom: 20px;*/
+}
+section .foto-carro{
+	line-height: 1em;
+	font-family: "source_sans_probold_italic";
+	font-size: 15px;
+}
+section .foto-carro{
+	position: relative;
+}
+section .foto-carro span{
+	width: 80px;
+    position: absolute;
+    height: 80px;
+    border-radius: 100px;
+    background: #80207d;
+    display: flex;
+    align-items: center;
+    font-size: 10px;
+    text-align: center;
+    left: 20px;
+}
+section .foto-carro a{
+	color: #fdc400;
+	border-bottom: 1px solid #fdc400;
+}
+section .cuerpo-landing .carro{
+	/*padding-top: 55px;*/
+}
+section .autorizacion{
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+section .autorizacion label.error{
+	padding-right: 30px;
+}
+section .rectangle{
+	background: rgba(0, 35, 45, 0.67); 
+	padding: 10px 20px 2px;
+	color: white;
+	margin-top: 30px;
+	margin-bottom: 20px;
+}
+section .rectangle p{
+	margin: 0;
+	font-family: "source_sans_probold";
+}
+section .rectangle ul{
+	padding-left: 16px;
+	-webkit-box-align:start;
+    -moz-box-align:start;
+    -o-box-align:start;
+    -ms-flex-align:start;
+    -webkit-align-items:flex-start;
+    align-items:flex-start;
+    display:-webkit-box;
+    display:-moz-box;
+    display:-webkit-flex;
+    display:-ms-flexbox;
+    display:box;
+    display:flex;
+    -webkit-box-orient:horizontal;
+    -moz-box-orient:horizontal;
+    -o-box-orient:horizontal;
+    -webkit-flex-direction:row;
+    -ms-flex-direction:row;
+    flex-direction:row;
+    -webkit-box-lines:single;
+    -moz-box-lines:single;
+    -o-box-lines:single;
+    -webkit-flex-wrap:wrap;
+    -ms-flex-wrap:wrap;
+    flex-wrap:wrap;
+    -webkit-box-pack:flex-start;
+    -moz-box-pack:flex-start;
+    -o-box-pack:flex-start;
+    -ms-flex-pack:flex-start;
+    -webkit-justify-content:flex-start;
+    justify-content:flex-start
+}
+section .rectangle ul li{
+	color: #0096c4;
+	margin-right: 28px;
+	line-height: 1.75em;
+}
+section .rectangle ul li a{
+	color: white;
+}
+@media (min-width: 375px) {
+	section .foto-carro{
+		padding-top: 25px;
+	}
+	section .cuerpo-landing .carro{
+		/*padding-top: 35px;*/
+	}
+}
+@media (min-width: 426px) {
+	section .rectangle{
+		margin-top: 60px;
+	}
+	section .foto-carro img{
+		width: 100%;
+	}
+	section .foto-carro{
+		line-height: 1.3em;
+		font-size: 16px;
+	}
+}
+@media (min-width: 556px) {
+	section .foto-carro{
+		line-height: 1.7em;
+		padding-top: 30px;
+		font-size: 18px;
+	}
+	section .foto-carro img{
+		width: 200px;
+	}
+}
+@media (min-width: 992px) {
+	section .container .cuerpo-landing{
+		height: 83vh;
+		margin-top: 0px;
+	}
+	section{
+		height: 83vh;
+	}
+	section .cuerpo-landing .carro{
+		padding-left: 50px;
+		/*padding-top: 30px;*/
+	}
+	section .foto-carro img{
+		width: 80%;
+		padding-top: 44px;
+	}
+	section .foto-carro{
+		line-height: 1.3em;
+		font-size: 14px;
+		padding-top: 0px;
+		width: 100%;
+	}
+	section .foto-carro span{
+		left: inherit;
+	}
+	section .rectangle{
+		margin-bottom: 0px;
+		margin-top: 20px;
+	}
+}
+@media (min-width: 1024px) {
+	section .consulta{
+		font-size: 17px;
+		line-height: 18px;
+	}
+	section .consulta b{
+		font-size: 24px;
+		line-height: 22px;
+	}
+}
+@media (min-width: 1200px) {
+	section .foto-carro img{
+		width: 80%;
+		padding-top: 0px;
+	}
+	section .foto-carro{
+		line-height: 1.35em;
+	}
+	section .cuerpo-landing .carro{
+		padding-left: 80px;
+	}
+}
+form{
+	color: white;
+}
+form .group{
+	display: flex;
+	flex-direction: row;
+	padding: 20px 0 15px;
+	border-bottom: 4px solid #c9c8c8;
+	height: 64px;
+}
+form .group span{
+	width: 40px;
+	text-align: center;
+}
+form .group input{
+	background: transparent;
+	border: 0;
+	padding-left: 35px;
+}
+form .group label.error{
+	margin-top: 5px;
+	position: absolute;
+    right: 25px;
+    bottom: 0px;
+}
+
+form .button{
+	width: 100%;
+	background: white;
+	border: none;
+	height: 60px;
+	margin-top: 10px;
+	font-family: "source_sans_probold";
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	color: #0096c4;
+	text-decoration: none;
+	font-size: 18px;
+}
+form .button:hover{
+	background-color: white;
+}
+form input.nombre{
+	background-image: url("../image/icon-user.png");
+	background-repeat: no-repeat;
+	background-position: 0;
+	width: 100%;
+}
+form input.apellidos{
+	background-image: url("../image/icon-user.png");
+	background-repeat: no-repeat;
+	background-position: 0;
+	width: 100%;
+}
+form input.telefono{
+	background-image: url("../image/icon-cell.png");
+	background-repeat: no-repeat;
+	background-position: 0;
+	width: 100%;
+}
+form input.empresa{
+	background-image: url("../image/icon-edificio.png");
+	background-repeat: no-repeat;
+	background-position: 0;
+	width: 100%;
+}
+form input.ciudad{
+	background-image: url("../image/icon-marker.png");
+	background-repeat: no-repeat;
+	background-position: 0;
+	width: 100%;
+}
+form input.correo{
+	background-image: url("../image/icon-sobre.png");
+	background-repeat: no-repeat;
+	background-position: 0;
+	width: 100%;
+}
+/*@media (min-width: 1024px) and (max-width: 1199px) {
+	form .group{
+		height: 64px;
+	}
+}*/
+@media (min-width: 1200px) {
+	form{
+		margin: 0;
+	}
+}
+.cinta {
+    position: absolute;
+    right: 0;
+    top: 90px;
+    width: 330px;
+}
+.cinta > img {
+    height: 60px;
+    position: absolute;
+    right: 0;
+    width: 250px;
+}
+.cinta .contenido-cinta {
+    align-items: center;
+    display: flex;
+    height: 60px;
+    justify-content: center;
+    position: absolute;
+    right: 0;
+    width: 230px;
+}
+.cinta .contenido-cinta p {
+    color: white;
+    font-size: 12px;
+    line-height: 1em;
+    margin: 0 0 0 10px;
+}
+@media (min-width: 376px) {
+.cinta > img {
+    height: 50px;
+    width: 330px;
+}
+.cinta .contenido-cinta {
+    height: 50px;
+    width: 309px;
+}
+}
+.carrito {
+    font-size: 16px;
+}
+@media (max-width: 768px) {
+	.carrito{
+		margin-bottom: 40px;
+	}
+}
+input::-webkit-input-placeholder {
+  color: white;
+}
+input:-moz-placeholder {
+  color: white; 
+}
+input:-ms-input-placeholder { 
+  color: white; 
+}
+footer{
+	height: 7vh;
+	background: white;
+}
+footer .footer{
+	display: flex;
+	color: #717272;
+	justify-content: space-between;
+	align-items: center;
+	height: 7vh;
+}

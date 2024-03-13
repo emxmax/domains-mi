@@ -1,0 +1,13 @@
+RewriteEngine On
+RewriteCond %{HTTP_HOST} ^redgalar.com/socios/que-detallazo [NC]
+RewriteRule ^(.*)$ https://www.redgalar.com/socios/que-detallazo/$1 [L,R=301]
+RedirectMatch 301 ^(.*)$ https://www.redgalar.com/socios/que-detallazo
+# BEGIN ANSIBLE MANAGED BLOCK
+<IfModule mod_rewrite.c>
+RewriteEngine On
+RewriteCond %{HTTP_HOST} quedetallazoperu.com.mediaimpactperu.com$
+RewriteRule ^(.*)$ "http://mediaimpactperu.com/404" [R=301,L]
+</IfModule>
+# END ANSIBLE MANAGED BLOCK
+AddHandler application/x-httpd-alt-php73___lsphp .php
+DirectoryIndex index.html INDEX.HTML Index.html index.shtml index.cgi index.pl index.php index.xhtml index.htm

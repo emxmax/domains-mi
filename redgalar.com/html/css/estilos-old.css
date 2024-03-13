@@ -1,0 +1,1788 @@
+@font-face {
+    font-family: 'GothamRnd';
+    font-style: normal;
+    font-weight: 200;
+    src:url(../fonts/GothamRnd-Light.otf) format("OpenType")
+}
+@font-face {
+    font-family: 'GothamRnd';
+    font-style: normal;
+    font-weight: 300;
+    src:url(../fonts/GothamRnd-Book.otf) format("OpenType")
+}
+@font-face {
+    font-family: 'GothamRnd';
+    font-style: normal;
+    font-weight: 500;
+    src:url(../fonts/GothamRnd-Medium.otf) format("OpenType")
+}
+@font-face {
+    font-family: 'GothamRnd';
+    font-style: normal;
+    font-weight: 700;
+    src:url(../fonts/GothamRnd-Bold.otf) format("OpenType")
+}
+/*HEADER*/
+header{
+    margin-bottom: 30px;
+}
+header ol{
+    list-style: none;
+    padding-left: 0px;
+    background-color: white;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-left: 5px solid #e32a34;
+    position: absolute;
+    top: 58px;
+    left: 0px;
+    z-index: 2;
+    display: none;
+    width: 340px;
+}
+header ol li{
+    width: 100%;
+    text-align: left;
+}
+@media (min-width: 768px) { 
+    header ol{
+     top: 53px;
+    left: 15px;
+    }
+    header ol li{
+    width: 270px;
+    text-align: left;
+    }
+}
+
+header .foto-nav{
+    border-radius: 50%;
+    width: 75%;
+}
+header ol li a{
+    font-family: 'GothamRnd';
+    font-style: normal;
+    font-weight: 200;
+    font-size: 15px;
+    color: #212120;
+    width: 270px;
+    padding: 5px 10px;
+    display: block;
+    text-decoration: none;
+}
+header ol li a:hover{
+    text-decoration: none;
+    color: #e32a34;
+}
+header ol li a:hover {
+    color: #b5b5b5;
+    text-decoration: none;
+    cursor: default;
+}
+header ol li:nth-child(1) a:hover,header ol li:nth-child(4) a:hover{
+	color: #e32a34 !important;
+    text-decoration: none;
+    cursor: pointer !important;
+}
+header ol li a img{
+    width: 50px;
+    display: inline-block;
+}
+nav{
+    margin-top: 10px;
+    margin-bottom: -17px;
+    margin-left: 15px !important;
+}
+@media (min-width: 768px) { 
+    nav{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: -15px !important;
+    }
+}
+nav ul{
+    list-style:none;
+    padding-left: 0px;
+    margin-bottom: 0px;
+}
+
+nav ul li{
+    display: inline-block;
+}
+nav ul > li + li::before {
+    color: #ccc;
+    content: "/ ";
+    padding: 0 7px;
+}
+nav ul li a{
+    font-family: 'GothamRnd';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    color: #B5B5B5;
+    text-decoration:none;
+}
+nav ul li a:hover{
+    text-decoration: none;
+    color: #E32A34;
+}
+.container-header{
+    background-color: #F1F1F1;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.container-header img#logo{
+    width: 100px;
+}
+.container-header ul{
+    list-style: none;
+    padding-left: 0px;
+    margin-bottom: 0px;
+    text-align: center;
+}
+@media (min-width: 768px) { 
+    .container-header ul{
+        text-align: right;
+    }
+}
+.container-header ul li{
+    display: inline-block;
+    margin-left: 10px; 
+    margin-right: 10px;
+    text-align: center;
+}
+.container-header ul li a{
+    text-decoration: none;
+}
+.container-header ul li a i{
+    color: #E32A34;
+    display: block;
+}
+.container-header ul li a span{
+    font-family: 'GothamRnd';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    color: #58585B;
+    margin-top: 5px; 
+    display: block;
+}
+#search{
+    width: 100%;
+    padding: 10px 15px;
+    outline: 0px;
+    border:0px;
+    background-image: url(../img/search.png);
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: 25px 25px;
+    font-family: 'GothamRnd';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 13px;
+    color: #C4C4C4;
+    margin:15px 0px;
+}
+@media (min-width: 768px) { 
+    #search{
+        margin-top: 0 0;
+    }
+}
+#btn-category{
+    text-decoration: none;
+}
+#btn-category i{
+    color: #E32A34;
+    display: block;
+}
+#btn-category span{
+    font-family: 'GothamRnd';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    color: #58585B;
+    margin-top: 5px; 
+    display: block;
+}
+/*END HEADER*/
+/*CABECERA Breadcrumbs*/
+.cabecera-breadcrumbs{
+    background-color: #F7F7F7;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border-bottom: 1px solid #ccc;
+}
+.cabecera-breadcrumbs ol{
+    padding-left: 0px;
+    list-style: none;
+}
+.cabecera-breadcrumbs ol li{
+    display: inline-block;
+    font-family: 'GothamRnd';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+}
+.cabecera-breadcrumbs ol li.active{
+    color: #E32A34;
+}
+.cabecera-breadcrumbs ol li a{
+    text-decoration: none;
+    color: #58585B;
+}
+.cabecera-breadcrumbs ol > li + li::before {
+    color: #ccc;
+    content: "/ ";
+    padding: 0 5px;
+}
+.cabecera-breadcrumbs h2{
+    font-family: 'GothamRnd';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 25px;
+    color: #E32A34;
+    margin-top: 10px;
+    margin-bottom: 0px;
+}
+/*END CABECERA Breadcrumbs*/
+/*REGISTRAR*/
+#registrar{
+    background-color: white;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+#registrar h3{
+    margin-top: 0px;
+    font-family: 'GothamRnd';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 23px;
+    color: #666666;
+}
+#registrar .form{
+    border: 1px solid #ccc;
+    padding: 30px 25px;
+    width: 100%;
+    border-radius: 3px;
+}
+@media (min-width: 1200px) { 
+    #registrar .form{
+    width: 85%;
+    }
+}
+#registrar .form input[type='text'], #registrar .form input[type='password']{
+    border: 1px solid #ccc;
+    padding: 10px 15px;
+    width: 100%;
+    margin-top: 3px;
+    margin-bottom: 3px;
+    font-family: 'GothamRnd';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 13px;
+    color: #333;
+    background-color: #f7f7f7;
+    border-radius: 3px;
+}
+#registrar .form a{
+    font-family: 'GothamRnd';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 12px;
+    color: #666666;
+    float: right;
+}
+#registrar .form label{
+    font-family: 'GothamRnd';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 12px;
+    color: #666666;
+    display: block;
+    margin-top: 20px;
+    text-align: left;
+}
+#registrar .form input[type='checkbox']{
+    position: relative;
+    bottom: -2px;
+}
+#registrar .form button{
+    background-color: #E32A34;
+    border: 0 none;
+    color: white;
+    font-family: "GothamRnd";
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    padding: 7px 25px;
+    margin-top: 10px;
+}
+#registrar ul{
+    list-style: none;
+    padding-left: 0px;
+    margin-top: 30px;
+}
+#registrar ul li{
+    margin-bottom: 3px;
+}
+#registrar ul li a{
+    font-family: 'GothamRnd';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    color: #999999;
+}
+#registrar .btn-fb{
+    background-color: #3b5998;
+    border: 0 none;
+    color: white;
+    font-family: "GothamRnd";
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 500;
+    margin-top: 10px;
+    padding: 7px 25px;
+    text-decoration: none;
+    border-radius: 3px;
+    width: 100%;
+    display: block;
+    text-align: center;
+}
+.mt{
+    margin-top: 25px;
+}
+@media (min-width: 992px) { 
+    #registrar .btn-fb{
+        width: 230px;
+        font-size: 14px;
+    }
+    .mt{
+        margin-top: 0px;
+    }
+}
+#registrar .btn-fb:hover{
+    background-color: #30487b;
+}
+/*END REGISTRAR*/
+/*PERFIL*/
+#perfil{
+    background-color: white;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+#perfil h2{
+    margin-top: 40px;
+    margin-bottom: 20px;
+    font-family: 'GothamRnd';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    color: #666666;
+}
+#perfil h3{
+    margin-top: 0px;
+    font-family: 'GothamRnd';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 23px;
+    color: #666666;
+}
+#perfil .cuadro{
+    border: 1px solid #ccc;
+    padding: 30px 25px;
+    width: 100%;
+    border-radius: 3px;
+}
+.hola ul{
+    list-style: none;
+    padding-left: 0px;
+    margin-top: 20px;
+}
+.hola ul li{
+    margin-bottom: 5px;
+}
+.hola ul li a{
+    font-family: 'GothamRnd';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    color: #999999;
+}
+.hola ul li a i{
+    color: #E32A34;
+}
+.historial img{
+    width: 100%;
+}
+.historial a.link{
+    font-family: 'GothamRnd';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    color: #E32A34;
+    margin-top: 5px;
+}
+.historial h4{
+    font-family: 'GothamRnd';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 22px;
+    color: black;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+.historial ul{
+    list-style: none;
+    padding-left: 0px;
+    margin-top: 20px;
+}
+.historial ul li{
+    margin-bottom: 5px;
+}
+.historial ul li a{
+    font-family: 'GothamRnd';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    color: #000000;
+}
+.historial ul li a b{
+    color: #E32A34;
+}
+.panel-pedidos{
+    height: 500px;
+    overflow-y: scroll;
+}
+.panel-pedidos img{
+    width: 100%;
+}
+.panel-pedidos h5{
+    font-family: 'GothamRnd';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    color: black;
+    margin-bottom: 0px;
+}
+.panel-pedidos span{
+    font-family: 'GothamRnd';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    color: #999999;
+}
+.panel-pedidos>div{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #C1BCBE;
+}
+/*END PERFIL*/
+/*AYUDA*/
+#ayuda{
+    background-color: white;
+    padding-top: 50px;
+    padding-bottom: 50px;    
+}
+#ayuda h3{
+    margin-top: 0px;
+    font-family: 'GothamRnd';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 23px;
+    color: #666666;
+}
+.panel-temas{
+    border-top: 1px solid #808080;
+    border-bottom: 1px solid #808080;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-align: center;
+    margin-bottom: 40px;
+}
+.panel-temas img{
+    width: 60px !important;
+}
+.panel-temas h5{
+    font-family: 'GothamRnd';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    color: #58585B;
+}
+.panel-temas>div{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+#ayuda ul.temas{
+    list-style: none;
+    padding-left: 0px;
+    display: inline-block;
+    margin-right: 20px;
+}
+#ayuda ul.temas li{
+    margin-bottom: 5px;
+}
+#ayuda ul.temas li a{
+    font-family: 'GothamRnd';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    color: #999999;
+}
+#ayuda ul.temas li p{
+    color: #58585b;
+    font-family: "GothamRnd";
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 16px;
+}
+#ayuda img{
+    width: 100%;
+}
+#ayuda input,#ayuda textarea{
+    border: 1px solid #ccc;
+    padding: 10px 15px;
+    width: 95%;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    font-family: 'GothamRnd';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 13px;
+    color: #333;
+    background-color: #f7f7f7;
+    border-radius: 3px;
+}
+#ayuda button{
+    background-color: #E32A34;
+    border: 0 none;
+    color: white;
+    font-family: "GothamRnd";
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    padding: 7px 25px;
+    margin-top: 10px;
+    margin-right: 5%;
+}
+#ayuda p{
+    font-family: 'GothamRnd';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 12px;
+    color: #58585B;
+    line-height: 16px; 
+}
+/*END AYUDA*/
+/*LIBRO*/
+#libro{
+    background-color: white;
+    padding-top: 50px;
+    padding-bottom: 50px; 
+}
+#libro h3{
+    font-family: 'GothamRnd';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    color: #666666;
+    border-bottom: 1px solid #666666;
+    padding-bottom: 5px;
+    margin-bottom: 20px;
+}
+#libro h4{
+    font-family: 'GothamRnd';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    color: #666666;
+    margin-top: 40px;
+    margin-bottom: 10px;
+}
+#libro p{
+    font-family: 'GothamRnd';
+    font-style: normal;
+    font-weight: 200;
+    font-size: 16px;
+    color: #666666;
+    text-align: justify;
+    margin-top: 15px;
+}
+#libro input,#libro textarea{
+    border: 1px solid #808080;
+    padding: 5px 10px;
+    width: 100%;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    font-family: 'GothamRnd';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    color: #808080;
+}
+#libro button{
+    background-color: #E32A34;
+    border: 0 none;
+    color: white;
+    font-family: "GothamRnd";
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    padding: 7px 25px;
+    margin-top: 10px;
+}
+/*END LIBRO*/
+/*falta eliminar*/
+
+ .menu-bottom  a{
+      color: #968D90;
+      text-decoration:none;
+  }
+  .menu-bottom  a:hover{
+    color: #E32A34;
+
+  }
+.menu-bottom a i{
+    color: #E32A34;
+}
+/*falta eliminar*/
+
+
+aside .menu-categoria{
+    background-color: #E32A34;
+    padding: 4px;
+    text-align: center;
+    font-family: 'GothamRnd';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 13px;
+    color: white;
+}
+aside ol {
+    background-color: white;
+    border-left: 5px solid #e32a34;
+    left: 15px;
+    list-style: outside none none;
+    padding-bottom: 5px;
+    padding-left: 0;
+    padding-top: 5px;
+}
+aside ol li {
+    text-align: left;
+    width: 270px;
+}
+aside ol li a {
+    color: #212120;
+    display: block;
+    font-family: "GothamRnd";
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 200;
+    padding: 5px 10px;
+    text-decoration: none;
+    width: 270px;
+}
+aside ol li a img {
+    width: 35px;
+}
+@media (min-width: 992px) { 
+    aside ol li a {
+        font-size: 15px;
+    }
+    aside ol li a img {
+    display: inline-block;
+    width: 50px;
+    }
+}
+aside ol li a:hover {
+    color: #b5b5b5;
+    text-decoration: none;
+    cursor: default;
+}
+aside ol li:nth-child(1) a:hover,aside ol li:nth-child(4) a:hover{
+	color: #e32a34 !important;
+    text-decoration: none;
+    cursor: pointer !important;
+}
+
+aside .filtros>ol{
+    list-style: none;
+    margin-top: 20px;
+    padding-left: 20px;
+    margin-bottom: 50px;
+}
+aside .filtros>ol>li{
+    margin-bottom: 10px;
+}
+aside .filtros>ol>li>a{
+    font-family: 'GothamRnd';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    color: black;
+    display: block;
+    position: relative;
+}
+aside .filtros>ol>li>a>i{
+    position: absolute;
+    top: 0px;
+    right: 20px;
+}
+aside .filtros>ol>li>a:hover{
+    text-decoration: none;
+    color: black;
+}
+aside .filtros>ol>li>ol{
+    list-style: none;
+    padding-left: 20px;
+}
+aside .filtros>ol>li>ol>li{
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+aside .filtros>ol>li>ol>li>a{
+    font-family: 'GothamRnd';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    color: black;
+}
+aside .filtros>ol>li>ol>li>a:hover{
+    text-decoration: none;
+    color: black;
+}
+#links-body ul{
+    list-style: none;
+    padding-left: 0px;
+}
+#links-body ul li{
+    display: inline-block;
+    margin-right: 40px;
+}
+#links-body ul li a{
+    font-family: 'GothamRnd';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    color: #676767;
+}
+#links-body ul li a:hover{
+    text-decoration: none;
+}
+#listado-productos h3{
+    font-family: 'GothamRnd';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 22px;
+    color: #666666;
+    margin-bottom: 15px; 
+    margin-top: 30px;
+}
+.galeria-producto{
+    box-shadow: 0 1px 10px -1px rgba(0, 0, 0, 0.34);
+    padding: 10px;
+    margin-bottom: 10px;
+    display: table;
+}
+.galeria-producto:hover{
+    text-decoration: none;
+}
+.galeria-producto img{
+    width: 100%;
+}
+.galeria-producto h5{
+    font-family: 'GothamRnd';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    color: black;
+    margin-bottom: 0px;
+    height: 33px;
+}
+.mas-comprados-producto{
+    box-shadow: 0 1px 10px -1px rgba(0, 0, 0, 0.34);
+    padding: 10px;
+    margin-bottom: 10px;
+    display: table;
+}
+.mas-comprados-producto:hover{
+    text-decoration: none;
+}
+.mas-comprados-producto img{
+    width: 100%;
+}
+.mas-comprados-producto h5{
+    font-family: 'GothamRnd';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    color: black;
+    margin-bottom: 0px;
+    height: 33px;
+}
+.mas-comprados-producto span{
+    font-family: 'GothamRnd';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    color: #E32A34;
+}
+/*CATEGORIA*/
+#listado-categoria h2{
+    font-family: 'GothamRnd';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    color: #E32A34;
+    margin-top: 0px; 
+    margin-bottom: 20px;
+    text-transform: uppercase;
+}
+#listado-categoria span{
+    font-family: 'GothamRnd';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 13px;
+    color: black;
+}
+#listado-categoria select{
+    font-family: 'GothamRnd';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 13px;
+    color: #8C8C8C;
+    padding: 5px 10px;
+    margin-left: 10px;
+}
+#listado-categoria .publi-categoria{
+    box-shadow: 0 1px 10px -1px rgba(0, 0, 0, 0.34);
+    padding: 10px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    display: table;
+}
+#listado-categoria .publi-categoria img{
+    width: 100%;
+}
+#listado-categoria .publi-categoria h3{
+    font-family: 'GothamRnd';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 25px;
+    color: black;
+    margin-bottom: 5px; 
+    margin-top: 10px;
+}
+#listado-categoria .publi-categoria span{
+    font-family: 'GothamRnd';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 22px;
+    color: #E32A34;
+}
+#listado-categoria .publi-categoria p{
+    font-family: 'GothamRnd';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    color: #666666;
+    margin-top: 10px;
+    margin-bottom: 0px;
+}
+#listado-categoria .publi-categoria h4{
+    font-family: 'GothamRnd';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 17px;
+    color: #666666;
+}
+#listado-categoria .publi-categoria a.btn-cate{
+    background-color: #e32a34;
+    color: white;
+    font-family: "GothamRnd";
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 500;
+    margin-top: 10px;
+    padding: 5px 10px;
+    width: 108px;
+    display: block;
+    text-align: center;
+    border: 1px solid #e32a34;
+    text-decoration: none;
+    position: relative;
+    top: 35px;
+}
+@media (min-width: 992px) { 
+    #listado-categoria .publi-categoria a.btn-cate{
+         top: 0px;
+    }
+}
+#listado-categoria .publi-categoria a{
+    text-decoration: none;
+}
+#listado-categoria .publi-categoria a.btn-cate:hover{
+    background-color: white;
+    color: #e32a34;
+}
+#listado-categoria .publi-categoria a.btn-blanco{
+    border: 1px solid #666666;
+    color: #C4C4C4;
+    background-color: white;
+    text-decoration: none;
+}
+#listado-categoria .publi-categoria a.btn-blanco:hover{
+    background-color: #C4C4C4;
+    color: white;
+}
+#listado-categoria .detalle{
+    margin-top: 45px;
+    margin-bottom: 20px;
+}
+/*END CATEGORIA*/
+/*FOOTER*/
+footer{
+    background-color: #E32A34;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+footer p{
+    font-family: 'GothamRnd';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 13px;
+    color: #fff;
+    margin-bottom: 0px; 
+    margin-top: 10px;
+}
+footer p a{
+    text-decoration: none;
+    color: white;
+    font-weight: 500;
+}
+footer p a:hover{
+    color: white;
+}
+footer img{
+    width: 100px;
+}
+#after-footer{
+    background-color: #F1F1F1;
+    border-top: 4px solid #E32A34;
+    margin-top: 20px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+#after-footer h3{
+    font-family: 'GothamRnd';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 17px;
+    color: #58585B;
+    margin-top: 0px;
+}
+#after-footer p{
+    font-family: 'GothamRnd';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 12px;
+    color: #58585B;
+    line-height: 14px;
+    text-align: justify;
+}
+#after-footer input{
+    background-color: white;
+    padding: 10px 15px;
+    font-family: 'GothamRnd';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    color: #58585B;
+    width: 100%;
+    border: 0;
+}
+#after-footer button{
+    background-color: #58585B;
+    padding: 10px 15px;
+    font-family: 'GothamRnd';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    color: white;
+    width: 100%;
+    border: 0;
+}
+#after-footer ul{
+    list-style: none;
+    padding-left: 0px;
+}
+#after-footer ul li{
+    margin-bottom: 5px;
+}
+#after-footer ul li a{
+    font-family: 'GothamRnd';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 13px;
+    color: #58585B;
+}
+#after-footer ol{
+    list-style: none;
+    padding-left: 0px;
+}
+#after-footer ol li{
+    display: inline-block;
+    margin-right: 5px;
+}
+#after-footer ol li a{
+    width: 35px;
+    height: 35px;
+    background-color: white;
+    display: table;
+    text-align: center;
+    text-decoration: none;
+}
+#after-footer ol li a:hover{
+    background-color: #E32A34;
+}
+#after-footer ol li a i{
+    display: table-cell;
+    vertical-align: middle;
+    color: #E32A34;
+    font-size: 16px;
+}
+#after-footer ol li a:hover i{
+    color: white;
+}
+/*FOOTER*/
+/*MAS SEGURAS*/
+#mas-seguras{
+    margin-top: 15px;
+}
+#mas-seguras p{
+    font-family: 'GothamRnd';
+    font-style: normal;
+    font-weight: 200;
+    font-size: 13px;
+    color: #212120;
+    display: inline-block;
+    margin-right: 7px;
+}
+#mas-seguras img{
+    width: 70px;
+    display: inline-block;
+    position: relative;
+    top: -10px;
+}
+/*END MAS SEGURAS*/
+/*PRODUCTO*/
+#producto img{
+    width: 100%;
+}
+#producto h2{
+    font-family: 'GothamRnd';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 22px;
+    color: black;
+    margin-bottom: 5px; 
+    margin-top: 0px;
+}
+#producto .img-producto{    
+    margin-bottom: 10px;
+}
+#producto .img-producto img{
+    width: 100%;
+}
+#producto ul{
+    padding-left: 0px;
+    list-style: none;
+    margin-top: 30px;
+}
+#producto ul li{
+    color: #58585b;
+    font-family: "GothamRnd";
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 300;
+    margin-bottom: 15px;
+}
+#producto ul li span.p-quantity-modified{
+    -moz-user-select: none;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 2px;
+    display: inline-block;
+    height: 30px;
+    padding: 0 25px;
+    position: relative;
+    vertical-align: middle;
+    margin-left: 10px;
+}
+#producto ul li span.p-quantity-modified i{
+    cursor: pointer;
+    display: block;
+    height: 20px;
+    overflow: hidden;
+    position: absolute;
+    top: 6px;
+    width: 20px;
+    text-align: center;
+    font-weight: 300;
+}
+#producto ul li span.p-quantity-modified i.menos{
+    left: 3px;
+}
+#producto ul li span.p-quantity-modified i.mas{
+    right: 3px;
+}
+#producto ul li span.p-quantity-modified input{
+    border: 0 none;
+    display: block;
+    line-height: 14px;
+    margin-top: 6px;
+    text-align: center;
+    width: 60px;
+}
+#producto ul li b.precio{
+    text-decoration: line-through;
+    font-size: 20px;
+    color: #797979;
+    font-weight: 300;
+}
+#producto ul li b.oferta{
+    font-size: 30px;
+    color: #e32a34;
+}
+#producto a.btn{
+    background-color: #e32a34;
+    border: 0 none;
+    color: white;
+    font-family: "GothamRnd";
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    margin-top: 15px;
+    padding: 7px 25px;
+    display: inline-block;
+    text-decoration: none;
+}
+#producto a.comprar{
+    background-color: #e32a34;
+    min-width: 190px;
+    text-align: center;
+}
+#producto a.cesta{
+    background-color: white;
+    border:1px solid #E32A34;
+    color: #E32A34;
+    min-width: 190px;
+     text-align: center;
+}
+#producto h5{
+    font-size: 12px;
+    margin-top: 30px;
+}
+
+#responsiveTabsDemo{
+    background-color: #F1F1F1;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+#responsiveTabsDemo ul li{
+    margin-bottom: 0px;
+}
+#responsiveTabsDemo ul li a{
+    font-family: "GothamRnd";
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    color: #58585b;
+    text-decoration: none;
+    padding: 15px 20px;
+    display: inline-block;
+}
+#responsiveTabsDemo ul li.r-tabs-state-active{
+    border-bottom: 2px solid #e32a34;
+}
+/*END PRODUCTO*/
+/*COMPRAR*/
+#comprar{
+    padding-bottom: 30px;
+}
+#comprar h3{
+    color: #666666;
+    font-family: "GothamRnd";
+    font-size: 23px;
+    font-style: normal;
+    font-weight: 500;
+    margin-top: 15px;
+    text-align: center;
+}
+#comprar input, #comprar textarea,#comprar select {
+    background-color: #f7f7f7;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    color: #333;
+    font-family: "GothamRnd";
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 500;
+    margin-bottom: 5px;
+    margin-top: 5px;
+    padding: 10px 15px;
+    width: 100%;
+}
+#comprar label{
+    color: #666666;
+    font-family: "GothamRnd";
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 300;
+}
+#comprar button{
+    background-color: #e32a34;
+    border: 0 none;
+    color: white;
+    font-family: "GothamRnd";
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    margin-top: 25px;
+    padding: 7px 25px;
+}
+#comprar a {
+    background-color: #e32a34;
+    border: 0 none;
+    color: white;
+    font-family: "GothamRnd";
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    margin-top: 10px;
+    padding: 7px 25px;
+    display: inline-block;
+    text-decoration: none;
+    cursor: pointer;
+}
+#comprar img{
+    width: 100%;
+}
+#comprar figure{
+    position:relative;
+}
+#comprar input[type="file"]{
+    opacity: 0; 
+    position:absolute; 
+    top:0;
+    left:0;
+    width:100%;
+    height:100%;
+    cursor: pointer;
+}
+#comprar .producto-select{
+    width: 100%;
+    border: 1px solid #e32a34;
+    border-radius: 3px;
+    display: table;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    margin-bottom: 20px;
+}
+#comprar .producto-select h4{
+    color: black;
+    font-family: "GothamRnd";
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 500;
+    margin-bottom: 5px;
+    margin-top: 0px;
+}
+#comprar .producto-select span{
+    color: #e32a34;
+    font-family: "GothamRnd";
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 500;
+}
+#comprar .producto-select p{
+    color: #666666;
+    font-family: "GothamRnd";
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 500;
+    margin-bottom: 0px;
+}
+#exito{
+    background-color: #f2dede;
+    border-color: #ebccd1;
+    color: #a94442;
+    border-radius: 4px;
+    margin-bottom: 20px;
+    padding: 15px;
+    font-family: "GothamRnd";
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 500;
+    display: none;
+    margin-top: 40px;
+}
+/*END COMPRAR*/
+/*CARRITO*/
+#carrito{
+    padding-top: 50px;
+    padding-bottom: 50px; 
+}
+#carrito h3{
+    font-family: 'GothamRnd';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    color: #666666;
+    display: block;
+    border-bottom: 1px solid #666666;
+    padding-bottom: 5px; 
+}
+#carrito .pedido-carrito{
+    position: relative;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #666666;
+}
+#carrito .pedido-carrito img{
+    width: 70%;
+}
+#carrito .pedido-carrito a{
+    text-decoration: none;
+}
+#carrito .pedido-carrito h4{
+    font-family: 'GothamRnd';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 17px;
+    color: #666666;
+}
+#carrito .pedido-carrito p{
+    font-family: 'GothamRnd';
+    font-style: normal;
+    font-weight: 200;
+    font-size: 15px;
+    color: #666666;
+}
+#carrito .pedido-carrito span{
+    color: #e32a34;
+    font-family: "GothamRnd";
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+}
+#carrito .btn-eliminar{
+    font-family: 'GothamRnd';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    color: #C42F37;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}
+#carrito .resumen{
+    padding-left: 40px;
+    padding-right: 40px;
+}
+#carrito .resumen ul{
+   list-style: none;
+   padding-left: 0px; 
+}
+#carrito .resumen ul li{
+    padding-top: 7px;
+    padding-bottom: 7px;
+    width: 100%;
+    display: table;
+    border-bottom: 1px solid #7E7F7F;
+}
+#carrito .resumen ul li h5{
+    font-family: 'GothamRnd';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 19px;
+    color: #C42F37;
+    text-align: center;
+}
+#carrito .resumen ul li p{
+    float: left;
+    font-family: 'GothamRnd';
+    font-style: normal;
+    font-weight: 200;
+    font-size: 14px;
+    color: #666666;
+    margin-bottom: 0px;
+}
+#carrito .resumen ul li span{
+    float: right;
+    font-family: 'GothamRnd';
+    font-style: normal;
+    font-weight: 500;
+    font-style: 18px;
+    color: #C42F37;
+}
+#carrito .resumen ul li a{
+    background-color: #e32a34;
+    color: white;
+    font-family: "GothamRnd";
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    padding: 7px 25px;
+    width: 100%;
+    text-align: center;
+    display: inline-block;
+    text-decoration: none;
+}
+/*END CARRITO*/
+
+#prodown{
+    font-family: 'GothamRnd';
+    margin-top: 30px;
+}
+#prodown h4{
+    font-size: 26px;
+    font-weight: 300;
+    color: black;
+    margin-bottom: 40px;
+}
+#prodown .first{
+    background-color: #EBEBEB;
+    padding: 30px 40px;
+    display: block;
+    border-top: 1px dashed black;
+    border-bottom: 1px dashed black;
+}
+.del-pad{
+    padding-right: 0px;
+}
+
+#prodown .first .form-control{
+    width: 100%;
+    border:none;
+    padding:8px 5px;
+}
+#prodown textarea{
+    width: 100%;
+    border:none;
+    padding:8px 5px;
+}
+#prodown label{
+    color: #797979;
+    font-weight: 300;
+    font-size: 14px;
+    padding:0px;
+}
+#prodown label span{
+    font-size: 10px
+}
+#prodown .row{
+    margin-top: 15px;
+}
+#prodown .mas input{
+    margin-bottom: 10px;
+    width: 100%;
+}
+
+#prodown .second{
+    background-color: #FAFAFA;
+    padding: 30px 40px;
+}
+#prodown .second .form-control{
+    width: 100%;
+    padding:5px 5px;
+}
+#prodown .second button{
+    background-color: #E32A34;
+    border:none;
+    text-align: center;
+    padding: 5px 20px;
+    display: inline-block;
+    float: right;
+    color: white;
+}
+#prodown .second img{
+    width: 100%;
+}
+#prodown .second figure{
+    position:relative;
+}
+#prodown .second input[type="file"]{
+    opacity: 0; 
+    position:absolute; 
+    top:0;
+    left:0;
+    width:100%;
+    height:100%;
+    cursor: pointer;
+}
+
+#prodown .third{
+    background-color: #EBEBEB;
+    padding: 30px 40px;
+    display: block;
+    border-top: 1px dashed black;
+    border-bottom: 1px dashed black;
+    margin-bottom: 50px;
+}
+#prodown .third .form-control{
+    width: 100%;
+    padding:5px 5px;
+    border:none;
+}
+#prodown .third label{
+    position: relative;
+     top: 3px;
+}
+.text-right{
+    text-align: right;
+}
+#prodown .third button{
+    background-color: #E32A34;
+    border:none;
+    text-align: center;
+    padding: 5px 20px;
+    display: inline-block;
+    float: right;
+    color: white;
+}
+#prodown .third a#search2{
+    background-color: #e32a34;
+    border: medium none;
+    color: white;
+    display: inline-block;
+    float: right;
+    padding: 5px 20px;
+    text-align: center;
+    text-decoration: none;
+}
+#prodown .third a#search2:hover{
+    text-decoration: none;
+}
+
+.slick-slide img {
+    padding: 2px;
+}
+.yellow{
+    background: #FFFFC9;
+}
+
+
+#redifine p{
+    font-family: 'GothamRnd';
+    font-style: normal;
+    font-weight: 300 !important;
+    line-height: 20px;
+    font-size: 14px;
+    position: relative;
+    top: 3px;
+}
+#redifine .dedicatoria{
+    font-size: 17px;
+}
+ .boton-red {
+    background-color: #e32a34;
+    border: 0 none;
+    color: white;
+    font-family: "GothamRnd";
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    margin-top: 0px;
+    padding: 7px 25px;
+    display: inline-block;
+    text-decoration: none;
+    float: right;
+    position: relative;bottom: 10px;
+}
+.reduction{
+   width: 80%; 
+}
+#reproducto p{
+    font-family: "GothamRnd";
+    font-weight: 300;
+    margin-bottom: 0px; 
+}
+#reproducto h2{
+    font-weight: 300;
+    text-transform: uppercase;
+    font-size: 17px;
+    margin-bottom: 20px;
+
+}
+#reproducto h2 span{
+    background-color: rgba(204,51,51,0.2);
+    padding-left: 2px;
+    padding-right: 2px;
+}
+
+#reproducto h4{
+    font-weight: 300;
+    color: #E32A34;
+    font-size: 23px;
+    margin-bottom: 30px;
+    margin-top: 0px;
+}
+#reproducto h4 span{
+    background-color: rgba(204,51,51,0.2);
+    padding-left: 2px;
+    padding-right: 2px;
+}
+
+#gracias {
+    background-color: white;
+}
+#gracias h4{
+    font-weight: 300;
+    color: black;
+    font-size: 23px;
+    margin-bottom: 30px;
+    margin-top: 0px;
+    text-align: center;
+    position: relative;
+    top: 70px;
+}
+#gracias h4 span{
+    background-color: rgba(204,51,51,0.2);
+    padding-left: 2px;
+    padding-right: 2px;
+}
+#gracias img{
+    width: 100%;
+}
+#gracias h5{
+    margin-top: 0px;
+    background-color: #EBEBEB;
+    color: black;
+    padding: 15px 20px;
+    font-family: "GothamRnd";
+    font-weight: 300;
+    font-size: 21px;
+    margin-bottom: 30px;
+}
+#gracias h5 span{
+    float: right;
+    font-size: 14px;
+    color: #999999;
+    position: relative;top: 4px;
+    margin: auto auto auto 12px; 
+}
+#gracias .paddextra{
+    padding: 10px 25px;
+}
+#gracias p{
+    color: #999999;
+    font-family: "GothamRnd";
+    font-weight: 300;
+    margin-bottom: 25px;
+}
+#gracias p span{
+    color: black;
+    font-weight: 400;
+    margin: 0px 40px 0px 20px;
+}
+
+ #gracias .boton-back {
+    background-color: #e32a34;
+    border: 0 none;
+    color: white;
+    font-family: "GothamRnd";
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    margin-top: 0px;
+    padding: 7px 35px;
+    display: inline-block;
+    text-decoration: none;
+    margin-bottom: 30px;   
+}
+#gracias h6{
+    margin-top: 0px;
+    background-color: #EBEBEB;
+    color: #999999;
+    padding: 15px 20px;
+    font-family: "GothamRnd";
+    font-weight: 300;
+    font-size: 15px;
+}
+#myModal .modal-content{
+    padding: 10px 70px 40px 70px;
+    width: 600px;
+}
+#myModal .first-button{
+    width: 100%;
+    margin-bottom: 30px;
+}
+#myModal .first-button a{
+    padding: 10px;
+    text-align: center;
+    font-family: "GothamRnd";
+    font-weight: 300;
+    width: 100%;
+    display: block;
+    color: #DF1C38;
+    border-radius: 2px;
+    font-size: 17px;
+    border:1px  solid #DF1C38;
+}
+#myModal label{
+    text-align: center;color: #787878;font-family: "GothamRnd";font-weight: 300;width: 100%;display: block;
+    font-size: 17px;margin-top: 19px;
+}
+#myModal input{
+    width: 100%;
+    border:1px solid #787878;
+    padding: 10px;
+    box-shadow: none;
+}
+#myModal p {
+    text-align: right;color: #787878;font-size: 13px;font-family: "GothamRnd";font-weight: 300;margin-top: 12px;
+    margin-bottom: 27px;
+}
+#myModal p a{
+    color: #787878;text-decoration: none;
+}
+#myModal .send{
+    width: 65%;
+    display: block;
+    color: white;
+    margin: 0 auto; 
+    font-size: 17px;font-family: "GothamRnd";font-weight: 300;border-radius: 3px;
+    text-align: center;
+    text-decoration: none;
+    padding: 10px;
+    margin-top: 15px;
+    cursor: pointer;
+}
+#myModal .red{
+background-color: #DF1C38;
+}
+#myModal .blue{
+    margin-top: 16px;
+    background-color: #095FB1;
+}
+#myModal .close{
+    position: relative;bottom: 0px;left: 40px;
+}
+#myModal h3{
+    text-align: center;
+    color: #787878;
+    font-family: "GothamRnd";font-weight: 400;
+    font-size: 20px;margin-bottom: 20px;
+}
+#myModal .modal-dialoga{
+     -ms-display: flex;
+  display: flex;
+  /* alineacion vertical */
+  align-items: center;
+   /* alineacion horizontal */
+  justify-content: center;
+  height: 100%;
+  margin:0px auto;
+}

@@ -1,0 +1,110 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<title>Programa Bravo 2014</title>
+<style type="text/css">
+body {
+	margin-left: 0px;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	background-color: #F8D043;
+	background-repeat: no-repeat;
+	background-position: center top;
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	color: #666;
+}
+.input1 {
+	background-color: #FFF;
+	border: 1px solid #999;
+	height: 22px;
+	border-radius: 3px;
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	color: #666;
+}
+.input2 {
+	background-color: #6ab8e9;
+	border: 1px solid #fff;
+	width:85px;
+	height: 26px;
+	border-radius: 3px;
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+	color: #FFF;
+	font-size: 11px;
+}
+
+
+</style>
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.3.1/jquery.min.js" type="text/javascript"></script>
+<script>
+(function($) {  
+	  $.fn.defaultInputValue = function() {
+	  		// Loops over all specified elements and sets default value
+			// from the title attribule.
+			this.each(function() {
+				$(this).val($(this).attr('title'));
+			});
+			
+			// If the value equals the title
+			// it will be cleared when input is clicked.
+	  		$(this).click(function(){
+        		if ($(this).attr('title') == $(this).val()) {
+        			$(this).val('');
+        		}
+        	});
+        	
+        	// When input lose its focus
+        	// and if the value is empty the default text specified in the title
+        	// will be set as value.
+        	$(this).blur(function(){
+        		if ($(this).val() == '') {
+        			$(this).val($(this).attr('title'));
+        		}
+        });
+	  };
+	})(jQuery); 
+
+    </script>
+    <script type="text/javascript">
+		$(document).ready(function() {
+			$('.defaultInputValue').defaultInputValue();
+		});
+</script>
+</head>
+
+<body background="images/fondo.jpg">
+<table width="562" height="530" border="0" align="center" cellpadding="0" cellspacing="0">
+  <tr>
+    <td height="400" valign="top">&nbsp;</td>
+  </tr>
+  <tr>
+    <td valign="top"><table width="562" border="0" cellspacing="0" cellpadding="0">
+      <tr>
+        <td width="370" valign="top">&nbsp;</td>
+        <td valign="top"><form id="form1" name="form1" method="post" action="principal.html">
+          <table width="100%" border="0" cellspacing="0" cellpadding="0">
+            <tr>
+              <td height="32" valign="top"><input name="textfield" type="text" class="defaultInputValue" id="textfield" style="width:176px;background-color: #FFF;border: 1px solid #999;height: 22px;border-radius: 3px;font-family: Trebuchet MS, Arial, Helvetica, sans-serif;font-size: 11px;color: #666;" title="Tu número de DNI" /></td>
+            </tr>
+            <tr>
+              <td height="32" valign="top"><table border="0" cellspacing="0" cellpadding="0">
+                <tr>
+                  <td width="94"><input name="textfield2" type="text" class="defaultInputValue" id="textfield2" style="width:83px;;background-color: #FFF;border: 1px solid #999;height: 22px;border-radius: 3px;font-family: Trebuchet MS, Arial, Helvetica, sans-serif;font-size: 11px;color: #666;" title="Tu BP" /></td>
+                  <td><input name="button" type="submit" class="input2" id="button" style="width:85px" value="Iniciar sesión" /></td>
+                </tr>
+              </table></td>
+            </tr>
+            <tr>
+              <td height="32" valign="top">Si eres Administrador. <a href="#">Entra aquí</a></td>
+            </tr>
+          </table>
+        </form></td>
+      </tr>
+    </table></td>
+  </tr>
+</table>
+</body>
+</html>

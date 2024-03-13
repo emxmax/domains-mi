@@ -1,0 +1,86 @@
+@charset "UTF-8";
+@font-face {
+	font-family: pass;
+	src: url('ttf/pass.ttf');
+}
+body {
+	background-image: url(images/back.jpg);
+	background-repeat: repeat-x;
+	background-position: center top;
+	margin: 0px;
+}
+.arial11 {
+	font-family: Helvetica, sans-serif;
+	font-size: 12px;
+	color: #656665;
+}
+.pass24 {
+	font-family: pass;
+	font-size: 24px;
+	color: #1a171b;
+}
+.pass36 {
+	font-family: pass;
+	font-size: 36px;
+	color: #656665;
+}
+.input1 {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #757575;
+	border: 1px solid #cccccc;
+	height: 28px;
+	width:253px; 
+	padding-right: 6px;
+	padding-left: 6px;
+}
+.input2 {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #757575;
+	border: 1px solid #cccccc;
+	height: 134px;
+	width:253px; 
+	padding-right: 6px;
+	padding-left: 6px;
+}
+#frmLogin .text{
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 12px;
+        color: #757575;
+        border: 1px solid #cccccc;
+        height: 28px;
+        padding-right: 6px;
+        padding-left: 6px;
+        border-radius: 2px;
+        -webkit-border-radius: 2px;
+        -moz-border-radius: 2px;
+}
+#frmSearch .text{
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 12px;
+        color: #757575;
+        border: 0px none #CCC;
+        height: 25px;
+        width: 123px;
+        padding-left: 6px;
+        background-color: transparent;    
+}
+
+#divAlerta{
+        min-width: 280px;
+	font-family: pass;
+	src: url('ttf/pass.ttf');
+	font-size: 16px;
+	color: #757575;
+}
+#divAlerta .alert{
+	font-size: 16px;
+	color: #fff;
+        text-decoration: none;
+        display: block;
+        padding: 5px;
+        width: 60px;
+        background-color: #757575;
+        border-radius: 5px;
+}

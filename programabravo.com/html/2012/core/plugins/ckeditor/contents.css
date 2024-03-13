@@ -1,0 +1,28 @@
+/*
+Copyright (c) 2003-2012, CKSource - Frederico Knabben. All rights reserved.
+For licensing, see LICENSE.html or http://ckeditor.com/license
+*/
+body
+{
+	font-family: Arial, Verdana, sans-serif;
+	font-size: 11px;
+	color: #777;
+	/* Remove the background color to make it transparent */
+	background-color: #fff;
+}
+a{
+	color:#0fa64b;
+}
+p{
+	line-height: 1.7em;
+	margin-bottom:7px;
+}
+ul{
+	padding-left: 0px;
+}
+li
+{
+    background: url(../../../content/images/bullet_gris.gif) left 0px top 5px no-repeat;
+	padding-left: 10px;
+	margin-bottom: 5px;
+}

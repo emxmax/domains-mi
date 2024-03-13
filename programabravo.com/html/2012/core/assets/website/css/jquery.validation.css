@@ -1,0 +1,11 @@
+.inputErr
+{
+    border-width: 1px;
+	border-color:#FF6A00;
+	border-style:dashed;
+}
+.error{
+	color:#FF6A00;
+	font-size:11px;
+	margin-bottom: 10px;
+}

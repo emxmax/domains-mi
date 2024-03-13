@@ -1,0 +1,18 @@
+.valid-form input, .valid-form textarea{
+	margin-bottom:2px;
+}
+.valid-form .inputErr{
+	border-color:#CC3300;
+	border-style:dashed;
+}
+.valid-form .error{
+	color:#CC3300;
+	font-size:9px;
+}
+#divError{
+	color:#F00;
+	background-color:#FFC;
+	padding:5px;
+	width:280px;
+	height:auto;
+}

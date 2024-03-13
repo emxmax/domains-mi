@@ -1,0 +1,21 @@
+# BEGIN (mt) controlled settings
+<IfModule !mod_fcgid.c>
+  AddHandler php-stable .php
+</IfModule>
+<IfModule mod_fcgid.c>
+  AddHandler fcgid-script .php
+  FcgidWrapper /etc/apache2/gs-bin/php-stable-wrapper .php
+  <Files *.php>
+    Options +ExecCGI
+  </Files>
+</IfModule>
+# END (mt) controlled settings
+## BEGIN Compability settings for mt
+<IfModule mod_env.c>
+  SetEnv DATABASE_SERVER localhost
+  RewriteEngine on
+  RewriteRule ^ - [E=SITE_ROOT:%{DOCUMENT_ROOT}]
+  RewriteRule ^ - [E=SITE_CGIROOT:%{DOCUMENT_ROOT}/cgi-bin]
+  RewriteRule ^ - [E=SITE_HTMLROOT:%{DOCUMENT_ROOT}]
+</IfModule>
+## END Compability settings for mt

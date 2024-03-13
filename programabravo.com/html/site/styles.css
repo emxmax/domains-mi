@@ -1,0 +1,101 @@
+@charset "UTF-8";
+@font-face {
+	font-family: pass;
+	src: url('ttf/pass.ttf');
+}
+body {
+	margin-left: 0px;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	background-color: #fff2a3;
+	background-repeat: no-repeat;
+	background-position: center top;
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	color: #666;
+}
+img {
+	border: none;
+}
+input {
+	height: 20px;
+	border-top-style: none;
+	border-right-style: none;
+	border-bottom-style: none;
+	border-left-style: none;
+	background-color: transparent;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 10px;
+}
+textarea {
+	width:210px;
+	height: 70px;
+	border-top-style: none;
+	border-right-style: none;
+	border-bottom-style: none;
+	border-left-style: none;
+	background-color: transparent;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 10px;
+}
+.input1 {
+	background-color: #FFF;
+	border: 1px solid #999;
+	height: 22px;
+	border-radius: 3px;
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	color: #666;
+}
+.input2 {
+	background-color: #6ab8e9;
+	border: 1px solid #fff;
+	width:85px;
+	height: 26px;
+	border-radius: 3px;
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+	color: #FFF;
+	font-size: 11px;
+}
+#frmLogin .text{
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 12px;
+        color: #757575;
+        border: 1px solid #cccccc;
+        height: 28px;
+        padding-right: 6px;
+        padding-left: 6px;
+        border-radius: 2px;
+        -webkit-border-radius: 2px;
+        -moz-border-radius: 2px;
+}
+#frmSearch .text{
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 12px;
+        color: #757575;
+        border: 0px none #CCC;
+        height: 25px;
+        width: 123px;
+        padding-left: 6px;
+        background-color: transparent;    
+}
+
+#divAlerta{
+        min-width: 280px;
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	color: #757575;
+}
+#divAlerta .alert{
+        font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-size: 11px;
+        background-color: #6ab8e9;
+        border: 1px solid #fff;
+	color: #fff;
+        text-decoration: none;
+        display: block;
+        padding: 5px;
+        width: 60px;
+        border-radius: 3px;
+}
